@@ -469,19 +469,14 @@
 	</macro>
 
 <macro name="legislation-or-bill">
-	
     <choose>
-      <if type="bill">
+      <if type="bill"> <!-- add handelingen -->
         <group suffix=".">
-          <text variable="container-title" font-style="italic"/>
-          <text variable="volume" prefix=" "/>
-          <text variable="number" prefix=", "/>
-          <choose>
-            <if locator="page">
-              <text variable="locator" prefix=", p. "/>
-            </if>
-          </choose>
-          <text variable="note" prefix=" (" suffix=")"/>
+          <text variable="title"/>
+		  <text value="Parl.St." font-style="italic" prefix=", "/>
+		  <text variable="authority" prefix=" "/>
+          <text variable="number" prefix=", nr. "/>
+		  <text variable="page-first" prefix=", "/>
         </group>
       </if>
       <else-if type="legislation regulation" match="all">
