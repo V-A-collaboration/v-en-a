@@ -249,7 +249,7 @@
     <choose>
       <if type="book thesis chapter paper-conference motion_picture">
         <group delimiter=", ">
-          <text variable="volume"/>
+          <text variable="volume" prefix="vol. "/>
         </group>
       </if>
     </choose>
@@ -272,7 +272,7 @@
               <text variable="publisher-place"/>
             </if>
             <else>
-              <text value="s.l."/>
+              <text value="s.l." font-style="italic"/>
             </else>
           </choose>
           <text variable="publisher"/>
@@ -349,12 +349,12 @@
                 <choose>
                   <if is-numeric="issue">
                     <text value=""/>
-                    <number variable="issue" prefix=", nr. "/>
+                    <number variable="issue" prefix=", afl. "/>
                   </if>
                 </choose>
               </if>
               <else-if is-numeric="issue">
-                <number variable="issue" prefix=", nr. "/>
+                <number variable="issue" prefix=", afl. "/>
               </else-if>
             </choose>
           </group>
@@ -451,8 +451,8 @@
       <if type="book chapter paper-conference" match="any">
         <choose>
           <if is-numeric="edition">
-            <number variable="edition" form="ordinal"/>
             <text term="edition" prefix=" " form="short"/>
+			<number variable="edition"/>
           </if>
         </choose>
       </if>
@@ -507,36 +507,16 @@
       <text variable="authority" suffix=" "/>
       <text variable="court" suffix=" "/>
       <text macro="date-legal-case"/>
-      <choose>
-        <if variable="number volume container-title" match="all">
-          <text variable="number" prefix=", "/>
-          <choose>
-            <if locator="paragraph">
-              <text variable="locator" prefix=", "/>
-            </if>
-          </choose>
-          <text variable="container-title" prefix=", " suffix=" "/>
-          <text variable="volume"/>
-        </if>
-        <else-if variable="number">
-          <text variable="number" prefix=", nr. "/>
-          <choose>
-            <if locator="paragraph">
-              <text variable="locator" prefix=", "/>
-            </if>
-          </choose>
-        </else-if>
-        <else-if variable="volume container-title" match="all">
-          <text variable="container-title" prefix=", " suffix=" "/>
-          <text variable="volume"/>
-          <choose>
-            <if locator="paragraph">
-              <text variable="locator" prefix=", "/>
-            </if>
-          </choose>
-        </else-if>
-      </choose>
-      <text variable="title" prefix=" (" suffix=")" font-style="italic"/>
+      <text variable="number" prefix=", nr. "/>
+	  <choose>
+		<if locator="paragraph">
+		  <text variable="locator" prefix=", "/>
+		</if>
+	  </choose>
+	  <text variable="container-title" prefix=", " suffix=" "/>
+	  <text variable="volume"/>
+      <text variable="call-number" prefix=", "/>
+      <text variable="title" prefix=", "/>
     </group>
 </macro>
 
