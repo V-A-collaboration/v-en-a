@@ -471,40 +471,46 @@
 		  </choose>
 	</macro>
 
+<!-- Add juris-m gazette for BS? -->
 <macro name="legislation-or-bill">
     <choose>
-		<if type="bill">
-			<group suffix=".">
-				<text variable="title" suffix=", "/>
-				<text variable="genre" font-style="italic"/>
-				<text variable="authority" prefix=" "/>
-				<text macro="date-legal-case" prefix=", "/>
-				<text variable="number" prefix=", nr. "/>
-				<text variable="page" prefix=", "/>
-				<choose>
-					<if variable="section container-title" match="all">
-						<text value=" (Vr. nr. "/>
-						<text variable="section"/>
-						<text variable="container-title" text-case="uppercase" prefix=" " suffix=")"/>
-					</if>
-				</choose>
-			</group>
+		<if jurisdiction="be">
+			<choose>
+				<if type="bill">
+					<group suffix=".">
+						<text variable="title" suffix=", "/>
+						<text variable="genre" font-style="italic"/>
+						<text variable="authority" prefix=" "/>
+						<text macro="date-legal-case" prefix=", "/>
+						<text variable="number" prefix=", nr. "/>
+						<text variable="page" prefix=", "/>
+						<choose>
+							<if variable="section container-title" match="all">
+								<text value=" (Vr. nr. "/>
+								<text variable="section"/>
+								<text variable="container-title" text-case="uppercase" prefix=" " suffix=")"/>
+							</if>
+						</choose>
+					</group>
+				</if>
+			  <else-if type="legislation regulation" match="all">
+				<group suffix=".">
+					<text macro="title"/>
+					<text variable="container-title" font-style="italic" prefix=", "/>
+					<text macro="date" prefix=" "/>
+					<text variable="title" form="short" prefix=" (" suffix=")"/>
+				  <group prefix=" (" suffix=")">
+					<text variable="URL"/>
+					<text macro="date-accessed" prefix=" geraadpleegd op "/>
+				  </group>
+				</group>
+			  </else-if>
+			</choose>
 		</if>
-      <else-if type="legislation regulation" match="all">
-		<group suffix=".">
-			<text macro="title"/>
-			<text variable="container-title" font-style="italic" prefix=", "/>
-			<text macro="date" prefix=" "/>
-			<text variable="title" form="short" prefix=" (" suffix=")"/>
-          <group prefix=" (" suffix=")">
-            <text variable="URL"/>
-            <text macro="date-accessed" prefix=" geraadpleegd op "/>
-          </group>
-        </group>
-      </else-if>
-    </choose>
+	</choose>
 </macro>
 
+<!-- based on jurisdiction? -->
 <macro name="date-legal-case">
     <date variable="issued">
       <date-part name="day" suffix=" "/>
@@ -658,36 +664,10 @@
       <if type="article article-magazine article-newspaper article-journal book chapter paper-conference report review review-book thesis" match="any">
       </if>
       <else-if type="bill legislation" match="any">
-        <choose>
-          <if type="legislation regulation" match="any">
-            <choose>
-              <if variable="title">
-                <text variable="title"/>
-              </if>
-              <else>
-                <text variable="title-short"/>
-              </else>
-            </choose>
-            <choose>
-              <if disambiguate="true">
-                <text macro="legislation-issued-short" prefix=" "/>
-              </if>
-            </choose>
-          </if>
-          <else-if type="bill">
-            <text variable="volume" prefix=" "/>
-            <text variable="number" prefix=", "/>
-            <text variable="page" prefix=", "/>
-          </else-if>
-        </choose>
       </else-if>
       <else-if type="legal_case" match="any">
-        <text variable="authority" suffix=" "/>
-        <text macro="date-legal-case"/>
       </else-if>
       <else>
-        <text macro="footnote-reference"/>
-        <text macro="year-publication"/>
       </else>
     </choose>
   </macro>
@@ -719,9 +699,9 @@
   <bibliography name-form="long" and="text" sort-separator=", " name-as-sort-order="all" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1">
     <sort>
 		<key macro="author-or-editor" names-min="3" names-use-first="3"/>
-		<key variable="issued" sort="descending"/>
 		<key macro="display-order"/>
 		<key macro="sort-order-when-same-type"/>
+		<key variable="issued" sort="descending"/>
 	</sort>
     <layout suffix=".">
       <text macro="complete-reference"/>
