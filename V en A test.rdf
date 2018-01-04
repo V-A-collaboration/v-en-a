@@ -1,0 +1,373 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Book rdf:about="urn:isbn:978-94-000-0593-8">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Antwerpen</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Intersentia</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Callens</foaf:surname>
+                        <foaf:givenname>Stefaan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peers</foaf:surname>
+                        <foaf:givenname>Jan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Boddez</foaf:surname>
+                        <foaf:givenname>Laura</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Caenen</foaf:surname>
+                        <foaf:givenname>Sydney</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Coëffé</foaf:surname>
+                        <foaf:givenname>Mathilde</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Leire</foaf:surname>
+                        <foaf:givenname>Margaux</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Leuven</foaf:surname>
+                        <foaf:givenname>Liesbeth Van</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.jurisquare.be/nl/book/9789400005938/index.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:identifier>ISBN 978-94-000-0593-8</dc:identifier>
+        <dc:date>2015</dc:date>
+        <dc:description>OCLC: 949796606</dc:description>
+        <dcterms:dateSubmitted>2016-11-08 08:03:06</dcterms:dateSubmitted>
+        <z:libraryCatalog>Open WorldCat</z:libraryCatalog>
+        <z:language>Dutch</z:language>
+        <dc:title>Organisatie van de gezondheidszorg</dc:title>
+        <z:numPages>xiii + 1000</z:numPages>
+    </bib:Book>
+    <bib:Article rdf:about="#item_579">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1378-8914"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Callens</foaf:surname>
+                        <foaf:givenname>Stefaan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goossens</foaf:surname>
+                        <foaf:givenname>Mieke</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_574"/>
+        <bib:pages>1190-1201</bib:pages>
+        <dc:date>2004-11-10</dc:date>
+        <z:language>Dutch</z:language>
+        <dc:title>Experimenten op mensen. Overzicht van en reflecties bij de wet van 7 mei 2004</dc:title>
+        <z:jurisdiction>002nlThe Netherlands|NL</z:jurisdiction>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1378-8914">
+        <prism:volume>3</prism:volume>
+        <prism:number>88</prism:number>
+        <dc:title>Nieuw Juridisch Weekblad</dc:title>
+        <dc:identifier>ISSN 1378-8914</dc:identifier>
+        <dcterms:alternative>NJW</dcterms:alternative>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_574">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>document(1).pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="#item_1626">
+        <z:itemType>case</z:itemType>
+        <dcterms:isPartOf>
+            <bib:CourtReporter>
+               <prism:number>C-547/14</prism:number>
+            </bib:CourtReporter>
+        </dcterms:isPartOf>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>ECLI:EU:C:2016:325</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <dc:description>ECLI:EU:C:2016:325</dc:description>
+        <z:court>HvJ</z:court>
+        <dc:date>05-04-2016</dc:date>
+        <dc:title>Philip Morris Brands</dc:title>
+        <z:jurisdiction>011eu.int:cjeuEuropean Union|EU.INT|Court of Justice of the European Union</z:jurisdiction>
+    </bib:Document>
+    <bib:Book rdf:about="urn:isbn:978-94-000-0537-2">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Antwerpen</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Intersentia</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vansweevelt</foaf:surname>
+                        <foaf:givenname>T</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dewallens</foaf:surname>
+                        <foaf:givenname>Filip</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <prism:volume>1</prism:volume>
+        <prism:edition>1</prism:edition>
+        <dc:identifier>ISBN 978-94-000-0537-2</dc:identifier>
+        <dc:date>2014</dc:date>
+        <dc:description>OCLC: 892306434</dc:description>
+        <z:numberOfVolumes>2</z:numberOfVolumes>
+        <z:libraryCatalog>Open WorldCat</z:libraryCatalog>
+        <z:language>Dutch</z:language>
+        <dcterms:abstract>Met dit opus magnum komen de auteurs tegemoet aan de toenemende vraag naar een globaal overzicht van het gezondheidsrecht. Zorgverleners, advocaten, magistraten en, last but not least, studenten vragen om een breed, grondig en volledig 'Handboek Gezondheidsrecht'. Het unieke aan dit 'Handboek Gezondheidsrecht' is dat de positie van de zorgverlener, niet alleen klassiek t.a.v. de patiënt, maar ook t.a.v. allerlei andere zorgverleners (andere beroepsbeoefenaars en gezondheidszorginstellingen) én de overheid aan bod komt, en dit op een zéér grondige wijze.0Het gezondheidsrecht is de laatste jaren uitgegroeid tot een bloeiende rechtstak met veel uitlopers naar andere rechtsdomeinen. Daarom werd besloten om de krachten en talenten van verschillende specialisten te bundelen. Per onderwerp werd een specialist aangezocht waarbij een kruisbestuiving tussen de verschillende universiteiten, de balie en de ziekenhuiswereld werd nagestreefd.</dcterms:abstract>
+        <dc:title>Handboek gezondheidsrecht Volume I</dc:title>
+        <z:numPages>lx + 1688</z:numPages>
+        <z:volumeTitle>Reeks Gezondheidsrecht</z:volumeTitle>
+    </bib:Book>
+    <bib:Book rdf:about="urn:isbn:978-94-000-0877-9">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Mortsel</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Intersentia Uitgevers NV</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vandenbussche</foaf:surname>
+                        <foaf:givenname>Wannes</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>ISBN 978-94-000-0877-9</dc:identifier>
+        <dc:date>2017</dc:date>
+        <dc:description>OCLC: 1012602695</dc:description>
+        <z:libraryCatalog>Open WorldCat</z:libraryCatalog>
+        <z:language>Dutch</z:language>
+        <dcterms:abstract>Artikel 1315 BW en artikel 870 Ger.W. spelen een belangrijke rol bij de vaststelling van de feiten van een zaak. Ze duiden aan op welke partij het bewijsrisico rust. Indien de rechter aan het einde van een procedure nog steeds twijfelt over een bepaald feit, zal hij de partij die het bewijsrisico draagt, in het ongelijk stellen. Nu zijn er situaties denkbaar waarin een partij er niet in slaagt om het vereiste bewijs te leveren, terwijl dit niet aan haar eigen gedrag te wijten is. Men spreekt dan van een toestand van bewijsnood. Die situaties van bewijsnood vormen het uitgangspunt van dit boek. Aan de hand van talrijke voorbeelden uit het domein van de aansprakelijkheid uit onrechtmatige daad illustreert het boek hoe diep dit fenomeen ingeworteld zit in ons rechtssysteem. Toch blijft de opzet niet beperkt tot een bewustmaking en conceptualisering. Er is ook een ruime aandacht voor oplossingen. Zo biedt het boek een vernieuwende kijk op tal van mechanismen die een belangrijke rol spelen in de dagelijkse rechtspraktijk (zoals de bewijsmedewerkingsplichten, de onderzoeksmaatregelen en de vermoedens). Verder biedt het de rechtspractici ook de mogelijkheid om onontgonnen paden te betreden. Het zet de bakens uit voor de introductie van een aantal nieuwe rechtsfiguren in het Belgische rechtssysteem (zoals de verlaging van de bewijsstandaard en de omkering van het bewijsrisico).</dcterms:abstract>
+        <dc:title>Bewijs en onrechtmatige daad.</dc:title>
+        <z:numPages>787</z:numPages>
+    </bib:Book>
+    <rdf:Description rdf:about="#item_1662">
+        <z:itemType>regulation</z:itemType>
+        <z:code>BS</z:code>
+        <dc:date>17 juli 2007</dc:date>
+        <dc:title>Wet van 6 juli 2007 betreffende de medisch begeleide voortplanting en de bestemming van de overtallige embryo’s en de gameten</dc:title>
+        <z:shortTitle>Wet Medisch Begeleide Voortplanting</z:shortTitle>
+        <z:jurisdiction>002beBelgium|BE</z:jurisdiction>
+    </rdf:Description>
+    <bib:Document rdf:about="#item_1664">
+        <z:itemType>case</z:itemType>
+        <dcterms:isPartOf>
+            <bib:CourtReporter>
+               <prism:number>132/2003</prism:number>
+            </bib:CourtReporter>
+        </dcterms:isPartOf>
+        <z:court>Arbitragehof</z:court>
+        <dc:date>8 oktober 2003</dc:date>
+        <z:jurisdiction>002beBelgium|BE</z:jurisdiction>
+    </bib:Document>
+    <bib:Legislation rdf:about="#item_1665">
+        <z:itemType>bill</z:itemType>
+        <dc:date>1991-1992</dc:date>
+        <z:legislativeBody>Kamer 1991-1992</z:legislativeBody>
+        <prism:number>4</prism:number>
+        <bib:pages>241</bib:pages>
+        <dc:title>Voorstel  van  wet  waarbij  de  ontvluchting  van  gedetineerden  strafbaar  wordt  gesteld</dc:title>
+        <z:jurisdiction>002beBelgium|BE</z:jurisdiction>
+    </bib:Legislation>
+    <bib:Legislation rdf:about="#item_1666">
+        <z:itemType>bill</z:itemType>
+        <dc:date>1979-1980</dc:date>
+        <z:legislativeBody>Kamer 1979-1980</z:legislativeBody>
+        <prism:number>4-XVI/1</prism:number>
+        <bib:pages>7</bib:pages>
+        <dc:title>Begroting van het ministerie van Openbare Werken voor het begrotingsjaar 1980</dc:title>
+        <z:jurisdiction>002beBelgium|BE</z:jurisdiction>
+        <z:type>Parl.St.</z:type>
+    </bib:Legislation>
+    <bib:Book rdf:about="urn:isbn:978-94-000-0538-9">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Antwerpen</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Intersentia</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vansweevelt</foaf:surname>
+                        <foaf:givenname>T</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dewallens</foaf:surname>
+                        <foaf:givenname>Filip</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <prism:volume>2</prism:volume>
+        <prism:edition>1</prism:edition>
+        <dc:identifier>ISBN 978-94-000-0538-9</dc:identifier>
+        <dc:date>2014</dc:date>
+        <dc:description>OCLC: 892306434</dc:description>
+        <z:numberOfVolumes>2</z:numberOfVolumes>
+        <z:libraryCatalog>Open WorldCat</z:libraryCatalog>
+        <z:language>Dutch</z:language>
+        <dcterms:abstract>Met dit opus magnum komen de auteurs tegemoet aan de toenemende vraag naar een globaal overzicht van het gezondheidsrecht. Zorgverleners, advocaten, magistraten en, last but not least, studenten vragen om een breed, grondig en volledig 'Handboek Gezondheidsrecht'. Het unieke aan dit 'Handboek Gezondheidsrecht' is dat de positie van de zorgverlener, niet alleen klassiek t.a.v. de patiënt, maar ook t.a.v. allerlei andere zorgverleners (andere beroepsbeoefenaars en gezondheidszorginstellingen) én de overheid aan bod komt, en dit op een zéér grondige wijze.0Het gezondheidsrecht is de laatste jaren uitgegroeid tot een bloeiende rechtstak met veel uitlopers naar andere rechtsdomeinen. Daarom werd besloten om de krachten en talenten van verschillende specialisten te bundelen. Per onderwerp werd een specialist aangezocht waarbij een kruisbestuiving tussen de verschillende universiteiten, de balie en de ziekenhuiswereld werd nagestreefd.</dcterms:abstract>
+        <dc:title>Handboek gezondheidsrecht Volume II</dc:title>
+        <z:numPages>lviii + 1632</z:numPages>
+        <z:volumeTitle>Reeks Gezondheidsrecht</z:volumeTitle>
+    </bib:Book>
+    <bib:Legislation rdf:about="#item_1675">
+        <z:itemType>bill</z:itemType>
+        <dc:date>23 mei 1990</dc:date>
+        <z:legislativeBody>Kamer 1989-90</z:legislativeBody>
+        <bib:pages>68-79</bib:pages>
+        <z:jurisdiction>002beBelgium|BE</z:jurisdiction>
+        <z:type>Hand.</z:type>
+    </bib:Legislation>
+    <bib:Legislation rdf:about="#item_1676">
+        <z:itemType>bill</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Part><dc:title>309</dc:title></bib:Part>
+        </dcterms:isPartOf>
+        <dc:date>23 mei 1990</dc:date>
+        <z:code>M. Aelvoet</z:code>
+        <z:legislativeBody>Kamer 1995-96</z:legislativeBody>
+        <bib:pages>13</bib:pages>
+        <z:jurisdiction>002beBelgium|BE</z:jurisdiction>
+        <z:type>Vr. en Antw.</z:type>
+    </bib:Legislation>
+    <bib:Document rdf:about="#item_1677">
+        <z:itemType>case</z:itemType>
+        <dcterms:isPartOf>
+            <bib:CourtReporter>
+               <prism:number>132</prism:number><dc:title>SDR</dc:title>
+            </bib:CourtReporter>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>NJW</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <z:court>Antwerpen</z:court>
+        <dc:date>5 september 2006</dc:date>
+        <z:jurisdiction>002beBelgium|BE</z:jurisdiction>
+        <z:publicationDate>2007-00-00 2007</z:publicationDate>
+    </bib:Document>
+    <bib:Document rdf:about="#item_1679">
+        <z:itemType>case</z:itemType>
+        <dcterms:isPartOf>
+            <bib:CourtReporter>
+               <prism:number>I, 272</prism:number>
+            </bib:CourtReporter>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>Pas.</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <z:commenters>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Terlinden</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:commenters>
+        <z:court>Cass.</z:court>
+        <dc:date>27 mei 1909</dc:date>
+        <dc:title>X en Y</dc:title>
+        <z:shortTitle>Boswachtersarrest</z:shortTitle>
+        <z:jurisdiction>002beBelgium|BE</z:jurisdiction>
+        <z:publicationDate>1909-00-00 1909</z:publicationDate>
+    </bib:Document>
+    <bib:Document rdf:about="#item_1680">
+        <z:itemType>case</z:itemType>
+        <dcterms:isPartOf>
+            <bib:CourtReporter>
+               <prism:number>651</prism:number><dc:title>R. Houben</dc:title>
+            </bib:CourtReporter>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>TBH</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <z:commenters>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>A. Henkes</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:commenters>
+        <z:court>Cass.</z:court>
+        <dc:date>27 januari 2011</dc:date>
+        <z:jurisdiction>002beBelgium|BE</z:jurisdiction>
+        <z:publicationDate>2011-00-00 2011</z:publicationDate>
+    </bib:Document>
+</rdf:RDF>
