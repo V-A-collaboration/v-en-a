@@ -3,11 +3,9 @@
   <info>
     <title>Verwijzingen en Afkortingen (dutch)</title>
     <title-short>V en A (dutch)</title-short>
-    <id>http://www.zotero.org/styles/v-a</id>
-	<link href="http://www.zotero.org/styles/universite-de-liege-droit" rel="self"/>
-    <link href="http://www.zotero.org/styles/universite-libre-de-bruxelles-histoire" rel="template"/>
-    <link href="http://www.zotero.org/styles/infoclio-fr-smallcaps" rel="template"/>
-    <link href="http://lib.ulg.ac.be/sites/default/files/guidedelafeuilledestyle.pdf" rel="documentation"/>
+	  <id>http://citationstylist.org/modules/juris-v-a.be</id>
+    <link href="http://citationstylist/modules/juris-eu.int" rel="self"/>
+    <link href="http://juris-m.github.io" rel="documentation"/>
 	<!--- Adapted from universite-de-liege-droit -->
 	<!-- https://juris-m.github.io/editor/ -->
 	<!-- http://docs.citationstyles.org/en/stable/specification.html#rendering-elements -->
@@ -16,7 +14,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2017-12-18T11:25:02+00:00</updated>
+    <updated>2017-02-25T15:11:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="nl">
@@ -127,8 +125,8 @@
       </if>
       <else-if type="chapter paper-conference" match="any">
         <group delimiter=" ">
-          <text variable="title" quotes="true" suffix=","/>
-          <text value="in" font-style="italic"/>
+          <text variable="title" quotes="true" suffix=""/>
+          <text value="in"/>
           <text macro="editor" suffix=","/>
           <text macro="collection-editor" suffix=", "/>
           <text variable="container-title" font-style="italic"/>
@@ -192,8 +190,8 @@
       </if>
       <else-if type="chapter paper-conference" match="any">
         <group delimiter=" ">
-          <text variable="title" quotes="true" suffix=","/>
-          <text value="in" font-style="italic"/>
+          <text variable="title" quotes="true"/>
+          <text value="in"/>
           <text macro="editor-note" suffix=","/>
           <text macro="collection-editor-note" suffix=","/>
           <text variable="container-title" font-style="italic"/>
@@ -465,7 +463,7 @@
 		  <choose>
 			  <if type="book" match="any">
 				<group delimiter=" ">
-				  <text variable="number-of-pages" font-weight="normal" font-style="normal" text-case="" vertical-align="baseline" form="" suffix=" p."/>
+				  <text variable="number-of-pages" font-weight="normal" font-style="normal" vertical-align="baseline" suffix=" p."/>
 				</group>
 			  </if>
 		  </choose>
