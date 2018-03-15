@@ -15,9 +15,9 @@ Zie: <https://juris-m.github.io/downloads/>
 Installeer Stylesheet
 ---------------------
 
-Toevoegen van Stylesheet in Zotero/Juris-M: Bewerken $\rightarrowtriangle$ Citeren $\rightarrowtriangle$ ![image](v-en-a/Manual-plus-sign)
+Toevoegen van Stylesheet in Zotero/Juris-M: Bewerken $\rightarrowtriangle$ Citeren $\rightarrowtriangle$ ![image](Manual-plus-sign.png)
 
-![Toevoegen Stylesheet](v-en-a/Manual-fig-1)
+![Toevoegen Stylesheet](Manual-fig-1.png)
 
 ! In Zotero geeft dit een waarschuwing dat het Stylesheet niet aan de csl 1.0.1 voldoet, dit is omdat de extra opties voor Juris-M zijn toegevoegd
 
@@ -39,7 +39,7 @@ Kamerstukken
 </span> Pagina’s & Relevante pagina’s & 68-79<span>\
 </span>
 
-![Kamerstukken weergave in Juris-M](v-en-a/Manual-fig-2)
+![Kamerstukken weergave in Juris-M](Manual-fig-2.png)
 
 Wet
 ---
@@ -55,7 +55,7 @@ Wet van 6 juli 2007 betreffende de medisch begeleide voortplanting en de bestemm
 </span> Datum publicatie & Datum & 17 juli 2007<span>\
 </span>
 
-![Wet weergave in Juris-M](v-en-a/Manual-fig-3)
+![Wet weergave in Juris-M](Manual-fig-3.png)
 
 Rechtspraak
 -----------
@@ -78,7 +78,7 @@ Cass. 27 januari 2011, *TBH* 2011, 651, concl. A. HENKES, noot R. HOUBEN.
 </span> Editie & Editie van jurisprudentietijdschrift & 651<span>\
 </span>
 
-![Rechtszaak weergave in Juris-M](v-en-a/Manual-fig-4)
+![Rechtszaak weergave in Juris-M](Manual-fig-4.png)
 
 Boeken, tijdschriften, etc..
 ============================
