@@ -15,7 +15,7 @@ Zie: <https://juris-m.github.io/downloads/>
 Installeer Stylesheet
 ---------------------
 
-Toevoegen van Stylesheet in Zotero/Juris-M: Bewerken $\rightarrowtriangle$ Citeren $\rightarrowtriangle$ ![image](Manual-plus-sign.png)
+Toevoegen van Stylesheet in Zotero/Juris-M: Bewerken -> Citeren -> ![image](Manual-plus-sign.png)
 
 ![Toevoegen Stylesheet](Manual-fig-1.png)
 
@@ -74,7 +74,7 @@ Korte Titel | Naam waaronder zaak bekend staat |
 Rechtbank | Afkorting van de rechtbank | Cass.
 Datum beslissing | Geldige datum | 27 januari 2011
 Jurisprudentietijdschrift*| Tekst met annotator (in het Engels is dit een logische veldnaam)*| R. Houben
-ECLI | ECLI | Nog niet gebruikt in V|A
+ECLI | ECLI | Nog niet gebruikt in V & A
 Indexnummer | Niet-ECLI zaaknummer | 
 Uitgever*| Naam van blad waarin jurisprudentie verschenen is.*| TBH
 Date Published | Datum van publicatie | 2011
