@@ -87,3 +87,9 @@ Boeken, tijdschriften, etc..
 ============================
 
 Geen bijzonderheden.
+
+Afkortingen
+============================
+In de Style-editor -> rechtsboven "Abbrev/Afkortingen" -> klik "importeren" -> selecteer JSON lijst met afkortingen -> Importeer
+
+Afkortingen voor tijdschriften cf. [rechtsaf.be](http://www.rechtsaf.be)
