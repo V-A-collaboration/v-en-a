@@ -13,7 +13,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2018-02-25T15:11:02+00:00</updated>
+    <updated>2018-03-22T10:44:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="nl">
@@ -135,8 +135,7 @@
         <group delimiter=", ">
           <text variable="title" quotes="true"/>
           <group>
-            <!-- TODO: insert abbrev -->
-            <text variable="container-title" font-style="italic"/>
+            <text variable="container-title" form="short" font-style="italic"/>
           </group>
         </group>
       </else-if>
@@ -199,7 +198,7 @@
         <group delimiter=", ">
           <text variable="title" quotes="true"/>
           <group>
-            <text variable="container-title" font-style="italic"/>
+            <text variable="container-title" form="short" font-style="italic"/>
           </group>
         </group>
       </else-if>
