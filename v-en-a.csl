@@ -501,8 +501,8 @@
     </date>
   </macro>
   <macro name="legal-case">
-    <group suffix="." delimiter="; ">
-      <text variable="authority" suffix=" "/>
+    <group suffix="">
+      <text variable="authority" form="short" suffix=" "/>
       <text macro="date-legal-case"/>
       <choose>
         <if variable="title-short">
