@@ -15,9 +15,9 @@ Zie: <https://juris-m.github.io/downloads/>
 Installeer Stylesheet
 ---------------------
 
-Toevoegen van Stylesheet in Zotero/Juris-M: Bewerken -> Citeren -> ![image](Manual-plus-sign.png)
+Toevoegen van Stylesheet in Zotero/Juris-M: Bewerken -> Citeren -> ![image](figures/Manual-plus-sign.png)
 
-![Toevoegen Stylesheet](Manual-fig-1.png)
+![Toevoegen Stylesheet](figures/Manual-fig-1.png)
 
 ! In Zotero geeft dit een waarschuwing dat het Stylesheet niet aan de csl 1.0.1 voldoet, dit is omdat de extra opties voor Juris-M zijn toegevoegd
 
@@ -40,7 +40,7 @@ Sectie | Getal | 309
 Pagina’s | Relevante pagina’s | 68-79
 
 
-![Kamerstukken weergave in Juris-M](Manual-fig-2.png)
+![Kamerstukken weergave in Juris-M](figures/Manual-fig-2.png)
 
 Wet
 ---
@@ -57,7 +57,7 @@ Publicatiemedium | Tekst |
 Datum publicatie | Datum | 17 juli 2007
 
 
-![Wet weergave in Juris-M](Manual-fig-3.png)
+![Wet weergave in Juris-M](figures/Manual-fig-3.png)
 
 Rechtspraak
 -----------
@@ -81,7 +81,7 @@ Date Published | Datum van publicatie | 2011
 Editie | Editie van jurisprudentietijdschrift | 651
 
 
-![Rechtszaak weergave in Juris-M](Manual-fig-4.png)
+![Rechtszaak weergave in Juris-M](figures/Manual-fig-4.png)
 
 Boeken, tijdschriften, etc..
 ============================
