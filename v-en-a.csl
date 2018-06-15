@@ -416,14 +416,20 @@
   </macro>
   <macro name="locator">
     <group delimiter=" ">
-      <label variable="locator" form="short"/>
-      <text variable="locator"/>
+		<label variable="locator" form="short"/>
+		<text variable="locator"/>
     </group>
   </macro>
   <macro name="locator-or-pages">
     <choose>
       <if variable="locator">
-        <text macro="locator"/>
+		<choose>
+		<if type="chapter" match="any">
+			<label variable="page-first" form="short"/>
+			<text variable="page-first" prefix="(" suffix=") "/>
+		</if>
+		</choose>
+		<text macro="locator"/>
       </if>
       <else>
         <group delimiter=" ">
