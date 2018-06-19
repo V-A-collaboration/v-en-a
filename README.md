@@ -14,6 +14,7 @@ Zie: <https://juris-m.github.io/downloads/>
 
 Installeer Stylesheet
 ---------------------
+[Download stylesheet](https://raw.githubusercontent.com/mvwestendorp/v-en-a/master/v-en-a.csl)
 
 Toevoegen van Stylesheet in Zotero/Juris-M: Bewerken -> Citeren -> ![image](figures/Manual-plus-sign.png)
 
