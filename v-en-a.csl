@@ -424,10 +424,9 @@
     <choose>
       <if variable="locator">
 		<choose>
-		<if type="chapter" match="any">
+		<if type="chapter article-journal" match="any">
 			<group delimiter=" ">
-				<label variable="page-first" form="short"/>
-				<number variable="page-first" prefix="(" suffix=")"/>
+				<text variable="page-first" prefix="(" suffix=") "/>
 			</group>
 		</if>
 		</choose>
@@ -435,7 +434,6 @@
       </if>
       <else>
         <group delimiter=" ">
-          <label variable="page" form="short"/>
           <number variable="page"/>
         </group>
       </else>
