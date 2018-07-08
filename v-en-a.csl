@@ -299,6 +299,7 @@
     </choose>
   </macro>
   <macro name="url">
+	<group delimiter=" ">
 	<text variable="URL"/>
     <choose>
 	    <if match="all" variable="URL accessed">
@@ -308,6 +309,7 @@
 		</group>
 		</if>
     </choose>
+	</group>
   </macro>
   <macro name="date-and-pages">
     <group delimiter=", ">
@@ -426,7 +428,7 @@
 		<choose>
 		<if type="chapter article-journal" match="any">
 			<group delimiter=" ">
-				<text variable="page-first" prefix="(" suffix=") "/>
+				<number variable="page-first" prefix="(" suffix=") "/>
 			</group>
 		</if>
 		</choose>
@@ -519,50 +521,57 @@
     </date>
   </macro>
   <macro name="legal-case">
-    <group suffix="">
-      <names variable="authority" delimiter=" "/>
-      <text macro="date-legal-case"/>
-		<choose>
-        <if variable="title-short">
-			<text variable="title-short" prefix=", '" suffix="'"/>
-        </if>
-		</choose>
-		<choose>
-		<if variable="number">
-			<number variable="number" prefix=", nr. "/>
-		</if>
-		</choose>
-      <number variable="call-number" prefix=", "/>
-      <text variable="publisher" prefix=", " font-style="italic"/>
+	<group suffix="">
 	  <group delimiter=" ">
+		<names variable="authority"/>
+		<text macro="date-legal-case"/>
+	  </group>
+		<choose>
+			<if variable="title-short">
+				<text variable="title-short" prefix=", '" suffix="'"/>
+			</if>
+		</choose>
+		<choose>
+			<if variable="number">
+				<number variable="number" prefix=", nr. "/>
+			</if>
+		</choose>
+	  <number variable="call-number" prefix=", "/>
+		<choose>
+			<if jurisdiction="eu.int">
+				<text variable="docket-number" prefix=", "/>
+			</if>
+		</choose>
+	  <group delimiter=" ">
+	  <text variable="publisher" prefix=", " font-style="italic"/>
 		<date variable="publication-date">
-        <date-part name="year" form="long"/>
+		<date-part name="year" form="long"/>
 		</date>
 	  </group>
-      <number variable="issue" prefix=", "/>
-      <choose>
-        <if locator="paragraph">
-          <text variable="locator" prefix=", "/>
-        </if>
-      </choose>
-      <choose>
-        <if variable="title-short" match="none">
-          <text variable="title" prefix=", "/>
-        </if>
-      </choose>
-      <choose>
-        <if variable="commenter">
-          <text value=", concl. "/>
-          <names variable="commenter">
-            <name sort-separator=", " initialize-with="." delimiter=", " and="text" delimiter-precedes-last="never" name-as-sort-order="all">
-              <name-part name="family" text-case="uppercase"/>
-            </name>
-          </names>
-        </if>
-      </choose>
-      <text variable="container-title" prefix=", noot " text-case="uppercase"/>
-      <number variable="volume"/>
-    </group>
+	  <number variable="issue" prefix=", "/>
+	  <choose>
+		<if locator="paragraph">
+		  <text variable="locator" prefix=", "/>
+		</if>
+	  </choose>
+	  <choose>
+		<if variable="title-short" match="none">
+		  <text variable="title" prefix=", '" suffix="'"/>
+		</if>
+	  </choose>
+	  <choose>
+		<if variable="commenter">
+		  <text value=", concl. "/>
+		  <names variable="commenter">
+			<name sort-separator=", " initialize-with="." delimiter=", " and="text" delimiter-precedes-last="never" name-as-sort-order="all">
+			  <name-part name="family" text-case="uppercase"/>
+			</name>
+		  </names>
+		</if>
+	  </choose>
+	  <text variable="container-title" prefix=", noot " text-case="uppercase"/>
+	  <number variable="volume"/>
+	</group>
   </macro>
   <macro name="complete-reference">
     <!--Bibliography reference -->
@@ -593,12 +602,10 @@
     </choose>
   </macro>
   <citation name-form="long" and="text" sort-separator=", " delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1">
-    <layout suffix="." delimiter="&#160;; ">
+    <layout suffix="." delimiter="; ">
       <choose>
         <if type="legal_case" match="any">
-          <group delimiter=", ">
             <text macro="legal-case"/>
-          </group>
         </if>
         <else-if position="ibid-with-locator">
           <choose>
