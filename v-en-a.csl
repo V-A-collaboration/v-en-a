@@ -634,6 +634,7 @@
               <text font-style="italic" value="supra"/>
               <text variable="first-reference-note-number" font-style="normal" prefix="vn. "/>
             </group>
+			<text macro="date-and-pages"/>
             <text macro="locator"/>
           </group>
         </else-if>
