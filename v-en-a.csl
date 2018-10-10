@@ -512,57 +512,52 @@
     </date>
   </macro>
   <macro name="legal-case">
-	<group suffix="">
-	  <group delimiter=" ">
-		<names variable="authority"/>
-		<text macro="date-legal-case"/>
-	  </group>
-		<choose>
-			<if variable="title-short">
-				<text variable="title-short" prefix=", '" suffix="'"/>
-			</if>
-		</choose>
-		<choose>
-			<if variable="number">
-				<number variable="number" prefix=", nr. "/>
-			</if>
-		</choose>
-	  <number variable="call-number" prefix=", "/>
-		<choose>
-			<if jurisdiction="eu.int">
-				<text variable="docket-number" prefix=", "/>
-			</if>
-		</choose>
-	  <group delimiter=" ">
-	  <text variable="publisher" prefix=", " font-style="italic"/>
-		<date variable="publication-date">
-		<date-part name="year" form="long"/>
-		</date>
-	  </group>
-	  <number variable="issue" prefix=", "/>
-	  <choose>
-		<if locator="paragraph">
-		  <text variable="locator" prefix=", "/>
-		</if>
-	  </choose>
-	  <choose>
-		<if variable="title-short" match="none">
-		  <text variable="title" prefix=", '" suffix="'"/>
-		</if>
-	  </choose>
-	  <choose>
-		<if variable="commenter">
-		  <text value=", concl. "/>
-		  <names variable="commenter">
-			<name sort-separator=", " initialize-with="." delimiter=", " and="text" delimiter-precedes-last="never" name-as-sort-order="all">
-			  <name-part name="family" text-case="uppercase"/>
-			</name>
-		  </names>
-		</if>
-	  </choose>
-	  <text variable="container-title" prefix=", noot " text-case="uppercase"/>
-	  <number variable="volume"/>
-	</group>
+    <group suffix="">
+      <group delimiter=" ">
+        <names variable="authority"/>
+        <text macro="date-legal-case"/>
+      </group>
+      <choose>
+        <if variable="title-short">
+          <text variable="title-short" prefix=", '" suffix="'"/>
+        </if>
+      </choose>
+      <choose>
+        <if variable="number">
+          <number variable="number" prefix=", nr. "/>
+        </if>
+      </choose>
+      <number variable="call-number" prefix=", "/>
+      <group delimiter=" ">
+        <text variable="publisher" prefix=", " font-style="italic"/>
+        <date variable="publication-date">
+          <date-part name="year" form="long"/>
+        </date>
+      </group>
+      <number variable="issue" prefix=", "/>
+      <choose>
+        <if locator="paragraph">
+          <text variable="locator" prefix=", "/>
+        </if>
+      </choose>
+      <choose>
+        <if variable="title-short" match="none">
+          <text variable="title" prefix=", '" suffix="'"/>
+        </if>
+      </choose>
+      <choose>
+        <if variable="commenter">
+          <text value=", concl. "/>
+          <names variable="commenter">
+            <name sort-separator=", " initialize-with="." delimiter=", " and="text" delimiter-precedes-last="never" name-as-sort-order="all">
+              <name-part name="family" text-case="uppercase"/>
+            </name>
+          </names>
+        </if>
+      </choose>
+      <text variable="container-title" prefix=", noot " text-case="uppercase"/>
+      <number variable="volume"/>
+    </group>
   </macro>
   <macro name="complete-reference">
     <!--Bibliography reference -->
