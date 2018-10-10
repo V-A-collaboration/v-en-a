@@ -53,7 +53,7 @@ Veld | Soort waarde | Voorbeeld
 Type Item | Wet | 
 Jurisdiction | Belgium|BE | 
 Citeertitel wet | Tekst | Wet van 6 juli 2007 betreffende de medisch begeleide voortplanting en de bestemming van de overtallige embryos en de gameten
-Korte Titel | Korte tekst | 
+Korte Titel | Korte tekst | Wet Medisch Begeleide Voortplanting
 Publicatiemedium | Tekst | 
 Datum publicatie | Datum | 17 juli 2007
 
