@@ -291,17 +291,17 @@
     </choose>
   </macro>
   <macro name="url">
-	<group delimiter=" ">
-	<text variable="URL"/>
-    <choose>
-	    <if match="all" variable="URL accessed">
-		<group delimiter=" " prefix="(" suffix=")"> 
-			<text term="accessed" text-case="capitalize-first" />
-			<date date-parts="year-month-day" form="text" variable="accessed"/>
-		</group>
-		</if>
-    </choose>
-	</group>
+    <group delimiter=" ">
+      <text variable="URL"/>
+      <choose>
+        <if match="all" variable="URL accessed">
+          <group delimiter=" " prefix="(" suffix=")">
+            <text term="accessed" text-case="capitalize-first"/>
+            <date date-parts="year-month-day" form="text" variable="accessed"/>
+          </group>
+        </if>
+      </choose>
+    </group>
   </macro>
   <macro name="date-and-pages">
     <group delimiter=", ">
@@ -410,8 +410,8 @@
   </macro>
   <macro name="locator">
     <group delimiter=" ">
-		<label variable="locator" form="short"/>
-		<text variable="locator"/>
+      <label variable="locator" form="short"/>
+      <text variable="locator"/>
     </group>
   </macro>
   <macro name="locator-or-pages">
@@ -438,10 +438,10 @@
       <if type="book chapter paper-conference" match="any">
         <choose>
           <if is-numeric="edition">
-			<group delimiter=" ">
-			<number variable="edition"/>
-            <text term="edition" form="short"/>
-			</group>
+            <group delimiter=" ">
+              <number variable="edition"/>
+              <text term="edition" form="short"/>
+            </group>
           </if>
         </choose>
       </if>
@@ -591,7 +591,7 @@
     <layout suffix="." delimiter="; ">
       <choose>
         <if type="legal_case" match="any">
-            <text macro="legal-case"/>
+          <text macro="legal-case"/>
         </if>
         <else-if position="ibid-with-locator">
           <choose>
@@ -628,7 +628,7 @@
               <text font-style="italic" value="supra"/>
               <text variable="first-reference-note-number" font-style="normal" prefix="vn. "/>
             </group>
-			<text macro="date-and-pages"/>
+            <text macro="date-and-pages"/>
             <text macro="locator"/>
           </group>
         </else-if>
@@ -655,9 +655,9 @@
   <!-- TODO change ordering of case and bill order and display correctly-->
   <macro name="sort-order-when-same-type">
     <choose>
-      <if type="article article-magazine article-newspaper article-journal book chapter paper-conference report review review-book thesis" match="any"></if>
-      <else-if type="bill legislation" match="any"></else-if>
-      <else-if type="legal_case" match="any"></else-if>
+      <if type="article article-magazine article-newspaper article-journal book chapter paper-conference report review review-book thesis" match="any"/>
+      <else-if type="bill legislation" match="any"/>
+      <else-if type="legal_case" match="any"/>
     </choose>
   </macro>
   <macro name="display-order">
