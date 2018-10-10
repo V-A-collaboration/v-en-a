@@ -459,48 +459,47 @@
   <!-- Add juris-m gazette for BS? -->
   <macro name="legislation-or-bill">
     <choose>
-      <if jurisdiction="be">
-        <choose>
-          <if type="bill">
-            <group suffix="." delimiter=", ">
-              <text variable="title"/>
-              <text variable="genre" font-style="italic"/>
+      <if type="bill">
+        <group suffix="." delimiter=", ">
+          <text variable="title"/>
+          <text variable="genre" font-style="italic"/>
+          <group delimiter=" ">
+            <names variable="authority"/>
+            <text macro="date-legal-case"/>
+          </group>
+          <group>
+            <choose>
+              <if variable="number" match="all">
+                <text value="nr. "/>
+                <number variable="number"/>
+              </if>
+            </choose>
+          </group>
+          <number variable="page"/>
+          <choose>
+            <if variable="section container-title" match="all">
               <group delimiter=" ">
-			  <names variable="authority" />
-              <text macro="date-legal-case"/>
-			  </group>
-				<group>
-					<choose>
-					<if variable="number" match="all">
-						<text value="nr. "/>
-						<number variable="number"/>
-					</if>
-					</choose>
-				</group>
-			  
-              <number variable="page"/>
-              <choose>
-                <if variable="section container-title" match="all">
-					<group delimiter=" ">
-					<text value="(Vr. nr. "/>
-					<text variable="section"/>
-					<text variable="container-title" text-case="uppercase"  suffix=")"/>
-					</group>
-                </if>
-              </choose>
-            </group>
-          </if>
-          <else-if type="legislation regulation" match="all">
-            <group suffix="." delimiter = " ">
-              <text macro="title"/>
-              <text variable="container-title" font-style="italic" prefix=","/>
-              <text macro="date"/>
-              <text variable="title" form="short" prefix="(" suffix=")"/>
-              <text variable="URL" prefix="(" />
-              <text macro="date-accessed" suffix=")"/>
-            </group>
-          </else-if>
-        </choose>
+                <text value="(Vr. nr. "/>
+                <text variable="section"/>
+                <text variable="container-title" text-case="uppercase" suffix=")"/>
+              </group>
+            </if>
+          </choose>
+        </group>
+      </if>
+	</choose>
+	<choose>
+      <if type="legislation regulation" match="all">
+        <group delimiter=", ">
+          <text macro="title"/>
+          <group delimiter=" ">
+            <text variable="container-title" font-style="italic"/>
+            <text macro="date"/>
+            <text variable="title" form="short" prefix="(" suffix=")"/>
+            <text variable="URL" prefix="("/>
+            <text macro="date-accessed" suffix=")"/>
+          </group>
+        </group>
       </if>
     </choose>
   </macro>
