@@ -1,4 +1,4 @@
-Doordat de stylesheet nog niet grondig getest is, is het mogelijk dat velden nog van betekenis veranderen. Daardoor is het mogelijk dat latere versies niet meer dezelfde velden gebruiken en de items in Zotero/Juris-M moeten worden aangepast. **<span style="font-variant:small-caps;"></span>**
+[![Build Status](https://semaphoreci.com/api/v1/mvwestendorp/v-en-a/branches/master/shields_badge.svg)](https://semaphoreci.com/mvwestendorp/v-en-a)
 
 Installatie
 ===========
