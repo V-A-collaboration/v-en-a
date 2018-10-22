@@ -1,0 +1,272 @@
+{
+	"item-1": {
+		"id": "item-1",
+		"type": "article-journal",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "FDA regulation of mobile health technologies",
+		"container-title": "The New England journal of medicine",
+		"page": "372-374",
+		"volume": "371",
+		"issue": "4",
+		"source": "Google Scholar",
+		"URL": "http://search.proquest.com/openview/03688b0649e349d040bb398f859acc31/1?pq-origsite=gscholar&cbl=40644",
+		"author": [
+			{
+				"family": "Hamel",
+				"given": "Mary Beth",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Cortez",
+				"given": "Nathan G.",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Cohen",
+				"given": "I. Glenn",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Kesselheim",
+				"given": "Aaron S.",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					2,
+					1
+				]
+			]
+		}
+	},
+	"item-2": {
+		"id": "item-2",
+		"type": "article-journal",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "Experimenten op mensen. Overzicht van en reflecties bij de wet van 7 mei 2004",
+		"container-title": "Nieuw Juridisch Weekblad",
+		"page": "1190-1201",
+		"volume": "3",
+		"issue": "88",
+		"ISSN": "1378-8914",
+		"journalAbbreviation": "NJW",
+		"language": "Dutch",
+		"jurisdiction": "be",
+		"author": [
+			{
+				"family": "Callens",
+				"given": "Stefaan",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Goossens",
+				"given": "Mieke",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2004",
+					11,
+					10
+				]
+			]
+		}
+	},
+	"item-3": {
+		"id": "item-3",
+		"type": "book",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "Handboek gezondheidsrecht Volume I",
+		"publisher": "Intersentia",
+		"publisher-place": "Antwerpen",
+		"volume": "1",
+		"volume-title": "Reeks Gezondheidsrecht",
+		"number-of-volumes": "2",
+		"number-of-pages": "lx + 1688",
+		"edition": "1",
+		"source": "Open WorldCat",
+		"event-place": "Antwerpen",
+		"archive-place": "Antwerpen",
+		"abstract": "Met dit opus magnum komen de auteurs tegemoet aan de toenemende vraag naar een globaal overzicht van het gezondheidsrecht. Zorgverleners, advocaten, magistraten en, last but not least, studenten vragen om een breed, grondig en volledig 'Handboek Gezondheidsrecht'. Het unieke aan dit 'Handboek Gezondheidsrecht' is dat de positie van de zorgverlener, niet alleen klassiek t.a.v. de patiënt, maar ook t.a.v. allerlei andere zorgverleners (andere beroepsbeoefenaars en gezondheidszorginstellingen) én de overheid aan bod komt, en dit op een zéér grondige wijze.0Het gezondheidsrecht is de laatste jaren uitgegroeid tot een bloeiende rechtstak met veel uitlopers naar andere rechtsdomeinen. Daarom werd besloten om de krachten en talenten van verschillende specialisten te bundelen. Per onderwerp werd een specialist aangezocht waarbij een kruisbestuiving tussen de verschillende universiteiten, de balie en de ziekenhuiswereld werd nagestreefd.",
+		"ISBN": "978-94-000-0537-2",
+		"note": "OCLC: 892306434",
+		"language": "Dutch",
+		"author": [
+			{
+				"family": "Vansweevelt",
+				"given": "T",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Dewallens",
+				"given": "Filip",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	"item-4": {
+		"id": "item-4",
+		"type": "book",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "Handboek gezondheidsrecht Volume II",
+		"publisher": "Intersentia",
+		"publisher-place": "Antwerpen",
+		"volume": "2",
+		"volume-title": "Reeks Gezondheidsrecht",
+		"number-of-volumes": "2",
+		"number-of-pages": "lviii + 1632",
+		"edition": "1",
+		"source": "Open WorldCat",
+		"event-place": "Antwerpen",
+		"archive-place": "Antwerpen",
+		"abstract": "Met dit opus magnum komen de auteurs tegemoet aan de toenemende vraag naar een globaal overzicht van het gezondheidsrecht. Zorgverleners, advocaten, magistraten en, last but not least, studenten vragen om een breed, grondig en volledig 'Handboek Gezondheidsrecht'. Het unieke aan dit 'Handboek Gezondheidsrecht' is dat de positie van de zorgverlener, niet alleen klassiek t.a.v. de patiënt, maar ook t.a.v. allerlei andere zorgverleners (andere beroepsbeoefenaars en gezondheidszorginstellingen) én de overheid aan bod komt, en dit op een zéér grondige wijze.0Het gezondheidsrecht is de laatste jaren uitgegroeid tot een bloeiende rechtstak met veel uitlopers naar andere rechtsdomeinen. Daarom werd besloten om de krachten en talenten van verschillende specialisten te bundelen. Per onderwerp werd een specialist aangezocht waarbij een kruisbestuiving tussen de verschillende universiteiten, de balie en de ziekenhuiswereld werd nagestreefd.",
+		"ISBN": "978-94-000-0538-9",
+		"note": "OCLC: 892306434",
+		"language": "Dutch",
+		"author": [
+			{
+				"family": "Vansweevelt",
+				"given": "T",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Dewallens",
+				"given": "Filip",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	"item-5": {
+		"id": "item-5",
+		"type": "chapter",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "EU public health law and policy - on the rocks? A few sobering thoughts on the growing EU alcohol problem",
+		"container-title": "Research Handbook on EU Health Law and Policy",
+		"publisher": "Edward Elgar Publishing",
+		"publisher-place": "Cheltenham, United Kingdom",
+		"page": "369–397",
+		"source": "Crossref",
+		"event-place": "Cheltenham, United Kingdom",
+		"archive-place": "Cheltenham, United Kingdom",
+		"URL": "https://www.elgaronline.com/view/9781785364716.xml",
+		"ISBN": "978-1-78536-472-3",
+		"note": "DOI: 10.4337/9781785364723",
+		"language": "en",
+		"editor": [
+			{
+				"family": "Hervey",
+				"given": "Tamara",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Young",
+				"given": "Calum",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Bishop",
+				"given": "Louise",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"author": [
+			{
+				"family": "Bartlett",
+				"given": "Oliver",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Garde",
+				"given": "Amandine",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					6,
+					7
+				]
+			]
+		}
+	}
+}
