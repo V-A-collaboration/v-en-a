@@ -1,0 +1,21 @@
+version: v1.0
+name: V en A citation stylesheet
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+
+blocks:
+- name: "Unit tests"
+  task:
+    prologue:
+      commands:
+      - checkout
+      - npm install citeproc
+      - npm install jasmine
+    jobs:
+    - name: Test
+      commands:
+      - checkout
+      - echo "Starting tests"
+      - npm test
