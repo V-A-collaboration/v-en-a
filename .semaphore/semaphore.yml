@@ -15,13 +15,13 @@ blocks:
             - cache restore node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum package-lock.json),node-modules-$SEMAPHORE_GIT_BRANCH,node-modules-master
             - npm install citeproc jasmine
             - cache store node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum package-lock.json) node_modules
-- name: Tests
-  task:
-    prologue:
-      commands:
-      - checkout
-      - cache restore node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum package-lock.json),node-modules-$SEMAPHORE_GIT_BRANCH,node-modules-master
-    jobs:
-    - name: Test
-      commands:
-      - npm test
+  - name: Tests
+    task:
+      prologue:
+        commands:
+        - checkout
+        - cache restore node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum package-lock.json),node-modules-$SEMAPHORE_GIT_BRANCH,node-modules-master
+      jobs:
+      - name: Test
+        commands:
+        - npm test
