@@ -291,7 +291,7 @@
     </choose>
   </macro>
   <macro name="url">
-    <group delimiter=" ">
+    <group delimiter=", ">
       <text variable="URL"/>
       <choose>
         <if match="all" variable="URL accessed">
@@ -410,21 +410,21 @@
   </macro>
   <macro name="locator">
     <group delimiter=" ">
-      <label variable="locator" form="short"/>
+      <label variable="locator" form="short" />
       <text variable="locator"/>
     </group>
   </macro>
   <macro name="locator-or-pages">
     <choose>
       <if variable="locator">
-        <choose>
-          <if type="chapter article-journal" match="any">
-            <group delimiter=" ">
-              <number variable="page-first" prefix="(" suffix=")"/>
-            </group>
-          </if>
-        </choose>
-        <text macro="locator"/>
+        <group delimiter=" ">
+            <choose>
+            <if type="chapter article-journal" match="any">
+                <number variable="page-first" prefix="(" suffix=")"/>
+            </if>
+            </choose>
+            <text macro="locator"/>
+        </group>
       </if>
       <else>
         <group delimiter=" ">
