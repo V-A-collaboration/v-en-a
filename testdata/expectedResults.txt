@@ -3,3 +3,4 @@
 <div class="csl-entry">HAMEL, M.B., CORTEZ, N.G., COHEN, I.G. and KESSELHEIM, A.S., “FDA regulation of mobile health technologies,” <i>The New England journal of medicine</i> 2014, afl. 4, 372–374.</div>
 <div class="csl-entry">VANSWEEVELT, T. and DEWALLENS, F., <i>Handboek gezondheidsrecht Volume I</i>, vol. 1, 1 ed., Antwerpen, Intersentia, 2014, <span style="baseline">lx + 1688</span> p.</div>
 <div class="csl-entry">VANSWEEVELT, T. and DEWALLENS, F., <i>Handboek gezondheidsrecht Volume II</i>, vol. 2, 1 ed., Antwerpen, Intersentia, 2014, <span style="baseline">lviii + 1632</span> p.</div>
+<div class="csl-entry">Wet van 22 augustus 2002 betreffende de rechten van de patiënt, August 22, 2002 (Wet van 22 augustus 2002 betreffende de rechten van de patiënt).</div>

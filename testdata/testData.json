@@ -268,5 +268,24 @@
 				]
 			]
 		}
+	},
+	"item-6": {
+		"id": "item-6",
+		"type": "legislation",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "Wet van 22 augustus 2002 betreffende de rechten van de patiënt",
+		"jurisdiction": "be",
+		"issued": {
+			"date-parts": [
+				[
+					"2002",
+					8,
+					22
+				]
+			]
+		}
 	}
 }
