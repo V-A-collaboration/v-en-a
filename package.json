@@ -1,5 +1,9 @@
 {
 	"scripts": {
 		"test": "jasmine"
+	},
+	"devDependencies": {
+		"citeproc": "^2.1.220",
+		"jasmine": "^3.3.1"
 	}
 }
