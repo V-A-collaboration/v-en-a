@@ -34,7 +34,9 @@ describe("Vena Suite", function () {
     let lines = fs.readFileSync('testdata/expectedResults.txt', 'utf8').split("\n");
     for (let count = 0; count < lines.length; count++) {
         it(`Citation ${count}`, function () {
-            expect(strip(bibResult[1][count])).toEqual(strip(lines[count]));
+            if (lines[count]) {
+                expect(strip(bibResult[1][count])).toEqual(strip(lines[count]));
+            }
         });
     }
 });
