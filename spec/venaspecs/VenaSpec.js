@@ -74,7 +74,7 @@ describe("Vena Citation Suite", function () {
     for (let count = 0; count < lines.length; count++) {
         it(`Citation ${count}`, function () {
             if (lines[count]) {
-                let citeCluster = citeproc.makeCitationCluster(['item-'+ count]);
+                let citeCluster = citeproc.makeCitationCluster([{"id": 'item-'+ count}]);
                 //console.log(citeCluster);
                 expect(strip(citeCluster)).toEqual(strip(lines[count]));
             }
