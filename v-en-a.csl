@@ -13,7 +13,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2019-03-27T13:54:12+02:00</updated>
+    <updated>2019-03-28T10:51:02+02:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="nl">
@@ -104,6 +104,7 @@
     </names>
   </macro>
   <macro name="collection-editor-note">
+    <!-- if collection-title then treat as reeks -->
     <names variable="collection-editor">
       <name sort-separator=" " initialize-with="." delimiter=", " and="text" form="long">
         <name-part name="family" text-case="uppercase"/>
@@ -246,9 +247,9 @@
   </macro>
   <macro name="collection">
     <choose>
-      <if variable="collection-title">
-        <group delimiter=", ">
-          <text variable="collection-title"/>
+      <if variable="collection-title" match="any">
+        <group delimiter=", " prefix="in ">
+          <text variable="collection-title" font-style="italic"/>
         </group>
       </if>
     </choose>
@@ -291,7 +292,7 @@
     </choose>
   </macro>
   <macro name="url">
-    <group delimiter=", ">
+    <group delimiter=" ">
       <text variable="URL"/>
       <choose>
         <if match="all" variable="URL accessed">
@@ -577,21 +578,8 @@
       </else-if>
       <else>
         <choose>
-            <if type="article-journal" match="none">
-                <group delimiter=", ">
-                     <text macro="author-or-editor"/>
-                    <text macro="title"/>
-                    <text macro="volume-or-medium"/>
-                    <text macro="edition"/>
-                    <text macro="collection"/>
-                    <text macro="place-and-publisher"/>
-                    <text macro="date-and-pages"/>
-                    <text macro="url"/>
-                    <text macro="number-of-pages"/>
-                </group>
-            </if>
-            <else>
-                <group delimiter=" ">
+            <if type="article-journal" match="any">
+               <group delimiter=" ">
                     <group delimiter=", ">
                         <text macro="author-or-editor"/>
                         <text macro="title"/>
@@ -600,14 +588,71 @@
                         <text macro="collection"/>
                         <text macro="place-and-publisher"/>
                     </group>
-                    <group delimiter=" ">
-                        <text macro="date-and-pages"/>
-                    </group>
+                    <choose>
+                        <if variable="URL">
+                            <group delimiter=" " suffix=",">
+                                <text macro="date-and-pages"/>
+                            </group>
+                        </if>
+                        <else>
+                            <group delimiter=" ">
+                                <text macro="date-and-pages"/>
+                            </group>
+                        </else>
+                    </choose>
                     <group delimiter=", ">
                         <text macro="url"/>
                         <text macro="number-of-pages"/>
                     </group>
                 </group>
+            </if>
+            <else-if type="book" match="any">
+                 <choose>
+                 <if variable="collection-title">
+                    <group delimiter=" ">
+                        <group delimiter=", ">
+                            <text macro="author-or-editor"/>
+                            <text macro="title"/>
+                        </group>
+                        <group delimiter=" " suffix=",">
+                            <text macro="collection"/>
+                        </group>
+                        <group delimiter=", ">
+                            <text macro="volume-or-medium"/>
+                            <text macro="edition"/>
+                            <text macro="place-and-publisher"/>
+                            <text macro="date-and-pages"/>
+                            <text macro="url"/>
+                            <text macro="number-of-pages"/>
+                        </group>
+                    </group>
+                 </if>
+                 <else>
+                     <group delimiter=", ">
+                         <text macro="author-or-editor"/>
+                         <text macro="title"/>
+                         <text macro="volume-or-medium"/>
+                         <text macro="edition"/>
+                         <text macro="place-and-publisher"/>
+                         <text macro="date-and-pages"/>
+                         <text macro="url"/>
+                         <text macro="number-of-pages"/>
+                     </group>
+                 </else>
+                 </choose>
+            </else-if>
+            <else>
+            <group delimiter=", ">
+                <text macro="author-or-editor"/>
+                <text macro="title"/>
+                <text macro="volume-or-medium"/>
+                <text macro="edition"/>
+                <text macro="collection"/>
+                <text macro="place-and-publisher"/>
+                <text macro="date-and-pages"/>
+                <text macro="url"/>
+                <text macro="number-of-pages"/>
+            </group>
             </else>
             </choose>
       </else>
@@ -664,34 +709,76 @@
         </else-if>
         <else>
           <choose>
-            <if type="article-journal" match="none">
-                <group delimiter=", ">
-                    <text macro="author-note"/>
-                    <text macro="title-note"/>
-                    <text macro="volume-or-medium"/>
-                    <text macro="edition"/>
-                    <text macro="collection"/>
-                    <text macro="place-and-publisher"/>
-                    <text macro="date-and-pages"/>
-                    <text macro="url"/>
-                </group>
-            </if>
-            <else>
+            <if type="article-journal" match="any">
                 <group delimiter=" ">
                     <group delimiter=", ">
                         <text macro="author-note"/>
                         <text macro="title-note"/>
+                        <text macro="collection"/>
                         <text macro="volume-or-medium"/>
                         <text macro="edition"/>
-                        <text macro="collection"/>
                         <text macro="place-and-publisher"/>
                     </group>
-                    <group delimiter=" ">
-                        <text macro="date-and-pages"/>
-                    </group>
+                    <choose>
+                        <if variable="URL">
+                            <group delimiter=" " suffix=",">
+                                <text macro="date-and-pages"/>
+                            </group>
+                        </if>
+                        <else>
+                            <group delimiter=" ">
+                                <text macro="date-and-pages"/>
+                            </group>
+                        </else>
+                    </choose>
                     <group delimiter=", ">
                         <text macro="url"/>
                     </group>
+                </group>
+            </if>
+            <else-if type="book" match="any">
+                 <choose>
+                 <if variable="collection-title">
+                    <group delimiter=" ">
+                        <group delimiter=", ">
+                            <text macro="author-note"/>
+                            <text macro="title-note"/>
+                        </group>
+                        <group delimiter=" " suffix=",">
+                            <text macro="collection"/>
+                        </group>
+                        <group delimiter=", ">
+                            <text macro="volume-or-medium"/>
+                            <text macro="edition"/>
+                            <text macro="place-and-publisher"/>
+                            <text macro="date-and-pages"/>
+                            <text macro="url"/>
+                        </group>
+                    </group>
+                 </if>
+                 <else>
+                     <group delimiter=", ">
+                         <text macro="author-note"/>
+                         <text macro="title-note"/>
+                         <text macro="volume-or-medium"/>
+                         <text macro="edition"/>
+                         <text macro="place-and-publisher"/>
+                         <text macro="date-and-pages"/>
+                         <text macro="url"/>
+                     </group>
+                 </else>
+                 </choose>
+            </else-if>
+            <else>
+                <group delimiter=", ">
+                    <text macro="author-note"/>
+                    <text macro="title-note"/>
+                    <text macro="collection"/>
+                    <text macro="volume-or-medium"/>
+                    <text macro="edition"/>
+                    <text macro="place-and-publisher"/>
+                    <text macro="date-and-pages"/>
+                    <text macro="url"/>
                 </group>
             </else>
             </choose>
