@@ -5,6 +5,6 @@
 <div class="csl-entry">HAMEL, M.B., CORTEZ, N.G., COHEN, I.G. and KESSELHEIM, A.S., “FDA regulation of mobile health technologies,” <i>The New England journal of medicine</i> 2014, afl. 4, 372–374.</div>
 <div class="csl-entry">VAN DE WOESTEYNE, I. and MESKENS, C., “Rechtzetting vergissing in feite in de jaarrekening schoorvoetend aanvaard,” <i>TFR</i> 2019, afl. 556, 190–198, https://www.jurisquare.be/en/journal/tfr/2019-556/rechtzetting-vergissing-in-feite-in-de-jaarrekening-schoorvoetend-aanvaard/ (Accessed March 14, 2019).</div>
 <div class="csl-entry">VANDENBUSSCHE, W., <i>Bewijs en onrechtmatige daad.</i>, Mortsel, Intersentia Uitgevers NV, 2017, <span style="baseline">787</span> p.</div>
-<div class="csl-entry">VANSWEEVELT, T. and DEWALLENS, F., <i>Handboek gezondheidsrecht Volume I</i>, vol. 1, 1 ed., Antwerpen, Intersentia, 2014, <span style="baseline">lx + 1688</span> p.</div>
-<div class="csl-entry">VANSWEEVELT, T. and DEWALLENS, F., <i>Handboek gezondheidsrecht Volume II</i>, vol. 2, 1 ed., Antwerpen, Intersentia, 2014, <span style="baseline">lviii + 1632</span> p.</div>
+<div class="csl-entry">VANSWEEVELT, T. and DEWALLENS, F., <i>Handboek gezondheidsrecht Volume I</i>, I, <i>Reeks Gezondheidsrecht</i>, 1 ed., Antwerpen, Intersentia, 2014, <span style="baseline">lx + 1688</span> p.</div>
+<div class="csl-entry">VANSWEEVELT, T. and DEWALLENS, F., <i>Handboek gezondheidsrecht Volume II</i>, II, <i>Reeks Gezondheidsrecht</i>, 1 ed., Antwerpen, Intersentia, 2014, <span style="baseline">lviii + 1632</span> p.</div>
 <div class="csl-entry">Wet van 22 augustus 2002 betreffende de rechten van de patiënt, August 22, 2002 (Wet van 22 augustus 2002 betreffende de rechten van de patiënt).</div>

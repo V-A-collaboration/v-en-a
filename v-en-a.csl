@@ -104,7 +104,6 @@
     </names>
   </macro>
   <macro name="collection-editor-note">
-    <!-- if collection-title then treat as reeks -->
     <names variable="collection-editor">
       <name sort-separator=" " initialize-with="." delimiter=", " and="text" form="long">
         <name-part name="family" text-case="uppercase"/>
@@ -239,17 +238,25 @@
   <macro name="volume-or-medium">
     <choose>
       <if type="book thesis chapter paper-conference motion_picture">
-        <group delimiter=", ">
-          <number variable="volume" prefix="vol. "/>
+	<choose>
+	<if variable="volume">
+	<group delimiter=", ">
+          <number variable="volume" form="roman" text-case="uppercase"/>
+ 	  <text variable="volume-title" font-style="italic"/>
         </group>
+	</if>
+        <else-if variable="number-of-volumes">
+	<number variable="number-of-volumes"  form="roman" text-case="uppercase" suffix=" dln."/>
+	</else-if>
+	</choose>
       </if>
     </choose>
   </macro>
   <macro name="collection">
     <choose>
-      <if variable="collection-title" match="any">
-        <group delimiter=", " prefix="in ">
-          <text variable="collection-title" font-style="italic"/>
+        <if variable="collection-title" match="any">
+            <group delimiter=", " prefix="in ">
+            <text variable="collection-title" font-style="italic"/>
         </group>
       </if>
     </choose>
