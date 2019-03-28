@@ -287,5 +287,147 @@
 				]
 			]
 		}
+	},
+	"item-7": {
+		"id": "item-7",
+		"type": "article-journal",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "Nudging Smokers - The Behavioural Turn of Tobacco Risk Regulation",
+		"container-title": "European Journal of Risk Regulation",
+		"page": "1-20",
+		"volume": "3",
+		"issue": "1",
+		"author": [
+			{
+				"family": "Alemanno",
+				"given": "Alberto",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	"item-8": {
+		"id": "item-8",
+		"type": "book",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "Bewijs en onrechtmatige daad.",
+		"publisher": "Intersentia Uitgevers NV",
+		"publisher-place": "Mortsel",
+		"number-of-pages": "787",
+		"source": "Open WorldCat",
+		"event-place": "Mortsel",
+		"archive-place": "Mortsel",
+		"abstract": "Artikel 1315 BW en artikel 870 Ger.W. spelen een belangrijke rol bij de vaststelling van de feiten van een zaak. Ze duiden aan op welke partij het bewijsrisico rust. Indien de rechter aan het einde van een procedure nog steeds twijfelt over een bepaald feit, zal hij de partij die het bewijsrisico draagt, in het ongelijk stellen. Nu zijn er situaties denkbaar waarin een partij er niet in slaagt om het vereiste bewijs te leveren, terwijl dit niet aan haar eigen gedrag te wijten is. Men spreekt dan van een toestand van bewijsnood. Die situaties van bewijsnood vormen het uitgangspunt van dit boek. Aan de hand van talrijke voorbeelden uit het domein van de aansprakelijkheid uit onrechtmatige daad illustreert het boek hoe diep dit fenomeen ingeworteld zit in ons rechtssysteem. Toch blijft de opzet niet beperkt tot een bewustmaking en conceptualisering. Er is ook een ruime aandacht voor oplossingen. Zo biedt het boek een vernieuwende kijk op tal van mechanismen die een belangrijke rol spelen in de dagelijkse rechtspraktijk (zoals de bewijsmedewerkingsplichten, de onderzoeksmaatregelen en de vermoedens). Verder biedt het de rechtspractici ook de mogelijkheid om onontgonnen paden te betreden. Het zet de bakens uit voor de introductie van een aantal nieuwe rechtsfiguren in het Belgische rechtssysteem (zoals de verlaging van de bewijsstandaard en de omkering van het bewijsrisico).",
+		"ISBN": "978-94-000-0877-9",
+		"note": "OCLC: 1012602695",
+		"language": "Dutch",
+		"author": [
+			{
+				"family": "Vandenbussche",
+				"given": "Wannes",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	"item-9": {
+		"id": "item-9",
+		"type": "article-journal",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "Rechtzetting vergissing in feite in de jaarrekening schoorvoetend aanvaard",
+		"container-title": "Tijdschrift voor Fiscaal Recht (TFR)",
+		"page": "190-198",
+		"volume": "2019",
+		"issue": "556",
+		"source": "Jurisquare",
+		"URL": "https://www.jurisquare.be/en/journal/tfr/2019-556/rechtzetting-vergissing-in-feite-in-de-jaarrekening-schoorvoetend-aanvaard/",
+		"journalAbbreviation": "TFR",
+		"author": [
+			{
+				"family": "Van De Woesteyne",
+				"given": "I.",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Meskens",
+				"given": "C.",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					3,
+					14
+				]
+			]
+		}
+	},
+	"item-10": {
+		"id": "item-10",
+		"type": "book",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "Burgerlijk bewijsrecht",
+		"collection-title": "APR",
+		"publisher": "Kluwer",
+		"publisher-place": "Mechelen",
+		"event-place": "Mechelen",
+		"archive-place": "Mechelen",
+		"author": [
+			{
+				"family": "Cattoir",
+				"given": "B",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
 	}
 }

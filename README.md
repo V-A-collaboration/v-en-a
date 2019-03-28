@@ -92,3 +92,9 @@ Afkortingen
 In de Style-editor -> rechtsboven "Abbrev/Afkortingen" -> klik "importeren" -> selecteer JSON lijst met afkortingen -> Importeer
 
 Afkortingen voor tijdschriften cf. [rechtsaf.be](http://www.rechtsaf.be)
+
+# creating/modifying the test dataset
+1. export items as csl-json
+2. add "item-#" field before item
+3. add id: "item-#" within item
+4. check and add output to expectedResults.txt in alfabetic order
