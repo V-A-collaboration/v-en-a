@@ -1,0 +1,50 @@
+{
+  "item-0": {
+    "id": "item-0",
+    "type": "article-journal",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "Rechtzetting vergissing in feite in de jaarrekening schoorvoetend aanvaard",
+    "container-title": "Tijdschrift voor Fiscaal Recht (TFR)",
+    "page": "190-198",
+    "volume": "2019",
+    "issue": "556",
+    "source": "Jurisquare",
+    "URL": "https://www.jurisquare.be/en/journal/tfr/2019-556/rechtzetting-vergissing-in-feite-in-de-jaarrekening-schoorvoetend-aanvaard/",
+    "journalAbbreviation": "TFR",
+    "author": [
+      {
+        "family": "Van De Woesteyne",
+        "given": "I.",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Meskens",
+        "given": "C.",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          3,
+          14
+        ]
+      ]
+    }
+  }
+}
