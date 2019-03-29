@@ -525,8 +525,8 @@
         <names variable="authority"/>
         <text macro="date-legal-case"/>
       </group>
-      <choose>
-        <if variable="title-short">
+	<choose>
+        <if variable="title-short" match="any">
           <text variable="title-short" prefix=", '" suffix="'"/>
         </if>
       </choose>
@@ -540,6 +540,11 @@
         <text variable="container-title"  font-style="italic"/>
         <number variable="volume"/>
       </group>
+	<choose>
+	<if variable="title-short" match="none">
+		<text variable="title" prefix=", "/>
+	</if>
+	</choose>
 	<group delimiter=", " prefix=", ">
       <number variable="page"/>
 	<group delimiter=" ">
@@ -547,11 +552,6 @@
           <text variable="locator"/>
 	</group>
         </group>
-      <choose>
-        <if variable="title-short" match="none">
-          <text variable="title" prefix=", '" suffix="'"/>
-        </if>
-      </choose>
       <choose>
 	<if variable="author">
 	<text value=", concl. "/>
