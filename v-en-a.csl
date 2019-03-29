@@ -535,16 +535,16 @@
           <number variable="number" prefix=", nr. "/>
         </if>
       </choose>
-      <number variable="call-number" prefix=", "/>
-      <group delimiter=" " prefix=", ">
-        <text variable="container-title"  font-style="italic"/>
-        <number variable="volume"/>
-      </group>
 	<choose>
 	<if variable="title-short" match="none">
 		<text variable="title" prefix=", "/>
 	</if>
 	</choose>
+      <number variable="call-number" prefix=", "/>
+      <group delimiter=" " prefix=", ">
+        <text variable="container-title"  font-style="italic"/>
+        <number variable="volume"/>
+      </group>
 	<group delimiter=", " prefix=", ">
       <number variable="page"/>
 	<group delimiter=" ">
