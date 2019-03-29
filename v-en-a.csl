@@ -536,38 +536,42 @@
         </if>
       </choose>
       <number variable="call-number" prefix=", "/>
-      <group delimiter=" ">
-        <text variable="publisher" prefix=", " font-style="italic"/>
-        <date variable="publication-date">
-          <date-part name="year" form="long"/>
-        </date>
+      <group delimiter=" " prefix=", ">
+        <text variable="container-title"  font-style="italic"/>
+        <number variable="volume"/>
       </group>
-      <number variable="issue" prefix=", "/>
-      <choose>
-        <if locator="paragraph">
-          <text variable="locator" prefix=", "/>
-        </if>
-      </choose>
-      <group delimiter=", ">
-        <text macro="locator-or-pages" prefix=", "/>
-      </group>
+	<group delimiter=", " prefix=", ">
+      <number variable="page"/>
+	<group delimiter=" ">
+          <label variable="locator" form="short" />
+          <text variable="locator"/>
+	</group>
+        </group>
       <choose>
         <if variable="title-short" match="none">
           <text variable="title" prefix=", '" suffix="'"/>
         </if>
       </choose>
       <choose>
+	<if variable="author">
+	<text value=", concl. "/>
+	<names variable="author">
+	<name sort-separator=", " initialize-with="." delimiter=", " and="text" delimiter-precedes-last="never">
+              <name-part name="family" text-case="uppercase"/>
+            </name>
+	</names>
+	</if>
+      </choose>
+	<choose>
         <if variable="commenter">
-          <text value=", concl. "/>
+          <text value=", noot. "/>
           <names variable="commenter">
-            <name sort-separator=", " initialize-with="." delimiter=", " and="text" delimiter-precedes-last="never" name-as-sort-order="all">
+            <name sort-separator=", " initialize-with="." delimiter=", " and="text" delimiter-precedes-last="never">
               <name-part name="family" text-case="uppercase"/>
             </name>
           </names>
         </if>
       </choose>
-      <text variable="container-title" prefix=", noot " text-case="uppercase"/>
-      <number variable="volume"/>
     </group>
   </macro>
   <macro name="complete-reference">
