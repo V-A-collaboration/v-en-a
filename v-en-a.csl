@@ -299,6 +299,8 @@
     </choose>
   </macro>
   <macro name="url">
+    <choose>
+    <if type="chapter" match="none">
     <group delimiter=" ">
       <text variable="URL"/>
       <choose>
@@ -310,6 +312,8 @@
         </if>
       </choose>
     </group>
+    </if>
+    </choose>
   </macro>
   <macro name="date-and-pages">
     <group delimiter=", ">
@@ -483,7 +487,6 @@
               </if>
             </choose>
           </group>
-          <number variable="page"/>
           <choose>
             <if variable="section container-title" match="all">
               <group delimiter=" ">
@@ -503,9 +506,18 @@
           <group delimiter=" ">
             <text variable="container-title" font-style="italic"/>
             <text macro="date"/>
-            <text variable="title" form="short" prefix="(" suffix=")"/>
-            <text variable="URL" prefix="("/>
-            <text macro="date-accessed" suffix=")"/>
+          </group>
+        <choose>
+            <if variable="page">
+                <group delimiter=", ">
+                    <number variable="page"/>
+                </group>
+            </if>
+        </choose>
+          <group delimiter=" ">
+              <text variable="title-short" prefix="(" suffix=")"/>
+              <text variable="URL" prefix="("/>
+              <text macro="date-accessed" suffix=")"/>
           </group>
         </group>
       </if>
@@ -620,7 +632,7 @@
                     </group>
                 </group>
             </if>
-            <else-if type="book" match="any">
+            <else-if type="book chapter" match="any">
                  <choose>
                  <if variable="collection-title">
                     <group delimiter=" ">
