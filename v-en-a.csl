@@ -545,12 +545,15 @@
         <text variable="container-title"  font-style="italic"/>
         <number variable="volume"/>
       </group>
-	<group delimiter=", " prefix=", ">
-      <number variable="page"/>
-	<group delimiter=" ">
-          <label variable="locator" form="short" />
-          <text variable="locator"/>
-	</group>
+	  <choose>
+        <if variable="URL">
+            <group delimiter=" " prefix=", ">
+                <text variable="URL"/>
+            </group>
+        </if>
+	</choose>
+	<group delimiter=", ">
+          <text macro="locator-or-pages" prefix=", "/>
         </group>
       <choose>
 	<if variable="author">
