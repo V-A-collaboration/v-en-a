@@ -676,17 +676,15 @@
     <layout suffix="." delimiter="; ">
       <choose>
         <if type="legal_case" match="any">
+	  <if position="ibid ibid-with-locator" match="none">
           <text macro="legal-case"/>
+	  </if>
         </if>
         <else-if position="ibid-with-locator">
-          <choose>
-            <if type="legal_case" match="none">
               <group delimiter=", ">
                 <text term="ibid" font-style="italic" suffix="."/>
                 <text macro="locator"/>
               </group>
-            </if>
-          </choose>
         </else-if>
         <else-if position="ibid">
           <text term="ibid" font-style="italic"/>
