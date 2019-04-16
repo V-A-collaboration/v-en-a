@@ -496,15 +496,16 @@
     </choose>
     <choose>
       <if type="legislation regulation" match="all">
-        <group delimiter=", ">
-          <text macro="title"/>
           <group delimiter=" ">
+	 <number variable="locator" prefix="Art. "/>
+	   <group delimiter=", ">
+          <text macro="title"/>
             <text variable="container-title" font-style="italic"/>
+	</group>
             <text macro="date"/>
-            <text variable="title" form="short" prefix="(" suffix=")"/>
+            <text variable="title-short" prefix="(hierna: " suffix=")"/>
             <text variable="URL" prefix="("/>
             <text macro="date-accessed" suffix=")"/>
-          </group>
         </group>
       </if>
     </choose>
