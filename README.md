@@ -73,11 +73,11 @@ Korte Titel | Naam waaronder zaak bekend staat |
 Rechtbank | Afkorting van de rechtbank | Cass.
 Datum beslissing | Geldige datum | 27 januari 2011
 Jurisprudentietijdschrift*| Tekst met annotator (in het Engels is dit een logische veldnaam)*| R. Houben
-ECLI | ECLI | Nog niet gebruikt in V & A
-Indexnummer | Niet-ECLI zaaknummer | 
+ECLI | ECLI | Voor ECLI en zaaknummer
 Uitgever*| Naam van blad waarin jurisprudentie verschenen is.*| TBH
 Date Published | Datum van publicatie | 2011
 Editie | Editie van jurisprudentietijdschrift | 651
+First page | Eerste pagina| 007
 
 
 ![Rechtszaak weergave in Juris-M](figures/Manual-fig-4.png)
