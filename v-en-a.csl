@@ -13,7 +13,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2019-04-09T17:41:22+02:00</updated>
+    <updated>2019-04-16T09:09:22+02:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="nl">
@@ -299,8 +299,6 @@
     </choose>
   </macro>
   <macro name="url">
-    <choose>
-    <if type="chapter" match="none">
     <group delimiter=" ">
       <text variable="URL"/>
       <choose>
@@ -312,8 +310,6 @@
         </if>
       </choose>
     </group>
-    </if>
-    </choose>
   </macro>
   <macro name="date-and-pages">
     <group delimiter=", ">
@@ -439,9 +435,7 @@
         </group>
       </if>
       <else>
-        <group delimiter=" ">
           <number variable="page"/>
-        </group>
       </else>
     </choose>
   </macro>
@@ -487,6 +481,7 @@
               </if>
             </choose>
           </group>
+          <number variable="page"/>
           <choose>
             <if variable="section container-title" match="all">
               <group delimiter=" ">
@@ -506,18 +501,9 @@
           <group delimiter=" ">
             <text variable="container-title" font-style="italic"/>
             <text macro="date"/>
-          </group>
-        <choose>
-            <if variable="page">
-                <group delimiter=", ">
-                    <number variable="page"/>
-                </group>
-            </if>
-        </choose>
-          <group delimiter=" ">
-              <text variable="title-short" prefix="(" suffix=")"/>
-              <text variable="URL" prefix="("/>
-              <text macro="date-accessed" suffix=")"/>
+            <text variable="title" form="short" prefix="(" suffix=")"/>
+            <text variable="URL" prefix="("/>
+            <text macro="date-accessed" suffix=")"/>
           </group>
         </group>
       </if>
@@ -532,31 +518,29 @@
     </date>
   </macro>
   <macro name="legal-case">
-    <group suffix="">
-      <group delimiter=" ">
         <names variable="authority"/>
-        <text macro="date-legal-case"/>
-      </group>
+       <group delimiter=", ">
+        <text macro="date-legal-case" prefix=" "/>
 	<choose>
         <if variable="title-short" match="any">
-          <text variable="title-short" prefix=", '" suffix="'"/>
+          <text variable="title-short" prefix="'" suffix="'"/>
         </if>
       </choose>
       <choose>
         <if variable="number">
-          <number variable="number" prefix=", nr. "/>
+          <number variable="number" prefix="nr. "/>
         </if>
       </choose>
 	<choose>
 	<if variable="title-short" match="none">
-		<text variable="title" prefix=", "/>
+		<text variable="title"/>
 	</if>
 	</choose>
-      <number variable="call-number" prefix=", "/>
-      <group delimiter=" " prefix=", ">
+	<group delimiter=" ">
         <text variable="container-title"  font-style="italic"/>
+        </group>
         <number variable="volume"/>
-      </group>
+
 	  <choose>
         <if variable="URL">
             <group delimiter=" " prefix=", ">
@@ -564,9 +548,8 @@
             </group>
         </if>
 	</choose>
-	<group delimiter=", ">
-          <text macro="locator-or-pages" prefix=", "/>
-        </group>
+          <text macro="locator-or-pages"/>
+	</group>
       <choose>
 	<if variable="author">
 	<text value=", concl. "/>
@@ -587,7 +570,6 @@
           </names>
         </if>
       </choose>
-    </group>
   </macro>
   <macro name="complete-reference">
     <!--Bibliography reference -->
@@ -632,7 +614,7 @@
                     </group>
                 </group>
             </if>
-            <else-if type="book chapter" match="any">
+            <else-if type="book" match="any">
                  <choose>
                  <if variable="collection-title">
                     <group delimiter=" ">
@@ -685,7 +667,7 @@
     </choose>
   </macro>
   <citation name-form="long" and="text" sort-separator=", " delimiter-precedes-last="never" et-al-subsequent-min="2" et-al-subsequent-use-first="1">
-    <layout suffix="." delimiter="; ">
+    <layout suffix=" " delimiter="; ">
       <choose>
         <if type="legal_case" match="any">
             <choose>
