@@ -668,62 +668,85 @@
   </macro>
   <citation name-form="long" and="text" sort-separator=", " delimiter-precedes-last="never" et-al-subsequent-min="2" et-al-subsequent-use-first="1">
     <layout suffix="." delimiter="; ">
-      <choose>
-        <if type="legal_case" match="any">
+	<choose>
+        <if position="ibid-with-locator">
             <choose>
-          <if position="ibid ibid-with-locator" match="none">
-              <text macro="legal-case"/>
-          </if>
-          </choose>
+                <if type="regulation legislation">
+                    <choose>
+                        <if variable="title-short">
+                            <group delimiter=" ">
+                                <number variable="locator" prefix="Art. "/>
+                                <text variable="title-short"/>
+                            </group>
+                        </if>
+                        <else>
+                            <text macro="legislation-or-bill"/>
+                        </else>
+                    </choose>
+                </if>
+                <else-if type="legal_case">
+                    <text macro="legal-case"/>
+                </else-if>
+                <else>
+                    <group delimiter=", ">
+                        <text term="ibid" font-style="italic" suffix="."/>
+                        <text macro="locator"/>
+                    </group>
+                </else>
+            </choose>
         </if>
-        <else-if position="ibid-with-locator">
-              <group delimiter=", ">
-                <text term="ibid" font-style="italic" suffix="."/>
-                <text macro="locator"/>
-              </group>
-        </else-if>
         <else-if position="ibid">
-          <text term="ibid" font-style="italic"/>
+        <choose>
+            <if type="legislation regulation">
+                <text macro="legislation-or-bill"/>
+            </if>
+            <else-if type="legal_case">
+                <text macro="legal-case"/>
+            </else-if>
+            <else>
+                <text term="ibid" font-style="italic"/>
+            </else>
+        </choose>
         </else-if>
         <else-if position="subsequent">
-          <group delimiter=", ">
+        <group delimiter=", ">
 		<choose>
-		<if type="legislation regulation">
-			<choose>
-			<if variable="title-short">
-				<group delimiter=" ">
-				<number variable="locator" prefix="Art. "/>
-				<text variable="title-short"/>
-				</group>
-			</if>
-			<else>
-				<text macro="legislation-or-bill"/>
-			</else>
-			</choose>
-		</if>
-		<else>
-            <text macro="author-note"/>
-            <choose>
-              <if type="book thesis" match="any">
-                <text variable="title" form="short" font-style="italic"/>
-              </if>
-              <else>
-                <text variable="title" form="short" quotes="true"/>
-              </else>
-            </choose>
-            <choose>
-              <if type="book thesis">
-                <group delimiter=", ">
-                  <number variable="volume"/>
+            <if type="legislation regulation">
+                <choose>
+                    <if variable="title-short">
+                        <group delimiter=" ">
+                        <number variable="locator" prefix="Art. "/>
+                        <text variable="title-short"/>
+                        </group>
+                    </if>
+                    <else>
+                        <text macro="legislation-or-bill"/>
+                    </else>
+                </choose>
+            </if>
+            <else>
+                <text macro="author-note"/>
+                <choose>
+                  <if type="book thesis" match="any">
+                    <text variable="title" form="short" font-style="italic"/>
+                  </if>
+                  <else>
+                    <text variable="title" form="short" quotes="true"/>
+                  </else>
+                </choose>
+                <choose>
+                  <if type="book thesis">
+                    <group delimiter=", ">
+                      <number variable="volume"/>
+                    </group>
+                  </if>
+                </choose>
+                <group delimiter=" ">
+                  <text font-style="italic" value="supra"/>
+                  <text variable="first-reference-note-number" font-style="normal" prefix="vn. "/>
                 </group>
-              </if>
-            </choose>
-            <group delimiter=" ">
-              <text font-style="italic" value="supra"/>
-              <text variable="first-reference-note-number" font-style="normal" prefix="vn. "/>
-            </group>
-            <text macro="locator"/>
-		</else>
+                <text macro="locator"/>
+            </else>
 		</choose>
           </group>
         </else-if>
@@ -811,7 +834,6 @@
       </choose>
     </layout>
   </citation>
-  <!-- TODO change ordering of case and bill order and display correctly-->
   <macro name="sort-order-when-same-type">
     <choose>
       <if type="article article-magazine article-newspaper article-journal book chapter paper-conference report review review-book thesis" match="any"/>
