@@ -189,10 +189,18 @@
       </else-if>
       <else-if type="article-journal">
         <group delimiter=", ">
+	<group delimiter=" ">
           <text variable="title" quotes="true"/>
-          <group>
+		<choose>
+			<if variable="title">
+				  <text variable="noot" prefix="(noot onder " suffix=")"/>
+			</if>
+			<else>
+				<text variable="noot" prefix="noot onder "/>
+			</else>
+		</choose>
+	</group>
             <text variable="container-title" form="short" font-style="italic"/>
-          </group>
         </group>
       </else-if>
       <else-if type="article-newspaper article-magazine entry-encyclopedia entry-dictionary broadcast" match="any">
