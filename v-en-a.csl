@@ -288,7 +288,11 @@
               <text variable="publisher-place"/>
             </if>
             <else>
-              <text value="s.l." font-style="italic"/>
+                <choose>
+                    <if variable="issued">
+                        <text value="s.l." font-style="italic"/>
+                    </if>
+                </choose>
             </else>
           </choose>
           <text variable="publisher"/>
@@ -346,7 +350,14 @@
             </date>
           </if>
           <else>
-            <text value="s.d." font-style="italic"/>
+	  	 <choose>
+			<if variable="publisher-place">
+				  <text value="s.d." font-style="italic"/>
+			</if>
+			<else>
+				<text value="s.l.n.d" font-style="italic"/>
+			</else>
+		</choose>
           </else>
         </choose>
       </if>
