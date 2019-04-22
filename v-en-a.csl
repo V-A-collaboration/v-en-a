@@ -13,7 +13,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2019-04-22T11:32:02+02:00</updated>
+    <updated>2019-04-22T22:32:02+02:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="nl">
@@ -559,36 +559,36 @@
 	</group>
   </macro>
  <macro name="treaty-full">
-	 <group delimiter=" ">
-	 <number variable="locator" prefix="Art. "/>
-            		<text variable="title"/>
-			<text variable="title-short" prefix="(" suffix=")"/>
-		        <group delimiter=", ">
-		            <text macro="date-treaty" prefix="van "/>
-			    <text macro="treaty-publication"/>
-		            <number variable="volume" prefix="vol. "/>
-		            <number variable="page"/>
-	</group>
+	<group delimiter=" ">
+        <number variable="locator" prefix="Art. "/>
+        <text variable="title" text-case="capitalize-first"/>
+        <text variable="title-short" prefix="(" suffix=")"/>
+        <group delimiter=", ">
+            <text macro="date-treaty" prefix="van "/>
+            <text macro="treaty-publication"/>
+            <number variable="volume" prefix="vol. "/>
+            <number variable="page"/>
         </group>
+    </group>
   </macro>
  <macro name="treaty">
-	 <group delimiter=" ">
+    <group delimiter=" ">
 	 <number variable="locator" prefix="Art. "/>
-	  <choose>
-		<if variable="title-short">
-			<text variable="title-short"/>
-		</if>
-		<else>
-            		<text variable="title"/>
-		        <group delimiter=", ">
-		            <text macro="date-treaty" prefix="van "/>
-			    <text macro="treaty-publication"/>
-		            <number variable="volume" prefix="vol. "/>
-		            <number variable="page"/>
-	</group>
-	</else>
-	</choose>
-        </group>
+        <choose>
+            <if variable="title-short">
+                <text variable="title-short"/>
+            </if>
+            <else>
+                <text variable="title"/>
+                <group delimiter=", ">
+                    <text macro="date-treaty" prefix="van "/>
+                    <text macro="treaty-publication"/>
+                    <number variable="volume" prefix="vol. "/>
+                    <number variable="page"/>
+                </group>
+            </else>
+        </choose>
+    </group>
   </macro>
   <macro name="date-legal-case">
     <date variable="issued">
