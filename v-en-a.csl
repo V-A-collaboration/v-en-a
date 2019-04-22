@@ -541,7 +541,55 @@
       </if>
     </choose>
   </macro>
-  <!-- based on jurisdiction? -->
+  <macro name="date-treaty">
+    <date variable="event-date">
+      <date-part name="day" suffix=" "/>
+      <date-part name="month" form="long" suffix=" "/>
+      <date-part name="year" form="long"/>
+    </date>
+  </macro>
+  <macro name="treaty-publication">
+    <group delimiter=" ">
+    <text variable="container-title" font-style="italic"/>
+    <date variable="issued">
+      <date-part name="day" suffix=" "/>
+      <date-part name="month" form="long" suffix=" "/>
+      <date-part name="year" form="long"/>
+    </date>
+	</group>
+  </macro>
+ <macro name="treaty-full">
+	 <group delimiter=" ">
+	 <number variable="locator" prefix="Art. "/>
+            		<text variable="title"/>
+			<text variable="title-short" prefix="(" suffix=")"/>
+		        <group delimiter=", ">
+		            <text macro="date-treaty" prefix="van "/>
+			    <text macro="treaty-publication"/>
+		            <number variable="volume" prefix="vol. "/>
+		            <number variable="page"/>
+	</group>
+        </group>
+  </macro>
+ <macro name="treaty">
+	 <group delimiter=" ">
+	 <number variable="locator" prefix="Art. "/>
+	  <choose>
+		<if variable="title-short">
+			<text variable="title-short"/>
+		</if>
+		<else>
+            		<text variable="title"/>
+		        <group delimiter=", ">
+		            <text macro="date-treaty" prefix="van "/>
+			    <text macro="treaty-publication"/>
+		            <number variable="volume" prefix="vol. "/>
+		            <number variable="page"/>
+	</group>
+	</else>
+	</choose>
+        </group>
+  </macro>
   <macro name="date-legal-case">
     <date variable="issued">
       <date-part name="day" suffix=" "/>
@@ -614,6 +662,9 @@
           <text macro="legislation-or-bill"/>
         </group>
       </if>
+      <else-if type="treaty">
+		<text macro="treaty-full"/>
+	</else-if>
       <else-if type="legal_case" match="any">
         <group delimiter=", ">
           <text macro="legal-case"/>
@@ -727,6 +778,9 @@
                 <else-if type="legal_case">
                     <text macro="legal-case"/>
                 </else-if>
+                <else-if type="treaty">
+                    <text macro="treaty"/>
+                </else-if>
                 <else>
                     <group delimiter=", ">
                         <text term="ibid" font-style="italic" suffix="."/>
@@ -743,6 +797,9 @@
             <else-if type="legal_case">
                 <text macro="legal-case"/>
             </else-if>
+                <else-if type="treaty">
+                    <text macro="treaty"/>
+                </else-if>
             <else>
                 <text term="ibid" font-style="italic"/>
             </else>
@@ -764,6 +821,9 @@
                     </else>
                 </choose>
             </if>
+                <else-if type="treaty">
+                    <text macro="treaty"/>
+                </else-if>
             <else>
                 <text macro="author-note"/>
                 <choose>
@@ -792,6 +852,9 @@
         </else-if>
 	<else-if type="legal_case">
 		<text macro="legal-case"/>
+	</else-if>
+      <else-if type="treaty">
+		<text macro="treaty"/>
 	</else-if>
         <else-if type="bill legislation regulation">
           <group delimiter=", ">
