@@ -354,7 +354,7 @@
         <choose>
           <if variable="issued">
             <date variable="issued" form="text">
-		<date-part name="year"  range-delimiter="-"/>
+		<date-part name="year" year-range-format="minimal-two"  range-delimiter="-"/>
 	    </date>
           </if>
           <else>
@@ -551,6 +551,11 @@
       <choose>
         <if variable="number">
           <number variable="number" prefix="nr. "/>
+        </if>
+      </choose>
+      <choose>
+        <if variable="ecli">
+            <number variable="ecli"/>
         </if>
       </choose>
 	<choose>
