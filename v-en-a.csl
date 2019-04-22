@@ -343,7 +343,9 @@
       <else-if type="article-journal" match="any">
         <choose>
           <if variable="issued">
-            <date variable="issued" form="text" date-parts="year"/>
+            <date variable="issued" form="text">
+		<date-part name="year"  range-delimiter="-"/>
+	    </date>
           </if>
           <else>
             <text value="s.d." font-style="italic"/>
@@ -528,11 +530,14 @@
   </macro>
   <macro name="legal-case">
         <names variable="authority">
-		<institution-part name="short"/>
 	</names>
        <group delimiter=", ">
         <text macro="date-legal-case" prefix=" "/>
-          <text variable="title-short" if-short="true" prefix="'" suffix="'"/>
+	<choose>
+        <if variable="title-short" match="any">
+          <text variable="title-short" prefix="'" suffix="'"/>
+        </if>
+      </choose>
       <choose>
         <if variable="number">
           <number variable="number" prefix="nr. "/>
