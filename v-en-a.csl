@@ -602,7 +602,7 @@
         <names variable="authority">
 	</names>
 	<choose>
-	<if jurisdiction="be coe.int" match="none">
+	<if jurisdiction="be coe.int eu.int" match="none">
 		<text  variable="jurisdiction" text-case="uppercase" prefix="(" suffix=")"/>
 	</if>
 	</choose>
