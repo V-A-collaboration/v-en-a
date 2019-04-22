@@ -377,8 +377,8 @@
       <else-if type="bill regulation legislation" match="any">
         <group delimiter=", ">
           <choose>
-            <if variable="issued">
-              <date variable="issued" form="text" date-parts="year-month-day"/>
+            <if variable="original-date">
+              <date variable="original-date" form="text" date-parts="year-month-day"/>
             </if>
             <else>
               <text value="s.d." font-style="italic"/>
@@ -519,14 +519,12 @@
     </date>
   </macro>
   <macro name="legal-case">
-        <names variable="authority"/>
+        <names variable="authority">
+		<institution-part name="short"/>
+	</names>
        <group delimiter=", ">
         <text macro="date-legal-case" prefix=" "/>
-	<choose>
-        <if variable="title-short" match="any">
-          <text variable="title-short" prefix="'" suffix="'"/>
-        </if>
-      </choose>
+          <text variable="title-short" if-short="true" prefix="'" suffix="'"/>
       <choose>
         <if variable="number">
           <number variable="number" prefix="nr. "/>
@@ -543,9 +541,7 @@
         </group>
 	  <choose>
         <if variable="URL">
-            <group delimiter=" " prefix=", ">
                 <text variable="URL"/>
-            </group>
         </if>
 	</choose>
           <text macro="locator-or-pages"/>
@@ -750,7 +746,10 @@
 		</choose>
           </group>
         </else-if>
-        <else-if type="bill legislation regulation" match="any">
+	<else-if type="legal_case">
+		<text macro="legal-case"/>
+	</else-if>
+        <else-if type="bill legislation regulation">
           <group delimiter=", ">
             <text macro="legislation-or-bill"/>
           </group>
