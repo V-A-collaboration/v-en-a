@@ -598,8 +598,15 @@
     </date>
   </macro>
   <macro name="legal-case">
+	<group delimiter=" ">
         <names variable="authority">
 	</names>
+	<choose>
+	<if jurisdiction="be coe.int" match="none">
+		<text  variable="jurisdiction" text-case="uppercase" prefix="(" suffix=")"/>
+	</if>
+	</choose>
+	</group>
        <group delimiter=", ">
         <text macro="date-legal-case" prefix=" "/>
 	<choose>
