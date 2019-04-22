@@ -342,7 +342,7 @@
         <choose>
           <if variable="issued">
             <date variable="issued" form="text">
-              <date-part name="year" range-delimiter="/"/>
+              <date-part name="year" range-delimiter="-"/>
             </date>
           </if>
           <else>
