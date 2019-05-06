@@ -764,7 +764,27 @@
       </else>
     </choose>
   </macro>
+    <macro name="display-order-citation">
+      <choose>
+        <if type="article article-magazine article-newspaper article-journal book chapter paper-conference report review review-book thesis" match="any">
+          <text value="30"/>
+        </if>
+        <else-if type="bill legislation regulation" match="any">
+              <text value="10"/>
+        </else-if>
+        <else-if type="legal_case" match="any">
+          <text value="20"/>
+        </else-if>
+        <else>
+          <text value="40"/>
+        </else>
+      </choose>
+    </macro>
   <citation name-form="long" and="text" sort-separator=", " delimiter-precedes-last="never" et-al-subsequent-min="2" et-al-subsequent-use-first="1">
+<sort>
+    <key macro="display-order-citation"/>
+    <key macro="sort-order-when-same-type"/>
+</sort>
     <layout suffix="." delimiter="; ">
 	<choose>
         <if position="ibid-with-locator">
