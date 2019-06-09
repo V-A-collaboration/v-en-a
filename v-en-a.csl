@@ -406,16 +406,11 @@
         </choose>
       </else-if>
       <else-if type="bill regulation legislation" match="any">
-        <group delimiter=", ">
           <choose>
-            <if variable="original-date">
-              <date variable="original-date" form="text" date-parts="year-month-day"/>
+            <if variable="issued">
+              <date variable="issued" form="text" date-parts="year-month-day"/>
             </if>
-            <else>
-              <text value="s.d." font-style="italic"/>
-            </else>
           </choose>
-        </group>
       </else-if>
       <else>
         <choose>
