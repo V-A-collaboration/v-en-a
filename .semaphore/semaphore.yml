@@ -24,4 +24,4 @@ blocks:
       jobs:
       - name: Test
         commands:
-        - jasmine --random=false
+        - npm test

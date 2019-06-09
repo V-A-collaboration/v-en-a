@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"test": "jasmine"
+		"test": "jasmine --random=false"
 	},
 	"devDependencies": {
 		"citeproc": "^2.1.220",
