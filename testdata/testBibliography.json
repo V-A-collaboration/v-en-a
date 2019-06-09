@@ -1,433 +1,896 @@
 {
-	"item-1": {
-		"id": "item-1",
-		"type": "article-journal",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"title": "FDA regulation of mobile health technologies",
-		"container-title": "The New England journal of medicine",
-		"page": "372-374",
-		"volume": "371",
-		"issue": "4",
-		"source": "Google Scholar",
-		"URL": "",
-		"author": [
-			{
-				"family": "Hamel",
-				"given": "Mary Beth",
-				"multi": {
-					"_key": {}
-				}
-			},
-			{
-				"family": "Cortez",
-				"given": "Nathan G.",
-				"multi": {
-					"_key": {}
-				}
-			},
-			{
-				"family": "Cohen",
-				"given": "I. Glenn",
-				"multi": {
-					"_key": {}
-				}
-			},
-			{
-				"family": "Kesselheim",
-				"given": "Aaron S.",
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2014"
-				]
-			]
-		},
-		"accessed": {
-			"date-parts": [
-				[
-					"2017",
-					2,
-					1
-				]
-			]
-		}
-	},
-	"item-2": {
-		"id": "item-2",
-		"type": "article-journal",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"title": "Experimenten op mensen. Overzicht van en reflecties bij de wet van 7 mei 2004",
-		"container-title": "Nieuw Juridisch Weekblad",
-		"page": "1190-1201",
-		"volume": "3",
-		"issue": "88",
-		"ISSN": "1378-8914",
-		"journalAbbreviation": "NJW",
-		"language": "Dutch",
-		"jurisdiction": "be",
-		"author": [
-			{
-				"family": "Callens",
-				"given": "Stefaan",
-				"multi": {
-					"_key": {}
-				}
-			},
-			{
-				"family": "Goossens",
-				"given": "Mieke",
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2004",
-					11,
-					10
-				]
-			]
-		}
-	},
-	"item-3": {
-		"id": "item-3",
-		"type": "book",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"title": "Handboek gezondheidsrecht Volume I",
-		"publisher": "Intersentia",
-		"publisher-place": "Antwerpen",
-		"volume": "1",
-		"volume-title": "Reeks Gezondheidsrecht",
-		"number-of-volumes": "2",
-		"number-of-pages": "lx + 1688",
-		"edition": "1",
-		"source": "Open WorldCat",
-		"event-place": "Antwerpen",
-		"archive-place": "Antwerpen",
-		"abstract": "Met dit opus magnum komen de auteurs tegemoet aan de toenemende vraag naar een globaal overzicht van het gezondheidsrecht. Zorgverleners, advocaten, magistraten en, last but not least, studenten vragen om een breed, grondig en volledig 'Handboek Gezondheidsrecht'. Het unieke aan dit 'Handboek Gezondheidsrecht' is dat de positie van de zorgverlener, niet alleen klassiek t.a.v. de patiënt, maar ook t.a.v. allerlei andere zorgverleners (andere beroepsbeoefenaars en gezondheidszorginstellingen) én de overheid aan bod komt, en dit op een zéér grondige wijze.0Het gezondheidsrecht is de laatste jaren uitgegroeid tot een bloeiende rechtstak met veel uitlopers naar andere rechtsdomeinen. Daarom werd besloten om de krachten en talenten van verschillende specialisten te bundelen. Per onderwerp werd een specialist aangezocht waarbij een kruisbestuiving tussen de verschillende universiteiten, de balie en de ziekenhuiswereld werd nagestreefd.",
-		"ISBN": "978-94-000-0537-2",
-		"note": "OCLC: 892306434",
-		"language": "Dutch",
-		"author": [
-			{
-				"family": "Vansweevelt",
-				"given": "T",
-				"multi": {
-					"_key": {}
-				}
-			},
-			{
-				"family": "Dewallens",
-				"given": "Filip",
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2014"
-				]
-			]
-		}
-	},
-	"item-4": {
-		"id": "item-4",
-		"type": "book",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"title": "Handboek gezondheidsrecht Volume II",
-		"publisher": "Intersentia",
-		"publisher-place": "Antwerpen",
-		"volume": "2",
-		"volume-title": "Reeks Gezondheidsrecht",
-		"number-of-volumes": "2",
-		"number-of-pages": "lviii + 1632",
-		"edition": "1",
-		"source": "Open WorldCat",
-		"event-place": "Antwerpen",
-		"archive-place": "Antwerpen",
-		"abstract": "Met dit opus magnum komen de auteurs tegemoet aan de toenemende vraag naar een globaal overzicht van het gezondheidsrecht. Zorgverleners, advocaten, magistraten en, last but not least, studenten vragen om een breed, grondig en volledig 'Handboek Gezondheidsrecht'. Het unieke aan dit 'Handboek Gezondheidsrecht' is dat de positie van de zorgverlener, niet alleen klassiek t.a.v. de patiënt, maar ook t.a.v. allerlei andere zorgverleners (andere beroepsbeoefenaars en gezondheidszorginstellingen) én de overheid aan bod komt, en dit op een zéér grondige wijze.0Het gezondheidsrecht is de laatste jaren uitgegroeid tot een bloeiende rechtstak met veel uitlopers naar andere rechtsdomeinen. Daarom werd besloten om de krachten en talenten van verschillende specialisten te bundelen. Per onderwerp werd een specialist aangezocht waarbij een kruisbestuiving tussen de verschillende universiteiten, de balie en de ziekenhuiswereld werd nagestreefd.",
-		"ISBN": "978-94-000-0538-9",
-		"note": "OCLC: 892306434",
-		"language": "Dutch",
-		"author": [
-			{
-				"family": "Vansweevelt",
-				"given": "T",
-				"multi": {
-					"_key": {}
-				}
-			},
-			{
-				"family": "Dewallens",
-				"given": "Filip",
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2014"
-				]
-			]
-		}
-	},
-	"item-5": {
-		"id": "item-5",
-		"type": "chapter",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"title": "EU public health law and policy - on the rocks? A few sobering thoughts on the growing EU alcohol problem",
-		"container-title": "Research Handbook on EU Health Law and Policy",
-		"publisher": "Edward Elgar Publishing",
-		"publisher-place": "Cheltenham, United Kingdom",
-		"page": "369–397",
-		"source": "Crossref",
-		"event-place": "Cheltenham, United Kingdom",
-		"archive-place": "Cheltenham, United Kingdom",
-		"URL": "https://www.elgaronline.com/view/9781785364716.xml",
-		"ISBN": "978-1-78536-472-3",
-		"note": "DOI: 10.4337/9781785364723",
-		"language": "en",
-		"editor": [
-			{
-				"family": "Hervey",
-				"given": "Tamara",
-				"multi": {
-					"_key": {}
-				}
-			},
-			{
-				"family": "Young",
-				"given": "Calum",
-				"multi": {
-					"_key": {}
-				}
-			},
-			{
-				"family": "Bishop",
-				"given": "Louise",
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"author": [
-			{
-				"family": "Bartlett",
-				"given": "Oliver",
-				"multi": {
-					"_key": {}
-				}
-			},
-			{
-				"family": "Garde",
-				"given": "Amandine",
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2017"
-				]
-			]
-		},
-		"accessed": {
-			"date-parts": [
-				[
-					"2018",
-					6,
-					7
-				]
-			]
-		}
-	},
-	"item-6": {
-		"id": "item-6",
-		"type": "legislation",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"title": "Wet van 22 augustus 2002 betreffende de rechten van de patiënt",
-		"jurisdiction": "be",
-		"issued": {
-			"date-parts": [
-				[
-					"2002",
-					8,
-					22
-				]
-			]
-		}
-	},
-	"item-7": {
-		"id": "item-7",
-		"type": "article-journal",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"title": "Nudging Smokers - The Behavioural Turn of Tobacco Risk Regulation",
-		"container-title": "European Journal of Risk Regulation",
-		"page": "1-20",
-		"volume": "3",
-		"issue": "1",
-		"author": [
-			{
-				"family": "Alemanno",
-				"given": "Alberto",
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2012"
-				]
-			]
-		}
-	},
-	"item-8": {
-		"id": "item-8",
-		"type": "book",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"title": "Bewijs en onrechtmatige daad.",
-		"publisher": "Intersentia Uitgevers NV",
-		"publisher-place": "Mortsel",
-		"number-of-pages": "787",
-		"source": "Open WorldCat",
-		"event-place": "Mortsel",
-		"archive-place": "Mortsel",
-		"abstract": "Artikel 1315 BW en artikel 870 Ger.W. spelen een belangrijke rol bij de vaststelling van de feiten van een zaak. Ze duiden aan op welke partij het bewijsrisico rust. Indien de rechter aan het einde van een procedure nog steeds twijfelt over een bepaald feit, zal hij de partij die het bewijsrisico draagt, in het ongelijk stellen. Nu zijn er situaties denkbaar waarin een partij er niet in slaagt om het vereiste bewijs te leveren, terwijl dit niet aan haar eigen gedrag te wijten is. Men spreekt dan van een toestand van bewijsnood. Die situaties van bewijsnood vormen het uitgangspunt van dit boek. Aan de hand van talrijke voorbeelden uit het domein van de aansprakelijkheid uit onrechtmatige daad illustreert het boek hoe diep dit fenomeen ingeworteld zit in ons rechtssysteem. Toch blijft de opzet niet beperkt tot een bewustmaking en conceptualisering. Er is ook een ruime aandacht voor oplossingen. Zo biedt het boek een vernieuwende kijk op tal van mechanismen die een belangrijke rol spelen in de dagelijkse rechtspraktijk (zoals de bewijsmedewerkingsplichten, de onderzoeksmaatregelen en de vermoedens). Verder biedt het de rechtspractici ook de mogelijkheid om onontgonnen paden te betreden. Het zet de bakens uit voor de introductie van een aantal nieuwe rechtsfiguren in het Belgische rechtssysteem (zoals de verlaging van de bewijsstandaard en de omkering van het bewijsrisico).",
-		"ISBN": "978-94-000-0877-9",
-		"note": "OCLC: 1012602695",
-		"language": "Dutch",
-		"author": [
-			{
-				"family": "Vandenbussche",
-				"given": "Wannes",
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2017"
-				]
-			]
-		}
-	},
-	"item-9": {
-		"id": "item-9",
-		"type": "article-journal",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"title": "Rechtzetting vergissing in feite in de jaarrekening schoorvoetend aanvaard",
-		"container-title": "Tijdschrift voor Fiscaal Recht (TFR)",
-		"page": "190-198",
-		"volume": "2019",
-		"issue": "556",
-		"source": "Jurisquare",
-		"URL": "https://www.jurisquare.be/en/journal/tfr/2019-556/rechtzetting-vergissing-in-feite-in-de-jaarrekening-schoorvoetend-aanvaard/",
-		"journalAbbreviation": "TFR",
-		"author": [
-			{
-				"family": "Van De Woesteyne",
-				"given": "I.",
-				"multi": {
-					"_key": {}
-				}
-			},
-			{
-				"family": "Meskens",
-				"given": "C.",
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019"
-				]
-			]
-		},
-		"accessed": {
-			"date-parts": [
-				[
-					"2019",
-					3,
-					14
-				]
-			]
-		}
-	},
-	"item-10": {
-		"id": "item-10",
-		"type": "book",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"title": "Burgerlijk bewijsrecht",
-		"collection-title": "APR",
-		"publisher": "Kluwer",
-		"publisher-place": "Mechelen",
-		"event-place": "Mechelen",
-		"archive-place": "Mechelen",
-		"author": [
-			{
-				"family": "Cattoir",
-				"given": "B",
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2013"
-				]
-			]
-		}
-	}
+  "item-1": {
+    "id": "item-1",
+    "type": "article-journal",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "FDA regulation of mobile health technologies",
+    "container-title": "The New England journal of medicine",
+    "page": "372-374",
+    "volume": "371",
+    "issue": "4",
+    "source": "Google Scholar",
+    "URL": "",
+    "author": [
+      {
+        "family": "Hamel",
+        "given": "Mary Beth",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Cortez",
+        "given": "Nathan G.",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Cohen",
+        "given": "I. Glenn",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Kesselheim",
+        "given": "Aaron S.",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2017",
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  "item-2": {
+    "id": "item-2",
+    "type": "article-journal",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "Experimenten op mensen. Overzicht van en reflecties bij de wet van 7 mei 2004",
+    "container-title": "Nieuw Juridisch Weekblad",
+    "page": "1190-1201",
+    "volume": "3",
+    "issue": "88",
+    "ISSN": "1378-8914",
+    "journalAbbreviation": "NJW",
+    "language": "Dutch",
+    "jurisdiction": "be",
+    "author": [
+      {
+        "family": "Callens",
+        "given": "Stefaan",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Goossens",
+        "given": "Mieke",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2004",
+          11,
+          10
+        ]
+      ]
+    }
+  },
+  "item-3": {
+    "id": "item-3",
+    "type": "book",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "Handboek gezondheidsrecht Volume I",
+    "publisher": "Intersentia",
+    "publisher-place": "Antwerpen",
+    "volume": "1",
+    "volume-title": "Reeks Gezondheidsrecht",
+    "number-of-volumes": "2",
+    "number-of-pages": "lx + 1688",
+    "edition": "1",
+    "source": "Open WorldCat",
+    "event-place": "Antwerpen",
+    "archive-place": "Antwerpen",
+    "abstract": "Met dit opus magnum komen de auteurs tegemoet aan de toenemende vraag naar een globaal overzicht van het gezondheidsrecht. Zorgverleners, advocaten, magistraten en, last but not least, studenten vragen om een breed, grondig en volledig 'Handboek Gezondheidsrecht'. Het unieke aan dit 'Handboek Gezondheidsrecht' is dat de positie van de zorgverlener, niet alleen klassiek t.a.v. de patiënt, maar ook t.a.v. allerlei andere zorgverleners (andere beroepsbeoefenaars en gezondheidszorginstellingen) én de overheid aan bod komt, en dit op een zéér grondige wijze.0Het gezondheidsrecht is de laatste jaren uitgegroeid tot een bloeiende rechtstak met veel uitlopers naar andere rechtsdomeinen. Daarom werd besloten om de krachten en talenten van verschillende specialisten te bundelen. Per onderwerp werd een specialist aangezocht waarbij een kruisbestuiving tussen de verschillende universiteiten, de balie en de ziekenhuiswereld werd nagestreefd.",
+    "ISBN": "978-94-000-0537-2",
+    "note": "OCLC: 892306434",
+    "language": "Dutch",
+    "author": [
+      {
+        "family": "Vansweevelt",
+        "given": "T",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Dewallens",
+        "given": "Filip",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    }
+  },
+  "item-4": {
+    "id": "item-4",
+    "type": "book",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "Handboek gezondheidsrecht Volume II",
+    "publisher": "Intersentia",
+    "publisher-place": "Antwerpen",
+    "volume": "2",
+    "volume-title": "Reeks Gezondheidsrecht",
+    "number-of-volumes": "2",
+    "number-of-pages": "lviii + 1632",
+    "edition": "1",
+    "source": "Open WorldCat",
+    "event-place": "Antwerpen",
+    "archive-place": "Antwerpen",
+    "abstract": "Met dit opus magnum komen de auteurs tegemoet aan de toenemende vraag naar een globaal overzicht van het gezondheidsrecht. Zorgverleners, advocaten, magistraten en, last but not least, studenten vragen om een breed, grondig en volledig 'Handboek Gezondheidsrecht'. Het unieke aan dit 'Handboek Gezondheidsrecht' is dat de positie van de zorgverlener, niet alleen klassiek t.a.v. de patiënt, maar ook t.a.v. allerlei andere zorgverleners (andere beroepsbeoefenaars en gezondheidszorginstellingen) én de overheid aan bod komt, en dit op een zéér grondige wijze.0Het gezondheidsrecht is de laatste jaren uitgegroeid tot een bloeiende rechtstak met veel uitlopers naar andere rechtsdomeinen. Daarom werd besloten om de krachten en talenten van verschillende specialisten te bundelen. Per onderwerp werd een specialist aangezocht waarbij een kruisbestuiving tussen de verschillende universiteiten, de balie en de ziekenhuiswereld werd nagestreefd.",
+    "ISBN": "978-94-000-0538-9",
+    "note": "OCLC: 892306434",
+    "language": "Dutch",
+    "author": [
+      {
+        "family": "Vansweevelt",
+        "given": "T",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Dewallens",
+        "given": "Filip",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    }
+  },
+  "item-5": {
+    "id": "item-5",
+    "type": "chapter",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "EU public health law and policy - on the rocks? A few sobering thoughts on the growing EU alcohol problem",
+    "container-title": "Research Handbook on EU Health Law and Policy",
+    "publisher": "Edward Elgar Publishing",
+    "publisher-place": "Cheltenham, United Kingdom",
+    "page": "369–397",
+    "source": "Crossref",
+    "event-place": "Cheltenham, United Kingdom",
+    "archive-place": "Cheltenham, United Kingdom",
+    "URL": "https://www.elgaronline.com/view/9781785364716.xml",
+    "ISBN": "978-1-78536-472-3",
+    "note": "DOI: 10.4337/9781785364723",
+    "language": "en",
+    "editor": [
+      {
+        "family": "Hervey",
+        "given": "Tamara",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Young",
+        "given": "Calum",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Bishop",
+        "given": "Louise",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "author": [
+      {
+        "family": "Bartlett",
+        "given": "Oliver",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Garde",
+        "given": "Amandine",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2018",
+          6,
+          7
+        ]
+      ]
+    }
+  },
+  "item-6": {
+    "id": "item-6",
+    "type": "legislation",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "Wet van 22 augustus 2002 betreffende de rechten van de patiënt",
+    "container-title": "BS",
+    "jurisdiction": "be",
+    "issued": {
+      "date-parts": [
+        [
+          2002,
+          8,
+          22
+        ]
+      ]
+    }
+  },
+  "item-7": {
+    "id": "item-7",
+    "type": "article-journal",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "Nudging Smokers - The Behavioural Turn of Tobacco Risk Regulation",
+    "container-title": "European Journal of Risk Regulation",
+    "page": "1-20",
+    "volume": "3",
+    "issue": "1",
+    "author": [
+      {
+        "family": "Alemanno",
+        "given": "Alberto",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2012"
+        ]
+      ]
+    }
+  },
+  "item-8": {
+    "id": "item-8",
+    "type": "book",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "Bewijs en onrechtmatige daad.",
+    "publisher": "Intersentia Uitgevers NV",
+    "publisher-place": "Mortsel",
+    "number-of-pages": "787",
+    "source": "Open WorldCat",
+    "event-place": "Mortsel",
+    "archive-place": "Mortsel",
+    "abstract": "Artikel 1315 BW en artikel 870 Ger.W. spelen een belangrijke rol bij de vaststelling van de feiten van een zaak. Ze duiden aan op welke partij het bewijsrisico rust. Indien de rechter aan het einde van een procedure nog steeds twijfelt over een bepaald feit, zal hij de partij die het bewijsrisico draagt, in het ongelijk stellen. Nu zijn er situaties denkbaar waarin een partij er niet in slaagt om het vereiste bewijs te leveren, terwijl dit niet aan haar eigen gedrag te wijten is. Men spreekt dan van een toestand van bewijsnood. Die situaties van bewijsnood vormen het uitgangspunt van dit boek. Aan de hand van talrijke voorbeelden uit het domein van de aansprakelijkheid uit onrechtmatige daad illustreert het boek hoe diep dit fenomeen ingeworteld zit in ons rechtssysteem. Toch blijft de opzet niet beperkt tot een bewustmaking en conceptualisering. Er is ook een ruime aandacht voor oplossingen. Zo biedt het boek een vernieuwende kijk op tal van mechanismen die een belangrijke rol spelen in de dagelijkse rechtspraktijk (zoals de bewijsmedewerkingsplichten, de onderzoeksmaatregelen en de vermoedens). Verder biedt het de rechtspractici ook de mogelijkheid om onontgonnen paden te betreden. Het zet de bakens uit voor de introductie van een aantal nieuwe rechtsfiguren in het Belgische rechtssysteem (zoals de verlaging van de bewijsstandaard en de omkering van het bewijsrisico).",
+    "ISBN": "978-94-000-0877-9",
+    "note": "OCLC: 1012602695",
+    "language": "Dutch",
+    "author": [
+      {
+        "family": "Vandenbussche",
+        "given": "Wannes",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
+    }
+  },
+  "item-9": {
+    "id": "item-9",
+    "type": "article-journal",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "Rechtzetting vergissing in feite in de jaarrekening schoorvoetend aanvaard",
+    "container-title": "Tijdschrift voor Fiscaal Recht (TFR)",
+    "page": "190-198",
+    "volume": "2019",
+    "issue": "556",
+    "source": "Jurisquare",
+    "URL": "https://www.jurisquare.be/en/journal/tfr/2019-556/rechtzetting-vergissing-in-feite-in-de-jaarrekening-schoorvoetend-aanvaard/",
+    "journalAbbreviation": "TFR",
+    "author": [
+      {
+        "family": "Van De Woesteyne",
+        "given": "I.",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Meskens",
+        "given": "C.",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          3,
+          14
+        ]
+      ]
+    }
+  },
+  "item-10": {
+    "id": "item-10",
+    "type": "book",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "Burgerlijk bewijsrecht",
+    "collection-title": "APR",
+    "publisher": "Kluwer",
+    "publisher-place": "Mechelen",
+    "event-place": "Mechelen",
+    "archive-place": "Mechelen",
+    "author": [
+      {
+        "family": "Cattoir",
+        "given": "B",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    }
+  },
+  "item-11": {
+    "id": "item-11",
+    "type": "book",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "Précis du notariat",
+    "publisher": "Bruylant",
+    "publisher-place": "Brussel",
+    "number-of-pages": "348",
+    "event-place": "Brussel",
+    "archive-place": "Brussel",
+    "author": [
+      {
+        "family": "Casman",
+        "given": "H",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011"
+        ]
+      ]
+    }
+  },
+  "item-12": {
+    "id": "item-12",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "container-title": "NJW",
+    "authority": "Cass.",
+    "page": "128",
+    "volume": "2007",
+    "jurisdiction": "be",
+    "issued": {
+      "date-parts": [
+        [
+          "2006",
+          1,
+          9
+        ]
+      ]
+    }
+  },
+  "item-13": {
+    "id": "item-13",
+    "type": "book",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "Algemene Rechtsleer. Functies en bronnen van het recht",
+    "publisher": "Maklu",
+    "publisher-place": "Antwerpen",
+    "number-of-pages": "143",
+    "event-place": "Antwerpen",
+    "archive-place": "Antwerpen",
+    "author": [
+      {
+        "family": "Bouckaert",
+        "given": "B",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2004"
+        ]
+      ]
+    }
+  },
+  "item-14": {
+    "id": "item-14",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "container-title": "Pas.",
+    "authority": "Cass.",
+    "page": "193",
+    "volume": "1920, I",
+    "jurisdiction": "be",
+    "issued": {
+      "date-parts": [
+        [
+          "1920",
+          11,
+          5
+        ]
+      ]
+    }
+  },
+  "item-15": {
+    "id": "item-15",
+    "type": "book",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "For the sake of argument. Argumentatieleer voor juristen en ethici",
+    "publisher": "Maklu",
+    "publisher-place": "Antwerpen",
+    "event-place": "Antwerpen",
+    "archive-place": "Antwerpen",
+    "author": [
+      {
+        "family": "Verplaetse",
+        "given": "J",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2004"
+        ]
+      ]
+    }
+  },
+  "item-16": {
+    "id": "item-16",
+    "type": "book",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "Bijzondere opsporingsmethoden en aanverwante onderzoeksmethoden",
+    "publisher": "Intersentia",
+    "publisher-place": "Antwerpen",
+    "number-of-pages": "150",
+    "event-place": "Antwerpen",
+    "archive-place": "Antwerpen",
+    "author": [
+      {
+        "family": "De roy",
+        "given": "C",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Vandromme",
+        "given": "S",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2004"
+        ]
+      ]
+    }
+  },
+  "item-17": {
+    "id": "item-17",
+    "type": "legislation",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "Wet 4 december 2006 houdende de omzetting in Belgisch recht van de richtlijn 2001/84/EG van het Europees Parlement en de Raad van 27 september 2001 betreffende het volgrecht ten behoeve van de auteur van een oorspronkelijk kunstwerk",
+    "container-title": "BS",
+    "shortTitle": "Volgrechtwet",
+    "jurisdiction": "be",
+    "issued": {
+      "date-parts": [
+        [
+          "2007",
+          1,
+          23
+        ]
+      ]
+    }
+  },
+  "item-18": {
+    "id": "item-18",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "container-title": "RW",
+    "authority": "Arbh. Antwerpen",
+    "page": "1347",
+    "volume": "1995-96",
+    "jurisdiction": "be",
+    "issued": {
+      "date-parts": [
+        [
+          "1995",
+          11,
+          20
+        ]
+      ]
+    }
+  },
+  "item-19": {
+    "id": "item-19",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "container-title": "RW",
+    "authority": "Cass.",
+    "page": "124",
+    "volume": "1996-97",
+    "jurisdiction": "be",
+    "issued": {
+      "date-parts": [
+        [
+          "1996",
+          4,
+          30
+        ]
+      ]
+    }
+  },
+  "item-20": {
+    "id": "item-20",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "container-title": "RW",
+    "authority": "Arbh. Antwerpen",
+    "page": "1347",
+    "volume": "1995-96",
+    "jurisdiction": "be",
+    "issued": {
+      "date-parts": [
+        [
+          "1995",
+          11,
+          20
+        ]
+      ]
+    }
+  },
+  "item-21": {
+    "id": "item-21",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "container-title": "RW",
+    "authority": "Cass.",
+    "page": "124",
+    "volume": "1996-97",
+    "jurisdiction": "be",
+    "issued": {
+      "date-parts": [
+        [
+          "1996",
+          4,
+          30
+        ]
+      ]
+    }
+  },
+  "item-23": {
+    "id": "item-23",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "container-title": "RW",
+    "authority": "Arbitragehof",
+    "page": "287",
+    "volume": "1994-95",
+    "number": "47/94",
+    "jurisdiction": "be",
+    "issued": {
+      "date-parts": [
+        [
+          "1994",
+          6,
+          16
+        ]
+      ]
+    }
+  },
+  "item-24": {
+    "id": "item-24",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "Duitsland/Italië",
+    "container-title": "Rev.Dr.ULg",
+    "authority": "IGH",
+    "page": "339",
+    "volume": "2012",
+    "jurisdiction": "be",
+    "commenter": [
+      {
+        "family": "Vincent",
+        "given": "P",
+        "multi": {
+          "_key": {
+          }
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2012",
+          2,
+          3
+        ]
+      ]
+    }
+  },
+  "item-25": {
+    "id": "item-25",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "container-title": "Jur.",
+    "authority": "HvJ",
+    "page": "2101",
+    "volume": "1984",
+    "number": "C-105/83, ECLI:EU:C:1984:178",
+    "jurisdiction": "eu.int",
+    "issued": {
+      "literal": "16 mei 1984",
+      "date-parts": [
+        [],
+        []
+      ]
+    }
+  },
+  "item-26": {
+    "id": "item-26",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "title": "MB International/Mattel",
+    "authority": "Beneluxhof",
+    "number": "A 92/3",
+    "jurisdiction": "be",
+    "issued": {
+      "literal": "26 maart 1993",
+      "date-parts": [
+        [],
+        []
+      ]
+    }
+  },
+  "item-27": {
+    "id": "item-27",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "container-title": "NJW",
+    "authority": "Antwerpen",
+    "page": "132",
+    "volume": "2007",
+    "jurisdiction": "be",
+    "commenter": [
+      {
+        "family": "SDR",
+        "given": "",
+        "literal": "SDR",
+        "multi": {
+          "_key": {
+          }
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2006",
+          9,
+          5
+        ]
+      ]
+    }
+  },
+  "item-28": {
+    "id": "item-28",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "container-title": "RW",
+    "authority": "Voorz. Kh. Hasselt",
+    "page": "1069",
+    "volume": "2013-14",
+    "jurisdiction": "be",
+    "commenter": [
+      {
+        "family": "Mertens",
+        "given": "D",
+        "multi": {
+          "_key": {
+          }
+        }
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2012",
+          9,
+          14
+        ]
+      ]
+    }
+  },
+  "item-29": {
+    "id": "item-29",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "container-title": "RW",
+    "authority": "Arbrb. Gent",
+    "page": "649",
+    "volume": "1987-88",
+    "jurisdiction": "be",
+    "issued": {
+      "date-parts": [
+        [
+          "1987",
+          2,
+          9
+        ]
+      ]
+    }
+  }
 }

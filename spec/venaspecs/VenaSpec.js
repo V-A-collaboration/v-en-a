@@ -14,7 +14,7 @@ describe("Vena Bibliography Suite", function () {
     citeprocSys = {
         retrieveLocale: function (lang) {
             //todo get local locale xml file
-            let xml = fs.readFileSync('testdata/locales-en-US.xml', 'utf8');
+            let xml = fs.readFileSync('testdata/locales-nl-NL.xml', 'utf8');
             return xml;
         },
 
@@ -39,6 +39,13 @@ describe("Vena Bibliography Suite", function () {
             }
         });
     }
+    // todo only write to file on random=false
+    // todo adapt exporter to include key and id to items
+    for (let i = 0; i < bibResult[1].length; i++) {
+        fs.appendFileSync("newTestBibliography.txt", strip(bibResult[1][i]) + "\n", err => {
+            if (err) return console.error('File write error:', err)
+        });
+    }
 });
 
 // todo add test for citations besides bibliography
@@ -53,7 +60,8 @@ describe("Vena Citation Suite", function () {
     citeprocSys = {
         retrieveLocale: function (lang) {
             //todo get local locale xml file
-            let xml = fs.readFileSync('testdata/locales-en-US.xml', 'utf8');
+            // let xml = fs.readFileSync('testdata/locales-en-US.xml', 'utf8');
+            let xml = fs.readFileSync('testdata/locales-nl-NL.xml', 'utf8');
             return xml;
         },
 
@@ -67,7 +75,6 @@ describe("Vena Citation Suite", function () {
         itemIDs.push(key);
     }
     citeproc.updateItems(itemIDs);
-    //todo check how to correctly call makeCitationCluster without changes to citeproc_commonjs.js line 5504 - 5512
 
     // Read expected results line by line from txt file
     let lines = fs.readFileSync('testdata/expectedCitations.txt', 'utf8').split("\n");
@@ -75,11 +82,17 @@ describe("Vena Citation Suite", function () {
         it(`Citation ${count}`, function () {
             if (lines[count]) {
                 let citeCluster = citeproc.makeCitationCluster([{"id": 'item-'+ count}]);
-                //console.log(citeCluster);
+                console.log(citeCluster);
                 expect(strip(citeCluster)).toEqual(strip(lines[count]));
+                // todo only append on random=false
+                // todo fix ordering
+                fs.appendFileSync("newTestCitations.txt", strip(citeCluster) + "\n", err => {
+                    if (err) return console.error('File write error:', err)
+                });
             }
         });
     }
+
 });
 
 //todo add positional citations tests

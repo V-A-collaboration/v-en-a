@@ -46,5 +46,49 @@
         ]
       ]
     }
+  },
+  "item-1": {
+    "id": "item-1",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "container-title": "Pas.",
+    "authority": "Cass.",
+    "page": "193",
+    "volume": "1920, I",
+    "jurisdiction": "be",
+    "issued": {
+      "date-parts": [
+        [
+          "1920",
+          11,
+          5
+        ]
+      ]
+    }
+  },
+  "item-2": {
+    "id": "item-2",
+    "type": "legal_case",
+    "multi": {
+      "main": {},
+      "_keys": {}
+    },
+    "container-title": "NJW",
+    "authority": "Cass.",
+    "page": "128",
+    "volume": "2007",
+    "jurisdiction": "be",
+    "issued": {
+      "date-parts": [
+        [
+          "2006",
+          1,
+          9
+        ]
+      ]
+    }
   }
 }
