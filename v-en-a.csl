@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.1mlz1" demote-non-dropping-particle="never">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="note" default-locale="nl-BE" version="1.1mlz1" demote-non-dropping-particle="never">
   <info>
     <title>Verwijzingen en Afkortingen (Belgium)</title>
     <title-short>V en A (Belgium)</title-short>
@@ -13,7 +13,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2019-06-07T12:05:02+02:00</updated>
+    <updated>2019-04-22T22:32:02+02:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="nl">
@@ -127,7 +127,17 @@
       </else-if>
       <else-if type="article-journal">
         <group delimiter=", ">
-          <text variable="title" quotes="true"/>
+          <group delimiter=" ">
+                    <text variable="title" quotes="true"/>
+          		<choose>
+          			<if variable="title">
+          				  <text variable="noot" prefix="(noot onder " suffix=")"/>
+          			</if>
+          			<else>
+          				<text variable="noot" prefix="noot onder "/>
+          			</else>
+          		</choose>
+          	</group>
           <group>
             <text variable="container-title" form="short" font-style="italic"/>
           </group>
@@ -189,10 +199,18 @@
       </else-if>
       <else-if type="article-journal">
         <group delimiter=", ">
+	<group delimiter=" ">
           <text variable="title" quotes="true"/>
-          <group>
+		<choose>
+			<if variable="title">
+				  <text variable="noot" prefix="(noot onder " suffix=")"/>
+			</if>
+			<else>
+				<text variable="noot" prefix="noot onder "/>
+			</else>
+		</choose>
+	</group>
             <text variable="container-title" form="short" font-style="italic"/>
-          </group>
         </group>
       </else-if>
       <else-if type="article-newspaper article-magazine entry-encyclopedia entry-dictionary broadcast" match="any">
@@ -270,7 +288,11 @@
               <text variable="publisher-place"/>
             </if>
             <else>
-              <text value="s.l." font-style="italic"/>
+                <choose>
+                    <if variable="issued">
+                        <text value="s.l." font-style="italic"/>
+                    </if>
+                </choose>
             </else>
           </choose>
           <text variable="publisher"/>
@@ -324,18 +346,27 @@
         <choose>
           <if variable="issued">
             <date variable="issued" form="text">
-              <date-part name="year" range-delimiter="/"/>
+              <date-part name="year" range-delimiter="-"/>
             </date>
           </if>
           <else>
-            <text value="s.d." font-style="italic"/>
+	  	 <choose>
+			<if variable="publisher-place">
+				  <text value="s.d." font-style="italic"/>
+			</if>
+			<else>
+				<text value="s.l.n.d" font-style="italic"/>
+			</else>
+		</choose>
           </else>
         </choose>
       </if>
       <else-if type="article-journal" match="any">
         <choose>
           <if variable="issued">
-            <date variable="issued" form="text" date-parts="year"/>
+            <date variable="issued" form="text">
+		<date-part name="year" year-range-format="minimal-two"  range-delimiter="-"/>
+	    </date>
           </if>
           <else>
             <text value="s.d." font-style="italic"/>
@@ -377,8 +408,8 @@
       <else-if type="bill regulation legislation" match="any">
         <group delimiter=", ">
           <choose>
-            <if variable="issued">
-              <date variable="issued" form="text" date-parts="year-month-day"/>
+            <if variable="original-date">
+              <date variable="original-date" form="text" date-parts="year-month-day"/>
             </if>
             <else>
               <text value="s.d." font-style="italic"/>
@@ -435,9 +466,7 @@
         </group>
       </if>
       <else>
-        <group delimiter=" ">
           <number variable="page"/>
-        </group>
       </else>
     </choose>
   </macro>
@@ -498,20 +527,69 @@
     </choose>
     <choose>
       <if type="legislation regulation" match="all">
-        <group delimiter=", ">
-          <text macro="title"/>
           <group delimiter=" ">
+	 <number variable="locator" prefix="Art. "/>
+	   <group delimiter=", ">
+          <text macro="title"/>
             <text variable="container-title" font-style="italic"/>
+	</group>
             <text macro="date"/>
-            <text variable="title" form="short" prefix="(" suffix=")"/>
+            <text variable="title-short" prefix="(hierna: " suffix=")"/>
             <text variable="URL" prefix="("/>
             <text macro="date-accessed" suffix=")"/>
-          </group>
         </group>
       </if>
     </choose>
   </macro>
-  <!-- based on jurisdiction? -->
+  <macro name="date-treaty">
+    <date variable="event-date">
+      <date-part name="day" suffix=" "/>
+      <date-part name="month" form="long" suffix=" "/>
+      <date-part name="year" form="long"/>
+    </date>
+  </macro>
+  <macro name="treaty-publication">
+    <group delimiter=" ">
+    <text variable="container-title" font-style="italic"/>
+    <date variable="issued">
+      <date-part name="day" suffix=" "/>
+      <date-part name="month" form="long" suffix=" "/>
+      <date-part name="year" form="long"/>
+    </date>
+	</group>
+  </macro>
+ <macro name="treaty-full">
+	<group delimiter=" ">
+        <number variable="locator" prefix="Art. "/>
+        <text variable="title" text-case="capitalize-first"/>
+        <text variable="title-short" prefix="(" suffix=")"/>
+        <group delimiter=", ">
+            <text macro="date-treaty" prefix="van "/>
+            <text macro="treaty-publication"/>
+            <number variable="volume" prefix="vol. "/>
+            <number variable="page"/>
+        </group>
+    </group>
+  </macro>
+ <macro name="treaty">
+    <group delimiter=" ">
+	 <number variable="locator" prefix="Art. "/>
+        <choose>
+            <if variable="title-short">
+                <text variable="title-short"/>
+            </if>
+            <else>
+                <text variable="title"/>
+                <group delimiter=", ">
+                    <text macro="date-treaty" prefix="van "/>
+                    <text macro="treaty-publication"/>
+                    <number variable="volume" prefix="vol. "/>
+                    <number variable="page"/>
+                </group>
+            </else>
+        </choose>
+    </group>
+  </macro>
   <macro name="date-legal-case">
     <date variable="issued">
       <date-part name="day" suffix=" "/>
@@ -520,38 +598,48 @@
     </date>
   </macro>
   <macro name="legal-case">
-    <group suffix="">
-      <group delimiter=" ">
-        <names variable="authority"/>
-        <text macro="date-legal-case"/>
-      </group>
+	<group delimiter=" ">
+        <names variable="authority">
+	</names>
+	<choose>
+	<if jurisdiction="be coe.int eu.int" match="none">
+		<text  variable="jurisdiction" text-case="uppercase" prefix="(" suffix=")"/>
+	</if>
+	</choose>
+	</group>
+       <group delimiter=", ">
+        <text macro="date-legal-case" prefix=" "/>
 	<choose>
         <if variable="title-short" match="any">
-          <text variable="title-short" prefix=", '" suffix="'"/>
+          <text variable="title-short" prefix="'" suffix="'"/>
         </if>
       </choose>
       <choose>
         <if variable="number">
-          <number variable="number" prefix=", nr. "/>
+          <number variable="number" prefix="nr. "/>
+        </if>
+      </choose>
+      <choose>
+        <if variable="ecli">
+            <number variable="ecli"/>
         </if>
       </choose>
 	<choose>
 	<if variable="title-short" match="none">
-		<text variable="title" prefix=", "/>
+		<text variable="title"/>
 	</if>
 	</choose>
-      <number variable="call-number" prefix=", "/>
-      <group delimiter=" " prefix=", ">
+	<group delimiter=" ">
         <text variable="container-title"  font-style="italic"/>
         <number variable="volume"/>
-      </group>
-	<group delimiter=", " prefix=", ">
-      <number variable="page"/>
-	<group delimiter=" ">
-          <label variable="locator" form="short" />
-          <text variable="locator"/>
-	</group>
         </group>
+	  <choose>
+        <if variable="URL">
+                <text variable="URL"/>
+        </if>
+	</choose>
+          <text macro="locator-or-pages"/>
+	</group>
       <choose>
 	<if variable="author">
 	<text value=", concl. "/>
@@ -572,7 +660,6 @@
           </names>
         </if>
       </choose>
-    </group>
   </macro>
   <macro name="complete-reference">
     <!--Bibliography reference -->
@@ -582,6 +669,9 @@
           <text macro="legislation-or-bill"/>
         </group>
       </if>
+      <else-if type="treaty">
+		<text macro="treaty-full"/>
+	</else-if>
       <else-if type="legal_case" match="any">
         <group delimiter=", ">
           <text macro="legal-case"/>
@@ -618,6 +708,11 @@
                 </group>
             </if>
             <else-if type="book" match="any">
+		<choose>
+			<if variable="case">
+				 <text variable="case" suffix=" in "/>
+			</if>
+		</choose>
                  <choose>
                  <if variable="collection-title">
                     <group delimiter=" ">
@@ -669,51 +764,126 @@
       </else>
     </choose>
   </macro>
-  <citation name-form="long" and="text" sort-separator=", " delimiter-precedes-last="never" et-al-subsequent-min="2" et-al-subsequent-use-first="1">
-    <layout suffix="." delimiter="; ">
+    <macro name="display-order-citation">
       <choose>
-        <if type="legal_case" match="any">
-          <text macro="legal-case"/>
+        <if type="article article-magazine article-newspaper article-journal book chapter paper-conference report review review-book thesis" match="any">
+          <text value="30"/>
         </if>
-        <else-if position="ibid-with-locator">
-          <choose>
-            <if type="legal_case" match="none">
-              <group delimiter=", ">
-                <text term="ibid" font-style="italic" suffix="."/>
-                <text macro="locator"/>
-              </group>
-            </if>
-          </choose>
+        <else-if type="bill legislation regulation" match="any">
+              <text value="10"/>
         </else-if>
+        <else-if type="legal_case" match="any">
+          <text value="20"/>
+        </else-if>
+        <else>
+          <text value="40"/>
+        </else>
+      </choose>
+    </macro>
+  <citation name-form="long" and="text" sort-separator=", " delimiter-precedes-last="never" et-al-subsequent-min="2" et-al-subsequent-use-first="1">
+<sort>
+    <key macro="display-order-citation"/>
+    <key macro="sort-order-when-same-type"/>
+</sort>
+    <layout suffix="." delimiter="; ">
+	<choose>
+        <if position="ibid-with-locator">
+            <choose>
+                <if type="regulation legislation">
+                    <choose>
+                        <if variable="title-short">
+                            <group delimiter=" ">
+                                <number variable="locator" prefix="Art. "/>
+                                <text variable="title-short"/>
+                            </group>
+                        </if>
+                        <else>
+                            <text macro="legislation-or-bill"/>
+                        </else>
+                    </choose>
+                </if>
+                <else-if type="legal_case">
+                    <text macro="legal-case"/>
+                </else-if>
+                <else-if type="treaty">
+                    <text macro="treaty"/>
+                </else-if>
+                <else>
+                    <group delimiter=", ">
+                        <text term="ibid" font-style="italic" suffix="."/>
+                        <text macro="locator"/>
+                    </group>
+                </else>
+            </choose>
+        </if>
         <else-if position="ibid">
-          <text term="ibid" font-style="italic"/>
+        <choose>
+            <if type="legislation regulation">
+                <text macro="legislation-or-bill"/>
+            </if>
+            <else-if type="legal_case">
+                <text macro="legal-case"/>
+            </else-if>
+                <else-if type="treaty">
+                    <text macro="treaty"/>
+                </else-if>
+            <else>
+                <text term="ibid" font-style="italic"/>
+            </else>
+        </choose>
         </else-if>
         <else-if position="subsequent">
-          <group delimiter=", ">
-            <text macro="author-note"/>
-            <choose>
-              <if type="book thesis" match="any">
-                <text variable="title" form="short" font-style="italic"/>
-              </if>
-              <else>
-                <text variable="title" form="short" quotes="true"/>
-              </else>
-            </choose>
-            <choose>
-              <if type="book thesis">
-                <group delimiter=", ">
-                  <number variable="volume"/>
+        <group delimiter=", ">
+		<choose>
+            <if type="legislation regulation">
+                <choose>
+                    <if variable="title-short">
+                        <group delimiter=" ">
+                        <number variable="locator" prefix="Art. "/>
+                        <text variable="title-short"/>
+                        </group>
+                    </if>
+                    <else>
+                        <text macro="legislation-or-bill"/>
+                    </else>
+                </choose>
+            </if>
+                <else-if type="treaty">
+                    <text macro="treaty"/>
+                </else-if>
+            <else>
+                <text macro="author-note"/>
+                <choose>
+                  <if type="book thesis" match="any">
+                    <text variable="title" form="short" font-style="italic"/>
+                  </if>
+                  <else>
+                    <text variable="title" form="short" quotes="true"/>
+                  </else>
+                </choose>
+                <choose>
+                  <if type="book thesis">
+                    <group delimiter=", ">
+                      <number variable="volume"/>
+                    </group>
+                  </if>
+                </choose>
+                <group delimiter=" ">
+                  <text font-style="italic" value="supra"/>
+                  <text variable="first-reference-note-number" font-style="normal" prefix="vn. "/>
                 </group>
-              </if>
-            </choose>
-            <group delimiter=" ">
-              <text font-style="italic" value="supra"/>
-              <text variable="first-reference-note-number" font-style="normal" prefix="vn. "/>
-            </group>
-            <text macro="locator"/>
+                <text macro="locator"/>
+            </else>
+		</choose>
           </group>
         </else-if>
-        <else-if type="bill legislation regulation" match="any">
+	<else-if type="legal_case">
+		<text macro="legal-case"/>
+	</else-if>
+      <else-if type="treaty">
+		<text macro="treaty"/>
+	</else-if>
+        <else-if type="bill legislation regulation">
           <group delimiter=", ">
             <text macro="legislation-or-bill"/>
           </group>
@@ -748,6 +918,11 @@
                 </group>
             </if>
             <else-if type="book" match="any">
+		<choose>
+			<if variable="case">
+				 <text variable="case" suffix=" in "/>
+			</if>
+		</choose>
                  <choose>
                  <if variable="collection-title">
                     <group delimiter=" ">
@@ -797,7 +972,6 @@
       </choose>
     </layout>
   </citation>
-  <!-- TODO change ordering of case and bill order and display correctly-->
   <macro name="sort-order-when-same-type">
     <choose>
       <if type="article article-magazine article-newspaper article-journal book chapter paper-conference report review review-book thesis" match="any"/>
