@@ -289,35 +289,6 @@
       ]
     }
   },
-  "item-7": {
-    "id": "item-7",
-    "type": "article-journal",
-    "multi": {
-      "main": {},
-      "_keys": {}
-    },
-    "title": "Nudging Smokers - The Behavioural Turn of Tobacco Risk Regulation",
-    "container-title": "European Journal of Risk Regulation",
-    "page": "1-20",
-    "volume": "3",
-    "issue": "1",
-    "author": [
-      {
-        "family": "Alemanno",
-        "given": "Alberto",
-        "multi": {
-          "_key": {}
-        }
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2012"
-        ]
-      ]
-    }
-  },
   "item-8": {
     "id": "item-8",
     "type": "book",
