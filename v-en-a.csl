@@ -506,7 +506,7 @@
               </if>
             </choose>
           </group>
-          <number variable="page"/>
+          <number variable="locator"/>
           <choose>
             <if variable="section container-title" match="all">
               <group delimiter=" ">
