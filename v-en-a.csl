@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.1mlz1" demote-non-dropping-particle="never">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.1mlz1" demote-non-dropping-particle="never" year-range-format="minimal-two">
   <info>
     <title>Verwijzingen en Afkortingen (Belgium)</title>
     <title-short>V en A (Belgium)</title-short>
@@ -365,7 +365,7 @@
         <choose>
           <if variable="issued">
             <date variable="issued" form="text">
-		<date-part name="year" year-range-format="minimal-two"  range-delimiter="-"/>
+		<date-part name="year"  range-delimiter="-"/>
 	    </date>
           </if>
           <else>
@@ -593,17 +593,11 @@
     </date>
   </macro>
   <macro name="legal-case">
+  <group delimiter=", ">
 	<group delimiter=" ">
-        <names variable="authority">
-	</names>
-	<choose>
-	<if jurisdiction="be coe.int eu.int" match="none">
-		<text  variable="jurisdiction" text-case="uppercase" prefix="(" suffix=")"/>
-	</if>
-	</choose>
+        <names variable="authority"/>
+	      <text macro="date-legal-case"/>
 	</group>
-       <group delimiter=", ">
-        <text macro="date-legal-case" prefix=" "/>
 	<choose>
         <if variable="title-short" match="any">
           <text variable="title-short" prefix="'" suffix="'"/>
@@ -703,11 +697,6 @@
                 </group>
             </if>
             <else-if type="book" match="any">
-		<choose>
-			<if variable="case">
-				 <text variable="case" suffix=" in "/>
-			</if>
-		</choose>
                  <choose>
                  <if variable="collection-title">
                     <group delimiter=" ">
@@ -913,11 +902,6 @@
                 </group>
             </if>
             <else-if type="book" match="any">
-		<choose>
-			<if variable="case">
-				 <text variable="case" suffix=" in "/>
-			</if>
-		</choose>
                  <choose>
                  <if variable="collection-title">
                     <group delimiter=" ">
