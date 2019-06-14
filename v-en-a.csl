@@ -494,9 +494,8 @@
       <if type="bill">
         <group suffix="." delimiter=", ">
           <text variable="title"/>
-          <text variable="genre" font-style="italic"/>
           <group delimiter=" ">
-            <names variable="authority"/>
+            <names variable="authority" font-style="italic"/>
             <text macro="date-legal-case"/>
           </group>
           <group>
