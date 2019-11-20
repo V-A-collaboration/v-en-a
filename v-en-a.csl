@@ -529,8 +529,10 @@
 	</group>
             <text macro="date"/>
             <text variable="title-short" prefix="(hierna: " suffix=")"/>
-            <text variable="URL" prefix="("/>
-            <text macro="date-accessed" suffix=")"/>
+            <group delimiter=" " prefix="(" suffix=")">
+                <text variable="URL"/>
+                <text macro="date-accessed"/>
+            </group>
         </group>
       </if>
     </choose>
@@ -594,8 +596,11 @@
   <macro name="legal-case">
   <group delimiter=", ">
 	<group delimiter=" ">
-        <names variable="authority"/>
-	      <text macro="date-legal-case"/>
+        <names variable="authority">
+    	    <name/>
+            <institution institution-parts="short"/>
+    	</names>
+	    <text macro="date-legal-case"/>
 	</group>
 	<choose>
         <if variable="title-short" match="any">
@@ -608,8 +613,8 @@
         </if>
       </choose>
       <choose>
-        <if variable="ecli">
-            <number variable="ecli"/>
+        <if variable="ECLI">
+            <text variable="ECLI"/>
         </if>
       </choose>
 	<choose>
@@ -665,8 +670,10 @@
                   <text variable="container-title" font-style="italic"/>
       	</group>
                   <text macro="date"/>
-                  <text variable="URL" prefix="("/>
-                  <text macro="date-accessed" suffix=")"/>
+                  <group delimiter=" " prefix="(" suffix=")">
+                      <text variable="URL"/>
+                      <text macro="date-accessed"/>
+                  </group>
               </group>
          </else-if>
       <else-if type="treaty">
