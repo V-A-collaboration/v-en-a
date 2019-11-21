@@ -177,3 +177,7 @@ Pagina’s | Relevante pagina’s | 68-79
 # FAQ
 ## De URL wordt bij online gepubliceerde rechtspraak vermeld, is dat V&A conform?
 Dat is V&A conform. De V&A vermeldt in randnummer 105 databanken waarbij een URL niet nodig is. In andere gevallen wordt wel een URL vereist (zie V&A randnummer 106). Een URL mag dus altijd vermeld worden en veel gevallen moet dat zelfs. Daarom is gekozen om altijd de URL voor online gepubliceerde rechtspraak in de citatie te zetten.
+## Hoe verwijs ik naar een randnummer?
+V&A randnummer 135:
+> Wanneer naar een passage in een boek wordt verwezen dat voorzien is van zowel een paginering als een randnummering, wordt bij voorkeur naar beide verwezen. De verwijzing naar de pagina komt voor de verwijzing naar het nummer.
+Bij het toevoegen van de verwijzing in bijv. Word, kan bij de pagina maar ook het randnummer worden ingevuld in hetzlefde veld. Om bijvoorbeeld de volgende verwijzing te krijgen: `M. STORME en M. MARESCEAU, _Europese rechts-plegingen rechtspraak_, Gent, Story-Scientia, 1979, 54, nrs. 86 en 88.` moet bij pagina het volgende worden ingevuld `54, nrs. 86 en 88` bij het toevoegen van deze verwijzing aan het document.
