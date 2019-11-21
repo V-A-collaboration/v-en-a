@@ -173,3 +173,7 @@ Pagina’s | Relevante pagina’s | 68-79
 # Tips & tricks
 - Zoeken: pdfs doorzoeken als deze geïndexeerd worden
 - Invoegen van superscripts via het gebruik van html tags `<sup>e</sup>` bijvoorbeeld: `RvS (13<sup>e</sup> k.)`
+
+# FAQ
+## De URL wordt bij online gepubliceerde rechtspraak vermeld, is dat V&A conform?
+Dat is V&A conform. De V&A vermeldt in randnummer 105 databanken waarbij een URL niet nodig is. In andere gevallen wordt wel een URL vereist (zie V&A randnummer 106). Een URL mag dus altijd vermeld worden en veel gevallen moet dat zelfs. Daarom is gekozen om altijd de URL voor online gepubliceerde rechtspraak in de citatie te zetten.
