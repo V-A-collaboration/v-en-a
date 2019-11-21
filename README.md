@@ -89,8 +89,8 @@ Enkele voordelen van het gebruik van een *reference manager*:
 - Klik om de referentie op te slaan in je bibliotheek.
 - Controleer de gegevens in Juris-M. Vul aan waar nodig.
 
-
 ## 3.2 Referenties invoeren
+
 ### Wetgeving
 #### Algemene opmerkingen
 - V&A 43: de hiërarchie tussen verschillende soorten wetgeving (& rechtspraak) automatisch laten voorlopen is momenteel nog niet mogelijk (28/10/2019)
@@ -132,8 +132,6 @@ Enkele voordelen van het gebruik van een *reference manager*:
 	- *voorbeeld*: Kh. Brussel 28 september 1977, *RGAR* 1978, nr. 9912, 2.
 	- *voorbeeld*: Corr. Namen 31 maart 1980, *JJD* 1983, afl. 33, 5.
 
-
-
 ### Rechtsleer
 
 ## 3.3 Referenties delen
@@ -174,3 +172,4 @@ Pagina’s | Relevante pagina’s | 68-79
 
 # Tips & tricks
 - Zoeken: pdfs doorzoeken als deze geïndexeerd worden
+- Invoegen van superscripts via het gebruik van html tags `<sup>e</sup>` bijvoorbeeld: `RvS (13<sup>e</sup> k.)`
