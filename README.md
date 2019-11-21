@@ -102,7 +102,7 @@ Enkele voordelen van het gebruik van een *reference manager*:
 #### Invullen
 1. Maak een nieuw item met type `Wet` of `Statute`
 2. Vul het hele opschrift of de hele titel van de wet, het decreet of besluit in bij `citeertitel wet`.
-3. Bij "korte titel" vul je eventueel de gebruikelijke afkorting ervan in.
+3. Bij "korte titel" vul je eventueel de gebruikelijke afkorting ervan in. (Na een volledige verwijzing bij het eerste citaat wordt deze korte titel gebruikt bij verdere verwijzingen)
 4. In het veld `jurisdiction` moet `België | BE` staan.
 5. Bij `code`vul je de plaats van publicatie in, meestal het Belgisch Staatsblad. (Mits de juiste afkortingenlijst, wordt dit in je referentie afgekort.)
 6. Bij `date enacted` vul je de publicatiedatum in. Wil je de afkondigingsdatum invullen, dan kan dat in het veld `orig. date`. Hiermee gebeurt niets mee bij het refereren. 
