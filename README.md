@@ -4,13 +4,12 @@ Documentatie Juris-M
 1. Hoe installeer ik Juris-M?
 2. Wat kan ik doen met Juris-M?
 3. Hoe maak ik een item aan in Juris-M? Hoe vul ik dit correct in?
-    3.1 Referenties opslaan met de browserplugin
-    3.2 Referenties invoeren
-    3.3 Citaties invoeren
-    3.4 Citaties delen [work in progress]
-    3.5 Bibliografie invoeren [work in progress]
-    3.6 Handmatige aanpassingen [work in progress] 
-
+- 3.1 Referenties opslaan met de browserplugin
+- 3.2 Referenties invoeren
+- 3.3 Citaties invoeren
+- 3.4 Citaties delen [work in progress]
+- 3.5 Bibliografie invoeren [work in progress]
+- 3.6 Handmatige aanpassingen [work in progress]
 4. FAQ
 5. Tips & tricks
 
