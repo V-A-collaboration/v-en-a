@@ -933,7 +933,10 @@
                             <text macro="date-and-pages"/>
                             <text macro="url"/>
                         </group>
-                        <text variable="title-short" prefix="(hierna: " suffix=")"/>
+                        <group delimiter=", " prefix="(hierna: " suffix=")">
+                            <text macro="author-note"/>
+                            <text variable="title-short"/>
+                        </group>
                     </group>
                  </if>
                  <else>
@@ -947,7 +950,10 @@
                          <text macro="date-and-pages"/>
                          <text macro="url"/>
                      </group>
-                     <text variable="title-short" prefix="(hierna: " suffix=")"/>
+                     <group delimiter=", " prefix="(hierna: " suffix=")">
+                        <text macro="author-note"/>
+                        <text variable="title-short"/>
+                     </group>
                     </group>
                  </else>
                  </choose>
