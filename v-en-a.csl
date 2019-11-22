@@ -107,7 +107,7 @@
     <text value=", noot "/>
     <names variable="commenter">
       <name sort-separator=", " initialize-with="." delimiter=", " and="text" delimiter-precedes-last="never">
-        <name-part name="given" text-case="uppercase"/>
+        <name-part name="family" text-case="uppercase"/>
       </name>
     </names>
   </macro>
