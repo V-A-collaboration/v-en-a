@@ -9,7 +9,7 @@ Documentatie Juris-M
     3.3 Citaties invoeren
     3.4 Citaties delen [work in progress]
     3.5 Bibliografie invoeren [work in progress]
-    3.6 Handmatige aanpassingen [work in progress]
+    3.6 Handmatige aanpassingen [work in progress] 
 
 4. FAQ
 5. Tips & tricks
