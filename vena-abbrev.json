@@ -585,8 +585,8 @@
 		},
 		"institution-part": {
 			"Benelux gerechtshof": "Beneluxhof",
-			"Europees Hof voor de rechten van de Mens": "EHrM",
-			"Europese Commissie voor de rechten van de Mens": "ECrM",
+			"Europees Hof voor de rechten van de Mens": "EHRM",
+			"Europese Commissie voor de rechten van de Mens": "ECRM",
 			"gerecht (van Eerste Aanleg) ": "ger.EU",
 			"gerecht voor Ambtenarenzaken": "ger.Ambt.EU",
 			"Hof van Justitie": "HvJ",
