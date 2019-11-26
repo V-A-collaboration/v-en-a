@@ -13,7 +13,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2019-11-20T15:28:02+02:00</updated>
+    <updated>2019-11-21T14:38:02+02:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="nl">
@@ -107,7 +107,7 @@
     <text value=", noot "/>
     <names variable="commenter">
       <name sort-separator=", " initialize-with="." delimiter=", " and="text" delimiter-precedes-last="never">
-        <name-part name="given" text-case="uppercase"/>
+        <name-part name="family" text-case="uppercase"/>
       </name>
     </names>
   </macro>
@@ -785,7 +785,7 @@
         </else>
       </choose>
     </macro>
-  <citation name-form="long" and="text" sort-separator=", " delimiter-precedes-last="never" et-al-subsequent-min="2" et-al-subsequent-use-first="1">
+  <citation name-form="long" and="text" sort-separator=", " delimiter-precedes-last="never" et-al-subsequent-min="2" et-al-subsequent-use-first="2">
 <sort>
     <key macro="display-order-citation"/>
     <key macro="sort-order-when-same-type"/>
@@ -866,13 +866,6 @@
                     <text variable="title" form="short" quotes="true"/>
                   </else>
                 </choose>
-                <choose>
-                  <if type="book thesis">
-                    <group delimiter=", ">
-                      <number variable="volume"/>
-                    </group>
-                  </if>
-                </choose>
                 <group delimiter=" ">
                   <text font-style="italic" value="supra"/>
                   <text variable="first-reference-note-number" font-style="normal" prefix="vn. "/>
@@ -940,9 +933,14 @@
                             <text macro="date-and-pages"/>
                             <text macro="url"/>
                         </group>
+                        <group delimiter=", " prefix="(hierna: " suffix=")">
+                            <text macro="author-note"/>
+                            <text variable="title-short"/>
+                        </group>
                     </group>
                  </if>
                  <else>
+                    <group delimiter=" ">
                      <group delimiter=", ">
                          <text macro="author-note"/>
                          <text macro="title-note"/>
@@ -952,6 +950,11 @@
                          <text macro="date-and-pages"/>
                          <text macro="url"/>
                      </group>
+                     <group delimiter=", " prefix="(hierna: " suffix=")">
+                        <text macro="author-note"/>
+                        <text variable="title-short"/>
+                     </group>
+                    </group>
                  </else>
                  </choose>
             </else-if>
