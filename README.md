@@ -196,10 +196,9 @@ Optioneel:
 |------| -------|------------|
 **volume** | nummer van de jaargang (niet het jaartal) | 3
 **journal abbr** | afkorting van het tijdschrift | NJW
-
-- DOI
-- ISSN
-- URL
+**DOI** |
+**ISSN** |
+**URL** |
 
 
 ## 3.3 Citaties invoegen
