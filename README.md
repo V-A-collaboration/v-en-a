@@ -115,20 +115,20 @@ Enkele voordelen van het gebruik van een *reference manager*:
 - Bij `code`vul je de plaats van publicatie in, meestal het Belgisch Staatsblad. (Mits de juiste afkortingenlijst, wordt dit in je referentie afgekort.)
 - Bij `date enacted` vul je de publicatiedatum in. Wil je de afkondigingsdatum invullen, dan kan dat in het veld `orig. date`. Hiermee gebeurt niets mee bij het refereren.
 
+#### Parlementaire voorbereiding [nog niet in orde in stylesheet - 28/11/2019]
+<!--- **Voorbeeld**
 *Hand*. Kamer 1989-90, 23 mei 1990, 68–79.
 
-Veld | Soort waarde | Voorbeeld
---- | --- | ---
-Type Item | ’Kamerstukken / Handelingen / Wetsvoorstel’ |
-Jurisdiction | Belgium|BE |
-(Wetgevend) orgaan | Tekst + datum | Kamer 1989-90
-Session Type | Afkorting zoals opgenomen in V|A | Hand. ; Parl. St ; Vr. en Antw.
-Datum | een geldige datum | 23 mei 1990
-Sectie | Getal | 309
-Pagina’s | Relevante pagina’s | 68-79
+- Maak een nieuw item met het type `Kamerstukken / Handelingen / Wetsvoorstel` (in het Engels `Bill`)
+- In het veld `jurisdiction` moet `België | BE` staan.
+- Bij `Legislative Body`/`(Wetgevend) orgaan` vul je het orgaan en de zittingsperiode in (vb. `Kamer 1989-90`)
+- Het type document en tevens ook vindplaats plaats je bij `session type` (vb. `Hand.`, `Parl. St.`, `Vr. en Antw.`). Gebruik hiervoor de juiste afkorting zoals V&A die geeft.
+- Vul de datum in.
+- Bij `section` vul je het documentnummer in.
+- Relevante pagina's vul je in bij `pagina's`
+- Indien van toepassing, kan je een titel of een auteur invullen.
 
-
-![Kamerstukken weergave in Juris-M](figures/Manual-fig-2.png)
+![Kamerstukken weergave in Juris-M](figures/Manual-fig-2.png) -->
 
 #### Ophalen met connector
 - Wetgeving ophalen via de site [http://www.ejustice.just.fgov.be/](http://www.ejustice.just.fgov.be/)(Justel-databank) werkt mits je de *translator* voor E-justice geïnstalleerd hebt (zie hierboven).
@@ -156,7 +156,49 @@ Pagina’s | Relevante pagina’s | 68-79
 	- *voorbeeld*: Corr. Namen 31 maart 1980, *JJD* 1983, afl. 33, 5.
 
 ### Rechtsleer
-[work in progress]
+####Algemene opmerkingen
+- Wil je verwijzen naar een hoofdstuk uit een boek? Dan moet je het hoofdstuk apart invoeren in Juris-M. Met risico op fouten kan je ook werken met een prefix. Je kan het boek en het hoofdstuk aan elkaar verbinden met de tab "related" in Juris-M.
+- Zijn er meerdere auteurs of editors, dan voeg je deze apart toe.
+- Uiteraard kan je voor jezelf meerdere velden invullen (bvb. abstract of editie of ISBN), deze worden niet mee geciteerd. Als je een URL toevoegt, wordt deze wel mee geciteerd (maar dat mag).
+- Tijdschrifttitels worden normaal gezien afgekort eens je het artikel citeert.
+
+####Invullen
+#####Boek
+| Veld | Inhoud | Voorbeeld
+|------| -------|------------|
+**item type** | book/boek
+**title** | de volledige titel van het boek | Traité élémentaire de droit civil belge
+**author** | auteur, editor (of meerdere) | De Page, H.
+**short title** | indien van toepassing, een verkorte titel voor latere referenties | Traité
+**place** | plaats van uitgave | Brussel
+**publisher** | uitgever | Bruylant
+**series** | reekstitel | [n.v.t.]
+**volume** | deel van de reeks | 2
+**volume title** | titel van dit deel | Les personnes
+**date** | jaar van uitgave | 1990
+**number of pages** | totaal aantal pagina's | 641
+
+#####Bijdragen in tijdschriften
+| Veld | Inhoud | Voorbeeld
+|------| -------|------------|
+**item type** | journal article (artikel) |
+**title** | de titel van het artikel | Experimenten op mensen. Overzicht van en reflecties bij de wet van 7 mei 2004
+**author** | auteur, editor (of meerdere) | Callens, Stefaan
+**publication** | titel van het tijdschrift | Nieuw Juridisch Weekblad
+**issue** | nummer van de aflevering | 88
+**pages** | begin- en eindpagina |  1190-1201
+**date** | jaargang (jaartal) | 2004
+
+Optioneel:
+| Veld | Inhoud | Voorbeeld
+|------| -------|------------|
+**volume** | nummer van de jaargang (niet het jaartal) | 3
+**journal abbr** | afkorting van het tijdschrift | NJW
+
+- DOI
+- ISSN
+- URL
+
 
 ## 3.3 Citaties invoegen
 Zotero werkt met Microsoft Word, LibreOffice en Google Docs. Juris-M werkt voorlopig niet met Google Docs. Hieronder hebben we het alleen over Microsoft Word.
