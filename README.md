@@ -156,14 +156,14 @@ Enkele voordelen van het gebruik van een *reference manager*:
 	- *voorbeeld*: Corr. Namen 31 maart 1980, *JJD* 1983, afl. 33, 5.
 
 ### Rechtsleer
-####Algemene opmerkingen
+#### Algemene opmerkingen
 - Wil je verwijzen naar een hoofdstuk uit een boek? Dan moet je het hoofdstuk apart invoeren in Juris-M. Met risico op fouten kan je ook werken met een prefix. Je kan het boek en het hoofdstuk aan elkaar verbinden met de tab "related" in Juris-M.
 - Zijn er meerdere auteurs of editors, dan voeg je deze apart toe.
 - Uiteraard kan je voor jezelf meerdere velden invullen (bvb. abstract of editie of ISBN), deze worden niet mee geciteerd. Als je een URL toevoegt, wordt deze wel mee geciteerd (maar dat mag).
 - Tijdschrifttitels worden normaal gezien afgekort eens je het artikel citeert.
 
-####Invullen
-#####Boek
+#### Invullen
+##### Boek
 | Veld | Inhoud | Voorbeeld
 |------| -------|------------|
 **item type** | book/boek
@@ -178,16 +178,17 @@ Enkele voordelen van het gebruik van een *reference manager*:
 **date** | jaar van uitgave | 1990
 **number of pages** | totaal aantal pagina's | 641
 
-#####Bijdragen in tijdschriften
+##### Bijdragen in tijdschriften
 | Veld | Inhoud | Voorbeeld
 |------| -------|------------|
 **item type** | journal article (artikel) |
-**title** | de titel van het artikel | Experimenten op mensen. Overzicht van en reflecties bij de wet van 7 mei 2004
-**author** | auteur, editor (of meerdere) | Callens, Stefaan
-**publication** | titel van het tijdschrift | Nieuw Juridisch Weekblad
-**issue** | nummer van de aflevering | 88
-**pages** | begin- en eindpagina |  1190-1201
-**date** | jaargang (jaartal) | 2004
+**title** | de titel van het artikel | Vader moeder zult gij eren?
+**author** | auteur, editor (of meerdere) | Swennen, F.
+**publication** | titel van het tijdschrift | Rechtskundig Weekblad
+**issue** | nummer van de aflevering |
+**pages** | begin- en eindpagina |  1648-1651
+**date** | jaargang (jaartal) | 2010-2011
+**extra** | indien het een noot bij rechtspraak betreft | noot: Cass. 3 juni 2010
 
 Optioneel:
 | Veld | Inhoud | Voorbeeld
