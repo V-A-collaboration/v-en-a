@@ -191,6 +191,7 @@ Enkele voordelen van het gebruik van een *reference manager*:
 **extra** | indien het een noot bij rechtspraak betreft | noot: Cass. 3 juni 2010
 
 Optioneel:
+
 | Veld | Inhoud | Voorbeeld
 |------| -------|------------|
 **volume** | nummer van de jaargang (niet het jaartal) | 3
