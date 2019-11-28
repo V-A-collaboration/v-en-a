@@ -236,3 +236,5 @@ Bij het toevoegen van de verwijzing in bijv. Word, kan bij de pagina maar ook he
 # 5. Tips & tricks
 - Zoeken: pdfs doorzoeken als deze geïndexeerd worden
 - Invoegen van superscripts via het gebruik van html tags `<sup>e</sup>` bijvoorbeeld: `RvS (13<sup>e</sup> k.)`
+- Je kan pdfs laten synchroniseren, maar hou er rekening mee dat je (gratis) online opslagruimte beperkt is.
+- Wil je snel een verwijzing invoeren? Je kan voor de knop "Add/edit citation" een sneltoets instellen. https://www.zotero.org/support/word_processor_plugin_shortcuts
