@@ -13,7 +13,7 @@ Documentatie Juris-M
 4. FAQ
 5. Tips & tricks
 
-**Opmerking vooraf:**  software is altijd in ontwikkeling. Het is onwaarschijnlijk dat alles wat je probeert met Juris-M/V&A perfect lukt. Kijk dus zeker je referenties na. Is er iets dat niet lukt, niet klopt, of ontbreekt, laat het ons dan zeker weten. Je kan ons feedback sturen via [dit formulier.](https://justlegal.be/van-va-naar-beter/feedback/).
+**Opmerking vooraf:**  software is altijd in ontwikkeling. Het is onwaarschijnlijk dat alles wat je probeert met Juris-M/V&A perfect lukt. Kijk dus zeker je referenties na. Is er iets dat niet lukt, niet klopt, of ontbreekt, laat het ons dan zeker weten. Je kan ons feedback sturen via [dit formulier](https://justlegal.be/van-va-naar-beter/feedback/).
 
 # 1. Installatie
 Je kan het programma downloaden op [https://juris-m.github.io](https://juris-m.github.io/) of [https://justlegal.be/van-va-naar-beter](https://justlegal.be/van-va-naar-beter).
