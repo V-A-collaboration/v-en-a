@@ -219,10 +219,18 @@ De volgorde van verwijzingen in een voetnoot is degene die je zelf bepaalt. Het 
 [work in progress]
 
 ## 3.5 Een bibliografie invoegen
-[work in progress]
+Met de knop "Add/Edit Bibliography" wordt een bibliografie gemaakt van alle in het document aanwezige referenties die aan Juris-M gelinkt zijn. Dit gebeurd op de plaats waar op dat moment je cursor staat. 
+Heb je zelf extra referenties ingevoegd in je document, die niet uit Juris-M komen? Deze worden dan uiteraard niet vanzelf aan je bibliografie toegevoegd. 
 
 ## 3.6 Handmatige aanpassingen
-[work in progress]
+Sommige zaken zal je handmatig nog moeten of willen aanpassen, bijvoorbeeld zaken die door de V&A-stylesheet (nog) niet ondersteund worden.
+Moet je handmatig aanpassen:
+- volgorde van de rechtspraak per rechtbank in de bibliografie
+- naam van de auteur van een noot in de bibliografie (deze verschijnt als NAAM, I. i.p.v. I. NAAM)
+
+Aanpassingen die je tussentijds doet worden overschreven door de gegevens uit Juris-M telkens je de referenties in je document ververst. Kijk de instellingen na in je document. Je kan het automatisch verversen ook uitzetten.
+Eens je werk af is, kan je de gegevens van Juris-M 'ontkoppelen' met de knop 'unlink citations' in je document. De gegevens worden dan omgezet in 'gewone' tekst. Maak altijd eerst een kopie van je document! Eens je de gegevens ontkoppeld hebt, kan je deze niet meer terug aan je Juris-M bibliotheek koppelen.
+Handmatige aanpassingen doe je dus nadat je je referenties losgekoppeld hebt van je bibliotheek.
 
 # 4. FAQ
 ## De URL wordt bij online gepubliceerde rechtspraak vermeld, is dat V&A conform?
