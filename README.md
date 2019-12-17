@@ -16,7 +16,7 @@ Documentatie Juris-M
 **Opmerking vooraf:**  software is altijd in ontwikkeling. Het is onwaarschijnlijk dat alles wat je probeert met Juris-M/V&A perfect lukt. Kijk dus zeker je referenties na. Is er iets dat niet lukt, niet klopt, of ontbreekt, laat het ons dan zeker weten. Je kan ons feedback sturen via [dit formulier](https://justlegal.be/van-va-naar-beter/feedback/).
 
 # 1. Installatie
-Je kan het programma downloaden op [https://juris-m.github.io](https://juris-m.github.io/) of [https://justlegal.be/van-va-naar-beter](https://justlegal.be/van-va-naar-beter).
+Je kan het programma downloaden op [https://juris-m.github.io](https://juris-m.github.io/).
 Behalve het programma Juris-M heb je best ook een browser plugin ("connector"). Hiermee kan je met één klik referenties vanop een website opslaan. De connector bestaat voor Chrome en Firefox.
 Onderstaande extra bestanden zullen worden opgenomen in deze installatie zodat ze niet meer apart te installeren zijn. Voorlopig is dit nog wel het geval.
 
@@ -25,8 +25,13 @@ Op dit moment (8/8/2019) moet je voor een volledige installatie nog het volgende
  - De V&A-stijl (csl-bestand)
  - Afkortingenlijst voor tijdschriften (json-bestand)
  - Translators voor ejustice, hudoc en jurisquare (js-bestand) om via connector/browser plugin verwijzingen te kunnen opslaan
+ 
+Vanaf 16/12/2019 is de V&A stylesheet en de afkortingenlijst opgenomen in Juris-M en is een verder installatie niet meer nodig. De translators worden op een later moment aan Juris-M zelf toegevoegd.
 
 ## 1.2 Hoe installeer ik V&A?
+
+! Dit is **niet meer nodig** vanaf 16/12/2019. Alleen indien je een nieuwere 'test' versie wilt installeren kan onderstaande nodig zijn. !
+
 Dit bestand laat je toe verwijzingen en bibliografieën te creëren in de V&A-stijl.
  1. Download het bestand hier: https://justlegal.be/v-en-a.csl
  2. Ga in Juris-M naar Edit > Preferences (Bewerken > Voorkeuren)
@@ -42,6 +47,8 @@ Dit bestand laat je toe verwijzingen en bibliografieën te creëren in de V&A-st
 ! In Zotero geeft dit een waarschuwing dat het Stylesheet niet aan de csl 1.0.1 voldoet, dit is omdat de extra opties voor Juris-M zijn toegevoegd
 
 ## 1.3 Hoe installeer ik de afkortingenlijst?
+
+! Dit is **niet meer nodig** vanaf 16/12/2019. Alleen indien je een nieuwere 'test' versie wilt installeren kan onderstaande nodig zijn. !
 
  1. Open het bestand hier: [https://raw.githubusercontent.com/mvwestendorp/v-en-a/master/vena-abbrev.json](https://raw.githubusercontent.com/mvwestendorp/v-en-a/master/vena-abbrev.json) en sla het op (ctrl+s).
  2. Ga in Juris-M naar Edit > Preferences (Bewerken > Voorkeuren)
