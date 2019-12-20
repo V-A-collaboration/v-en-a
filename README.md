@@ -26,11 +26,11 @@ Op dit moment (8/8/2019) moet je voor een volledige installatie nog het volgende
  - Afkortingenlijst voor tijdschriften (json-bestand)
  - Translators voor ejustice, hudoc en jurisquare (js-bestand) om via connector/browser plugin verwijzingen te kunnen opslaan
  
-Vanaf 16/12/2019 is de V&A stylesheet en de afkortingenlijst opgenomen in Juris-M en is een verder installatie niet meer nodig. De translators worden op een later moment aan Juris-M zelf toegevoegd.
+Vanaf 16/12/2019 is de V&A stylesheet en de afkortingenlijst opgenomen in Juris-M en is een verder installatie niet meer nodig. De translators worden op een later moment aan Juris-M zelf toegevoegd. Voor Zotoro moeten nog wel alle stappen gevolgd worden.
 
 ## 1.2 Hoe installeer ik V&A?
 
-! Dit is **niet meer nodig** vanaf 16/12/2019. Alleen indien je een nieuwere 'test' versie wilt installeren kan onderstaande nodig zijn. !
+! Dit is **niet meer nodig voor Juris-M** vanaf 16/12/2019. Voor Zotero is het nog wel nodig om deze instructies te volgen !
 
 Dit bestand laat je toe verwijzingen en bibliografieën te creëren in de V&A-stijl.
  1. Download het bestand hier: https://justlegal.be/v-en-a.csl
@@ -48,7 +48,7 @@ Dit bestand laat je toe verwijzingen en bibliografieën te creëren in de V&A-st
 
 ## 1.3 Hoe installeer ik de afkortingenlijst?
 
-! Dit is **niet meer nodig** vanaf 16/12/2019. Alleen indien je een nieuwere 'test' versie wilt installeren kan onderstaande nodig zijn. !
+! Dit is **niet meer nodig voor Juris-M** vanaf 16/12/2019. Voor Zotero is het nog wel nodig om deze instructies te volgen !
 
  1. Open het bestand hier: [https://raw.githubusercontent.com/mvwestendorp/v-en-a/master/vena-abbrev.json](https://raw.githubusercontent.com/mvwestendorp/v-en-a/master/vena-abbrev.json) en sla het op (ctrl+s).
  2. Ga in Juris-M naar Edit > Preferences (Bewerken > Voorkeuren)
