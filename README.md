@@ -13,7 +13,7 @@ Documentatie Juris-M
 4. FAQ
 5. Tips & tricks
 
-**Opmerking vooraf:**  software is altijd in ontwikkeling. Het is onwaarschijnlijk dat alles wat je probeert met Juris-M/V&A perfect lukt. Kijk dus zeker je referenties na. Is er iets dat niet lukt, niet klopt, of ontbreekt, laat het ons dan zeker weten. Je kan ons feedback sturen via [dit formulier](https://justlegal.be/van-va-naar-beter/feedback/).
+**Opmerking vooraf:**  software is altijd in ontwikkeling. Het is onwaarschijnlijk dat alles wat je probeert met Juris-M/V&A perfect lukt. Kijk dus zeker je referenties na. Is er iets dat niet lukt, niet klopt, of ontbreekt, laat het ons dan zeker weten. Je kan ons feedback sturen via [dit formulier](https://justlegal.be/van-va-naar-beter/feedback/) of een issue aanmaken op Github.
 
 # 1. Installatie
 Je kan het programma downloaden op [https://juris-m.github.io](https://juris-m.github.io/).
@@ -40,7 +40,7 @@ Dit bestand laat je toe verwijzingen en bibliografieën te creëren in de V&A-st
  5. Kies het csl-bestand dat je gedownload hebt.
  6. Klik op ok (2x)
 
-**Opgelet** Je hebt de stijl nu lokaal geïnstalleerd. Als er wijzigingen of verbeteringen gebeuren aan het bestand, worden deze niet automatisch doorgevoerd in jouw installatie. Controleer daarom op [https://justlegal.be/van-va-naar-beter/installatie/](https://justlegal.be/van-va-naar-beter/installatie/) of er updates zijn.
+**Opgelet** Je hebt de stijl nu lokaal geïnstalleerd. Als er wijzigingen of verbeteringen gebeuren aan het bestand, worden deze niet automatisch doorgevoerd in jouw installatie. Controleer daarom op [https://justlegal.be/van-va-naar-beter/installatie/](https://justlegal.be/van-va-naar-beter/installatie/) of er updates zijn. Voor Juris-M is het daarom beter om de stylesheet niet meer zelf te installeren.
 
 ![Toevoegen Stylesheet](figures/Manual-fig-1.png)
 
