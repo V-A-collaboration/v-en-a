@@ -893,6 +893,11 @@
                     <else-if type="book">
                         <text macro="book-note"/>
                     </else-if>
+                    <else-if>
+                        <if type="legal_case" match="any">
+                    	    <text macro="legal-case"/>
+                        </if>
+                    </else-if>
                     <else>
                         <text macro="author-note"/>
                         <choose>
