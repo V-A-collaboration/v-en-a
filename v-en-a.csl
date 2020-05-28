@@ -503,7 +503,8 @@
         <group suffix="." delimiter=", ">
           <text variable="title"/>
           <group delimiter=" ">
-            <names variable="authority" font-style="italic"/>
+             <text variable="genre" font-style="italic"/>
+             <names variable="authority"/>
             <text macro="date-legal-case"/>
           </group>
           <group>
