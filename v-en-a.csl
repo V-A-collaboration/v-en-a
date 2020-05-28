@@ -978,21 +978,16 @@
       </choose>
     </layout>
   </citation>
-<macro name="sort-order-when-same-type">
+  <macro name="sort-order-when-same-type">
     <choose>
-      <if type="article article-magazine article-newspaper article-journal book chapter paper-conference report
-                review review-book thesis" match="any">
-        <key macro="author-or-editor" names-min="3" names-use-first="3"/>
-      </if>
-      <else-if type="legal_case" match="any">
-	    <key variable="issued" sort="descending"/>
-      </else-if>
+      <if type="article article-magazine article-newspaper article-journal book chapter paper-conference report review review-book thesis" match="any"/>
+      <else-if type="bill legislation" match="any"/>
+      <else-if type="legal_case" match="any"/>
     </choose>
   </macro>
   <macro name="display-order">
     <choose>
-      <if type="article article-magazine article-newspaper article-journal bill book chapter legislation
-                paper-conference regulation report review review-book thesis" match="any">
+      <if type="article article-magazine article-newspaper article-journal book chapter paper-conference report review review-book thesis" match="any">
         <text value="10"/>
       </if>
       <else-if type="bill legislation regulation" match="any">
@@ -1015,8 +1010,10 @@
   </macro>
   <bibliography name-form="long" and="text" sort-separator=", " name-as-sort-order="all" delimiter-precedes-last="never">
     <sort>
+      <key macro="author-or-editor" names-min="3" names-use-first="3"/>
       <key macro="display-order"/>
       <key macro="sort-order-when-same-type"/>
+      <key variable="issued" sort="descending"/>
     </sort>
     <layout suffix=".">
       <text macro="complete-reference"/>
