@@ -246,7 +246,7 @@ Dat is V&A-conform. De V&A vermeldt in randnummer 105 databanken waarbij een URL
 V&A randnummer 135:
 > Wanneer naar een passage in een boek wordt verwezen dat voorzien is van zowel een paginering als een randnummering, wordt bij voorkeur naar beide verwezen. De verwijzing naar de pagina komt voor de verwijzing naar het nummer.
 
-Bij het toevoegen van de verwijzing in bijv. Word, kan bij de pagina maar ook het randnummer worden ingevuld in hetzlefde veld. Om bijvoorbeeld de volgende verwijzing te krijgen: `M. STORME en M. MARESCEAU, _Europese rechts-plegingen rechtspraak_, Gent, Story-Scientia, 1979, 54, nrs. 86 en 88.` moet bij pagina het volgende worden ingevuld `54, nrs. 86 en 88` bij het toevoegen van deze verwijzing aan het document. Het deel  `, nrs. 86 en 88` kan ook worden toegevoegd in het veld suffix.
+Bij het toevoegen van de verwijzing in bijv. Word, kan bij de pagina maar ook het randnummer worden ingevuld in hetzlefde veld. Om bijvoorbeeld de volgende verwijzing te krijgen: `M. STORME en M. MARESCEAU, *Europese rechts-plegingen rechtspraak*, Gent, Story-Scientia, 1979, 54, nrs. 86 en 88.` moet bij pagina het volgende worden ingevuld `54, nrs. 86 en 88` bij het toevoegen van deze verwijzing aan het document. Het deel  `, nrs. 86 en 88` kan ook worden toegevoegd in het veld suffix.
 
 # 5. Tips & tricks
 - Zoeken: pdfs doorzoeken als deze geïndexeerd worden
