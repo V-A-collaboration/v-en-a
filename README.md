@@ -46,6 +46,9 @@ Dit bestand laat je toe verwijzingen en bibliografieën te creëren in de V&A-st
 
 ! Dit is **niet meer nodig voor Juris-M** vanaf 16/12/2019. Voor Zotero is het nog wel nodig om deze instructies te volgen !
 
+Deze lijst maakt het mogelijk tijdschrifttitels automatisch af te korten op de correcte manier.
+Een lijst van rechtbanken (Belgische en andere) maakt deel uit van de installatie van Juris-M. Deze lijsten staan echter niet op punt.
+
  1. Open het bestand hier: [https://raw.githubusercontent.com/mvwestendorp/v-en-a/master/vena-abbrev.json](https://raw.githubusercontent.com/mvwestendorp/v-en-a/master/vena-abbrev.json) en sla het op (ctrl+s).
  2. Ga in Juris-M naar Edit > Preferences (Bewerken > Voorkeuren)
  3. Kies Cite > Styles (Citeren > Stijlen)
@@ -59,7 +62,7 @@ Een *translator* is het stukje code dat ervoor zorgt dat de *connector* de datab
 
 Op  [deze site](https://github.com/Juris-M/translators) vind je een lijst met geïntegreerde *translators*.
 
-Voor Jurisquare, Ejustice en HUDOC (EHRM) zijn aparte, nog niet geïntegreerde *translators* beschikbaar.  Deze vind je [hier](https://justlegal.be/van-va-naar-beter/installatie/). Voeg de bestanden hieronder toe aan de desbetreffende [map](https://www.zotero.org/support/zotero_data) door middel van `opslaan als`.
+Voor Jurisquare, Ejustice en HUDOC (EHRM) zijn aparte, nog niet geïntegreerde *translators* beschikbaar.  Deze vind je [hier](https://justlegal.be/van-va-naar-beter/installatie/). Voeg de bestanden toe aan de desbetreffende [map](https://www.zotero.org/support/zotero_data) door middel van `opslaan als`.
 
 | Platform | Locatie |
 |----------| --------|
@@ -104,7 +107,7 @@ Enkele voordelen van het gebruik van een *reference manager*:
 
 ### Wetgeving
 #### Algemene opmerkingen
-- V&A 43: de hiërarchie tussen verschillende soorten wetgeving (& rechtspraak) automatisch laten voorlopen is momenteel nog niet mogelijk (28/10/2019)
+- V&A 43: de hiërarchie tussen verschillende soorten wetgeving (& rechtspraak) automatisch laten verlopen is momenteel nog niet mogelijk (28/10/2019)
 - onder het item type `Wet` of `Statute` in Juris-M vallen:
 	- wetten
 	- decreten
@@ -153,8 +156,9 @@ Enkele voordelen van het gebruik van een *reference manager*:
 - `date decided`: datum van de beslissing
 - `docket number`: rolnummer of ECLI-nummer. Vermeld je meerdere nummers? Zet er een komma tussen.
 	- *voorbeeld*: HvJ 4 september 2014, nr. C-452/13, ECLI:EU:C:2014:2141.
-- `reporter`: naam van het tijdschrift waarin deze zaak gepubliceerd werd
+- `reporter`: naam van het tijdschrift waarin deze zaak gepubliceerd werd (voluit)
 - `reporter volume`: jaargang van het tijdschrift; indien paginering niet doorloopt per volgnummer of jaargang, kan je het nummer of de aflevering hierbij vermelden na een komma
+- `first page`: de startpagina van het arrest in de publicatie (meestal het tijdschrift)
 	- *voorbeeld*: Kh. Brussel 28 september 1977, *RGAR* 1978, nr. 9912, 2.
 	- *voorbeeld*: Corr. Namen 31 maart 1980, *JJD* 1983, afl. 33, 5.
 
@@ -199,9 +203,9 @@ Optioneel:
 |------| -------|------------|
 **volume** | nummer van de jaargang (niet het jaartal) | 3
 **journal abbr** | afkorting van het tijdschrift | NJW
-**DOI** |
-**ISSN** |
-**URL** |
+**DOI** | Digital Object Identifier, een uniforme manier om naar online artikels te verwijzen, veelvoorkomend bij internationale tijdschriften
+**ISSN** | International Standard Serial Number, gelijkwaardig aan ISBN voor boeken, identificeert het tijdschrift
+**URL** | de weblocatie van je bron, belangrijk indien je een bron alleen online hebt geraadpleegd (ook de datum van consultatie is dan van belang)
 
 
 ## 3.3 Citaties invoegen
@@ -214,7 +218,7 @@ Zotero werkt met Microsoft Word, LibreOffice en Google Docs. Juris-M werkt voorl
 6. Klik op de referentie om bvb. een paginanummer toe te voegen.
 7. Wil je meerdere referenties toevoegen in dezelfde  voetnoot? Zet deze dan gewoon allemaal achter elkaar in de zoekbalk, in de volgorde dat je ze wil.
 8. Gebruik de groene "M" om naar een zoekvenster te gaan met meer zoekmogelijkheden. (*Classic view*)
-9. Voeg eventueel een prefix of suffix toe, een rand- of paragraafnummer i.p.v. een paginanummer, etc. Eventueel kan je de verwijzing handmatig aanpassen.
+9. Voeg eventueel een prefix of suffix toe, een rand- of paragraafnummer i.p.v. een paginanummer, etc. Eventueel kan je de verwijzing handmatig aanpassen. (Let op! Als je de metadata van deze bron aanpast in Juris-M, worden deze aanpassingen niet meer getoond in Word.)
 
 De volgorde van verwijzingen in een voetnoot is degene die je zelf bepaalt. Het automatisch rangschikken van verwijzingen op basis van informatiesoort of hiërarchie van rechtbanken en gerechtshoven is voorlopig niet mogelijk.
 
@@ -237,12 +241,12 @@ Handmatige aanpassingen doe je dus nadat je je referenties losgekoppeld hebt van
 
 # 4. FAQ
 ## De URL wordt bij online gepubliceerde rechtspraak vermeld, is dat V&A conform?
-Dat is V&A conform. De V&A vermeldt in randnummer 105 databanken waarbij een URL niet nodig is. In andere gevallen wordt wel een URL vereist (zie V&A randnummer 106). Een URL mag dus altijd vermeld worden en veel gevallen moet dat zelfs. Daarom is gekozen om altijd de URL voor online gepubliceerde rechtspraak in de citatie te zetten.
+Dat is V&A-conform. De V&A vermeldt in randnummer 105 databanken waarbij een URL niet nodig is. In andere gevallen wordt wel een URL vereist (zie V&A randnummer 106). Een URL mag dus altijd vermeld worden en veel gevallen moet dat zelfs. Daarom is gekozen om altijd de URL voor online gepubliceerde rechtspraak in de citatie te zetten.
 ## Hoe verwijs ik naar een randnummer?
 V&A randnummer 135:
 > Wanneer naar een passage in een boek wordt verwezen dat voorzien is van zowel een paginering als een randnummering, wordt bij voorkeur naar beide verwezen. De verwijzing naar de pagina komt voor de verwijzing naar het nummer.
 
-Bij het toevoegen van de verwijzing in bijv. Word, kan bij de pagina maar ook het randnummer worden ingevuld in hetzlefde veld. Om bijvoorbeeld de volgende verwijzing te krijgen: `M. STORME en M. MARESCEAU, _Europese rechts-plegingen rechtspraak_, Gent, Story-Scientia, 1979, 54, nrs. 86 en 88.` moet bij pagina het volgende worden ingevuld `54, nrs. 86 en 88` bij het toevoegen van deze verwijzing aan het document.
+Bij het toevoegen van de verwijzing in bijv. Word, kan bij de pagina maar ook het randnummer worden ingevuld in hetzlefde veld. Om bijvoorbeeld de volgende verwijzing te krijgen: `M. STORME en M. MARESCEAU, _Europese rechts-plegingen rechtspraak_, Gent, Story-Scientia, 1979, 54, nrs. 86 en 88.` moet bij pagina het volgende worden ingevuld `54, nrs. 86 en 88` bij het toevoegen van deze verwijzing aan het document. Het deel  `, nrs. 86 en 88` kan ook worden toegevoegd in het veld suffix.
 
 # 5. Tips & tricks
 - Zoeken: pdfs doorzoeken als deze geïndexeerd worden
