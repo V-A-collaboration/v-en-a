@@ -21,12 +21,8 @@ Behalve het programma Juris-M heb je best ook een browser plugin ("connector"). 
 Onderstaande extra bestanden zullen worden opgenomen in deze installatie zodat ze niet meer apart te installeren zijn. Voorlopig is dit nog wel het geval.
 
 ## 1.1 Extra installatie
-Op dit moment (8/8/2019) moet je voor een volledige installatie nog het volgende installeren:
- - De V&A-stijl (csl-bestand)
- - Afkortingenlijst voor tijdschriften (json-bestand)
- - Translators voor ejustice, hudoc en jurisquare (js-bestand) om via connector/browser plugin verwijzingen te kunnen opslaan
- 
-Vanaf 16/12/2019 is de V&A stylesheet en de afkortingenlijst opgenomen in Juris-M en is een verder installatie niet meer nodig. De translators worden op een later moment aan Juris-M zelf toegevoegd. Voor Zotoro moeten nog wel alle stappen gevolgd worden.
+Op dit moment (21/09/2020) zijn de V&A stylesheet en de afkortingenlijst opgenomen in Juris-M en is een handmatige installatie niet meer nodig. De translators worden op een later moment aan Juris-M zelf toegevoegd. Voor Zotero moeten nog wel alle stappen gevolgd worden.
+
 
 ## 1.2 Hoe installeer ik V&A?
 
@@ -226,8 +222,8 @@ De volgorde van verwijzingen in een voetnoot is degene die je zelf bepaalt. Het 
 [work in progress]
 
 ## 3.5 Een bibliografie invoegen
-Met de knop "Add/Edit Bibliography" wordt een bibliografie gemaakt van alle in het document aanwezige referenties die aan Juris-M gelinkt zijn. Dit gebeurd op de plaats waar op dat moment je cursor staat. 
-Heb je zelf extra referenties ingevoegd in je document, die niet uit Juris-M komen? Deze worden dan uiteraard niet vanzelf aan je bibliografie toegevoegd. 
+Met de knop "Add/Edit Bibliography" wordt een bibliografie gemaakt van alle in het document aanwezige referenties die aan Juris-M gelinkt zijn. Dit gebeurd op de plaats waar op dat moment je cursor staat.
+Heb je zelf extra referenties ingevoegd in je document, die niet uit Juris-M komen? Deze worden dan uiteraard niet vanzelf aan je bibliografie toegevoegd.
 
 ## 3.6 Handmatige aanpassingen
 Sommige zaken zal je handmatig nog moeten of willen aanpassen, bijvoorbeeld zaken die door de V&A-stylesheet (nog) niet ondersteund worden.
