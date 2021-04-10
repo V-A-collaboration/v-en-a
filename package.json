@@ -3,7 +3,7 @@
 		"test": "jasmine --random=false"
 	},
 	"devDependencies": {
-		"citeproc": "^2.1.220",
-		"jasmine": "^3.3.1"
+		"citeproc": "^2.4.59",
+		"jasmine": "^3.7.0"
 	}
 }
