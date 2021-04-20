@@ -4,7 +4,7 @@ title: "V&A"
 <nav>
 <ul>
 <li class="active"><a href="https://v-a-collaboration.github.io/v-en-a/">V&A</a></li>
-<li><a href="https://v-a-collaboration.github.io/v-en-a/pages/installatie.html">Installatie</a></li>
+<li><a href="/pages/readme.md">Documentatie</a></li>
 <li><a href="https://v-a-collaboration.github.io/v-en-a/pages/downloads.html">Downloads</a></li>
 <li><a href="https://v-a-collaboration.github.io/v-en-a/pages/handleiding.html">Items toevoegen aan Zotero/Juris-M</a></li>
 </ul>
