@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="dutch">
-<head>
-        <meta charset="utf-8" />
-        <title>V&A</title>
-        
-</head>
+---
+title: "V&A"
+---     
+
 
 <body id="index" class="home">
         <header id="banner" class="body">
@@ -19,7 +16,7 @@
 <section id="content" class="body">
     <h1 class="entry-title">V&A</h1>
     
-    <h1>Het V&amp;A boekje</h1>
+
 <p>Het <a href="https://www.verwijzingen-en-afkortingen.be" target="_blank">V&amp;A boekje</a> bevat een leidraad met betrekking tot de manier waarop verwijzingen in juridische teksten moeten worden vermeld, en een lijst van de meest relevante juridische afkortingen.</p>
 <h1>Zotero/Juris-M</h1>
 <p>Na het <a href="https://juris-m.github.io/release/" target="_blank">downloaden</a> en installeren van Zotero/Juris-M kan je onmiddellijk aan de slag met de huidige versie van de V&A-stylesheet.</p>
