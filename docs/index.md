@@ -1,14 +1,15 @@
 ---
 title: "V&A"
 ---     
-<nav>
-
+<div id="banner"><nav>
+    
 - <a href="https://v-a-collaboration.github.io/v-en-a/">V&A</a>
 - <a href="/v-en-a/pages/readme.md">Documentatie</a>
 - <a href="https://v-a-collaboration.github.io/v-en-a/pages/downloads.html">Downloads</a>
 - <a href="https://v-a-collaboration.github.io/v-en-a/pages/handleiding.html">Items toevoegen aan Zotero/Juris-M</a>
 
-</nav>
+
+</nav></div>
 
 # V&A
 
