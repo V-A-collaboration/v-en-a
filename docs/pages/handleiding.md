@@ -1,3 +1,7 @@
+---
+title: Handleiding
+---
+
 [![V&A Test Case Compliance](https://github.com/V-A-collaboration/v-en-a/actions/workflows/node.js.yml/badge.svg)](https://github.com/V-A-collaboration/v-en-a/actions/workflows/node.js.yml)
 
 Documentatie Juris-M
