@@ -18,14 +18,14 @@ Wil je helpen om de V&A-stijl beter te maken? Kijk hieronder wat jij kan doen!
 
 We organiseren elke maand een hackathon om de V&A-stijl te verbeteren. Zowel juristen als niet-juristen zijn welkom. Technische kennis is welkom maar niet nodig. Ken jij V&A op je duimpje en/of ken je wat van scripting? Kom jouw steentje bijdragen!
 
-De [eerste hackathon](https://v-a-collaboration.github.io/v-en-a/pages/hackathon.md) zal doorgaan **woensdag 5 mei 2021 om 12u**. Deelnemen kan via [MS Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGYwY2MxMWItMzczOS00ZmMyLTk3NzUtOTU4MjBmNzkwYzBm%40thread.v2/0?context=%7b%22Tid%22%3a%223973589b-9e40-4eb5-800e-b0b6383d1621%22%2c%22Oid%22%3a%228169e633-6dfd-45c3-828d-13ef4b5e7e95%22%7d), inschrijven is niet nodig. 
+De [eerste hackathon](https://v-a-collaboration.github.io/v-en-a/pages/hackathon.html) zal doorgaan **woensdag 5 mei 2021 om 12u**. Deelnemen kan via [MS Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGYwY2MxMWItMzczOS00ZmMyLTk3NzUtOTU4MjBmNzkwYzBm%40thread.v2/0?context=%7b%22Tid%22%3a%223973589b-9e40-4eb5-800e-b0b6383d1621%22%2c%22Oid%22%3a%228169e633-6dfd-45c3-828d-13ef4b5e7e95%22%7d), inschrijven is niet nodig. 
 
 [Spread the word!](https://twitter.com/rbibkuleuven/status/1384828291367030786)
 
 # Documentatie voor gebruikers
 
-Met [deze handleiding](https://v-a-collaboration.github.io/v-en-a/pages/handleiding.md) ben je snel aan de slag met V&A in Juris-M. Feedback op de documentatie is welkom.
+Met [deze handleiding](https://v-a-collaboration.github.io/v-en-a/pages/handleiding.html) ben je snel aan de slag met V&A in Juris-M. Feedback op de documentatie is welkom.
 
 # Instructies voor contributors
 
-Bijdragen kan altijd en op verschillende manieren. We helpen je graag op weg met [instructies en prioriteiten](https://v-a-collaboration.github.io/v-en-a/pages/contributors.md).
+Bijdragen kan altijd en op verschillende manieren. We helpen je graag op weg met [instructies en prioriteiten](https://v-a-collaboration.github.io/v-en-a/pages/contributors.html).
