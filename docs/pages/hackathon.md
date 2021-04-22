@@ -7,6 +7,7 @@ title: Hackatons
 De hackathon zal doorgaan via [Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGYwY2MxMWItMzczOS00ZmMyLTk3NzUtOTU4MjBmNzkwYzBm%40thread.v2/0?context=%7b%22Tid%22%3a%223973589b-9e40-4eb5-800e-b0b6383d1621%22%2c%22Oid%22%3a%228169e633-6dfd-45c3-828d-13ef4b5e7e95%22%7d)
 
 We starten om 12u en hebben 2u voorzien. Je kan aansluiten en vertrekken wanneer je wil, uiteraard is het handig als je van bij het begin deelneemt.
+
 Afhankelijk van het aantal mensen werken we in breakout rooms per issue. Iemand die V&A goed kent, kan samenwerken met iemand die thuis is op Github. We zorgen voor de nodige introductie en begeleiding.
 
 Zet het event [in je agenda](https://v-a-collaboration.github.io/v-en-a/hackathon1.ics)!
