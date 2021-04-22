@@ -2,7 +2,7 @@
 title: "V&A"
 ---     
 
-# V&A
+# Automatisch verwijzen met V&A/Juris-M
 
 Het [V&A-boekje](https://www.verwijzingen-en-afkortingen.be) bevat een leidraad met betrekking tot de manier waarop verwijzingen in juridische teksten moeten worden vermeld, en een lijst van de meest relevante juridische afkortingen.
 
@@ -27,10 +27,5 @@ De [eerste hackathon](https://v-a-collaboration.github.io/v-en-a/pages/hackathon
 Met [deze handleiding](https://v-a-collaboration.github.io/v-en-a/pages/handleiding.md) ben je snel aan de slag met V&A in Juris-M. Feedback op de documentatie is welkom.
 
 # Instructies voor contributors
-*(in opbouw)*
 
-- V&A stylesheet
-- V&A tests
-- Afkortingen (tijdschriften, rechtbanken)
-- Legal resource registry (rechtbanken)
-- Translators (voor importeren van verwijzingen via de browser van specifieke website)
+Bijdragen kan altijd en op verschillende manieren. We helpen je graag op weg met [instructies en prioriteiten](https://v-a-collaboration.github.io/v-en-a/pages/contributors.md).
