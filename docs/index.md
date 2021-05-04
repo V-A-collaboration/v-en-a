@@ -10,7 +10,7 @@ Verwijzen met V&A gebeurt momenteel meestal handmatig. Wij vinden dat automatisc
 
 Wij ontwikkelden een basisversie van een stylesheet voor V&A die gebruikt kan worden met de reference manager **Juris-M** (een variant van Zotero, gericht op juridisch verwijzen). Na het [downloaden](https://juris-m.github.io/release/) en installeren van Juris-M kan je onmiddellijk aan de slag met de huidige versie van de V&A-stylesheet.
 
-Vervolgens is het mogelijk via het ISBN nummer of met gebruik van de [Juris-M Connector](https://juris-m.github.io/downloads) zijn onder meer boeken en tijdschriften snel en eenvoudig toe te voegen aan de bibliotheek van Juris-M. Voor het invullen van wetten, rechtspraak en kamerstukken in Juris-M zelf is een handleiding beschikbaar.
+Vervolgens is het mogelijk via het ISBN nummer of met gebruik van de [Juris-M Connector](https://juris-m.github.io/downloads) onder meer boeken en tijdschriften snel en eenvoudig toe te voegen aan de bibliotheek van Juris-M. Voor het invullen van wetten, rechtspraak en kamerstukken in Juris-M zelf is een handleiding beschikbaar.
 
 Wil je helpen om de V&A-stijl beter te maken? Kijk hieronder wat jij kan doen!
 
