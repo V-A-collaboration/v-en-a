@@ -28,6 +28,7 @@ Werkpunten:
 Translators zijn scripts die een online bron direct aan de bibliotheek kunnen toevoegen.
 
 [Repository](https://github.com/V-A-collaboration/translators) inclusief instructies.
+
 [Documentatie](https://www.zotero.org/support/dev/translators)
 
 Lijst met translators specifiek voor België
@@ -51,6 +52,7 @@ Er is ook een optie om via identifier elementen toe te voegen. Specifiek is hier
 ## Handmatig toevoegen
 
 Het gaat hier vooral om documentatie, zie hierboven.
+
 Als er geen goede velden bestaan en deze onontbeerlijk zijn, kunnen deze worden toegevoegd aan het extra veld.
 
 ## Rechtbanklijsten
