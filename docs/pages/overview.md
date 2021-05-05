@@ -36,6 +36,7 @@ Lijst met translators specifiek voor België
 - Ejustice
 - ECLI
 - Jurisquare
+- [Hudoc](https://www.echr.coe.int/Pages/home.aspx?p=home)
 
 ## Test-lijst
 
