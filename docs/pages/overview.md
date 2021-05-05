@@ -1,6 +1,6 @@
 # Overview
 
-Elementen aan de hand van een workflow gaande van Input --> Bibliotheek --> Output
+Elementen aan de hand van een workflow gaande van **Input** naar **Bibliotheek** naar **Output**
 
 | Input               | Bibliotheek               | Output           |
 |---------------------|---------------------------|------------------|
