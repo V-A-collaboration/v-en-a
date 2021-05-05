@@ -7,6 +7,7 @@ Elementen aan de hand van een workflow gaande van **Input** naar **Bibliotheek**
 | Handmatige invoer   | Handmatige invoer         | V&A stylesheet   |
 | Translators         | Rechtbanklijsten          | Afkortingenlijst |
 | Identifier          | Identifier                |                  |
+| Test-lijst          |                           |                  |
 
 # Input
 
@@ -34,6 +35,12 @@ Lijst met translators specifiek voor België
 - Ejustice
 - ECLI
 - Jurisquare
+
+## Test-lijst
+
+Lijst met verwijzingen als test voor de correcte uitvoering.
+
+Zie de Zotero gedeelde library: [vena-test](https://www.zotero.org/groups/2338951/vena-test).
 
 # Bibliotheek
 
