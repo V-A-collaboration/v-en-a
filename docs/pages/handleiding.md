@@ -173,6 +173,7 @@ Enkele voordelen van het gebruik van een *reference manager*:
 
 #### Invullen
 ##### Boek
+
 | Veld | Inhoud | Voorbeeld
 |------| -------|------------|
 **item type** | book/boek
@@ -188,6 +189,7 @@ Enkele voordelen van het gebruik van een *reference manager*:
 **number of pages** | totaal aantal pagina's | 641
 
 ##### Bijdragen in tijdschriften
+
 | Veld | Inhoud | Voorbeeld
 |------| -------|------------|
 **item type** | journal article (artikel) |
