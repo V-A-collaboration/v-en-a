@@ -22,6 +22,10 @@ De [eerste hackathon](https://v-a-collaboration.github.io/v-en-a/pages/hackathon
 
 [Spread the word!](https://twitter.com/rbibkuleuven/status/1384828291367030786)
 
+# Overzicht van het project
+
+Een [overzicht](https://v-a-collaboration.github.io/v-en-a/pages/overview.html) van de verschillende componenten binnen dit project.
+
 # Documentatie voor gebruikers
 
 Met [deze handleiding](https://v-a-collaboration.github.io/v-en-a/pages/handleiding.html) ben je snel aan de slag met V&A in Juris-M. Feedback op de documentatie is welkom.
