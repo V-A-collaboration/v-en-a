@@ -1,6 +1,17 @@
 ---
 title: Hackatons
 ---
+# Hackathon 2 juni 2021
+
+## Praktisch
+De hackathon zal doorgaan via [Google Meet](meet.google.com/fnt-yuei-wgb)
+
+We starten om 12u en hebben 2u voorzien. Je kan aansluiten en vertrekken wanneer je wil, uiteraard is het handig als je van bij het begin deelneemt.
+
+Afhankelijk van het aantal mensen werken we in breakout rooms per issue. Iemand die V&A goed kent, kan samenwerken met iemand die thuis is op Github. We zorgen voor de nodige introductie en begeleiding.
+
+Zet het event [in je agenda](https://v-a-collaboration.github.io/v-en-a/hackathon2.ics)!
+
 # Hackathon 5 mei 2021
 
 ## Praktisch
