@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20210602T100000Z
+DTEND:20210602T120000Z
+DTSTAMP:20210531T180925Z
+ORGANIZER;CN=Loth VAN DER AUWERMEULEN:mailto:loth.vanderauwermeulen@uhassel
+ t.be
+UID:5l65blmqu2ohjtms4qefse7cav@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Loth VAN DER AUWERMEULEN;X-NUM-GUESTS=0:mailto:loth.vanderauwermeulen@u
+ hasselt.be
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=loth.vda@gmail.com;X-NUM-GUESTS=0:mailto:loth.vda@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=loth.vanderauwermeulen@stadtongeren.be;X-NUM-GUESTS=0:mailto:loth.v
+ anderauwermeulen@stadtongeren.be
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=elisabeth.delichtervelde@kuleuven.be;X-NUM-GUESTS=0:mailto:elisabet
+ h.delichtervelde@kuleuven.be
+X-MICROSOFT-CDO-OWNERAPPTID:1620409192
+CREATED:20210505T121731Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nBewerk dit gedeelte van de beschrijving niet.\n\n
+ Deze afspraak bevat een videogesprek.\nDeelnemen: https://meet.google.com/f
+ nt-yuei-wgb\n(BE) +32 2 896 38 16 Pincode: 463302355#\nMeer telefoonnummers
+  bekijken: https://tel.meet/fnt-yuei-wgb?pin=6183207941644&hs=7\n\nJe afspr
+ aak weergeven op https://calendar.google.com/calendar/event?action=VIEW&eid
+ =NWw2NWJsbXF1Mm9oanRtczRxZWZzZTdjYXYgbG90aC52ZGFAbQ&tok=MzQjbG90aC52YW5kZXJ
+ hdXdlcm1ldWxlbkB1aGFzc2VsdC5iZTY3M2RjZGNlODlkMDkwODMzMmJjZDJhZDcwNTEwZDliYz
+ QwOWJiMzU&ctz=Europe%2FBrussels&hl=nl&es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20210531T180924Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hackaton # 2 Juris M
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
