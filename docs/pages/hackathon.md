@@ -4,7 +4,7 @@ title: Hackatons
 # Hackathon 2 juni 2021
 
 ## Praktisch
-De hackathon zal doorgaan via [Google Meet](meet.google.com/fnt-yuei-wgb)
+De hackathon zal doorgaan via [Google Meet](https://meet.google.com/fnt-yuei-wgb?authuser=0)
 
 We starten om 12u en hebben 2u voorzien. Je kan aansluiten en vertrekken wanneer je wil, uiteraard is het handig als je van bij het begin deelneemt.
 
