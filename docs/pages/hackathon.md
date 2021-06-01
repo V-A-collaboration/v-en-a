@@ -12,6 +12,7 @@ Afhankelijk van het aantal mensen werken we in breakout rooms per issue. Iemand 
 
 Zet het event [in je agenda](https://v-a-collaboration.github.io/v-en-a/hackathon2.ics)!
 
+
 # Hackathon 5 mei 2021
 
 ## Praktisch
