@@ -12,6 +12,12 @@ Afhankelijk van het aantal mensen werken we in breakout rooms per issue. Iemand 
 
 Zet het event [in je agenda](https://v-a-collaboration.github.io/v-en-a/hackathon2.ics)!
 
+## Voorstel topics
+
+- Afkortingenlijst voor rechtbanken: https://github.com/V-A-collaboration/jurism-abbreviations/blob/master/auto-be-belgium.json
+- Brainstorming & oplijsten van nodige zaken tbv maken van instructie filmpjes en/of documentatie
+- Inventaris en prioritisering van issues
+
 
 # Hackathon 5 mei 2021
 
