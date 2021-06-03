@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20210707T100000Z
+DTEND:20210707T120000Z
+DTSTAMP:20210603T182736Z
+ORGANIZER;CN=Loth VAN DER AUWERMEULEN:mailto:loth.vanderauwermeulen@uhassel
+ t.be
+UID:1e7fo7m2e8ttrjsep54r0cqci5@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Loth VAN DER AUWERMEULEN;X-NUM-GUESTS=0:mailto:loth.vanderauwermeulen@u
+ hasselt.be
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=loth.vda@gmail.com;X-NUM-GUESTS=0:mailto:loth.vda@gmail.com
+X-MICROSOFT-CDO-OWNERAPPTID:-429925874
+CREATED:20210603T182734Z
+DESCRIPTION:<br><br><br><a href="https://meet.google.com/onc-bqhz-fra?hs=12
+ 2&amp\;authuser=0">meet.google.com/onc-bqhz-fra</a>\n\n-::~:~::~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nBewerk
+  dit gedeelte van de beschrijving niet.\n\nDeze afspraak bevat een videoges
+ prek.\nDeelnemen: https://meet.google.com/onc-bqhz-fra\n(BE) +32 2 896 37 4
+ 1 Pincode: 324178444#\nMeer telefoonnummers bekijken: https://tel.meet/onc-
+ bqhz-fra?pin=6950930221917&hs=7\n\nJe afspraak weergeven op https://calenda
+ r.google.com/calendar/event?action=VIEW&eid=MWU3Zm83bTJlOHR0cmpzZXA1NHIwY3F
+ jaTUgbG90aC52ZGFAbQ&tok=MzQjbG90aC52YW5kZXJhdXdlcm1ldWxlbkB1aGFzc2VsdC5iZTc
+ wYTAxYjMzYWU4NWFmNWI5ZTM3YWFhMTgwNWU5MjIxODhhZjhmODY&ctz=Europe%2FBrussels&
+ hl=nl&es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20210603T182735Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Juris M Hackathon #3
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
