@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20210908T100000Z
+DTEND:20210908T120000Z
+DTSTAMP:20210729T134944Z
+ORGANIZER;CN=Loth VAN DER AUWERMEULEN:mailto:loth.vanderauwermeulen@uhassel
+ t.be
+UID:50d924ftd5k46j3pr289d24hkl@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Loth VAN DER AUWERMEULEN;X-NUM-GUESTS=0:mailto:loth.vanderauwermeulen@u
+ hasselt.be
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=loth.vda@gmail.com;X-NUM-GUESTS=0:mailto:loth.vda@gmail.com
+X-MICROSOFT-CDO-OWNERAPPTID:445115716
+CREATED:20210729T134623Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nBewerk dit gedeelte van de beschrijving niet.\n\n
+ Deze afspraak bevat een videogesprek.\nDeelnemen: https://meet.google.com/x
+ qn-jkzw-aft\n(BE) +32 2 896 35 44 Pincode: 855119186#\nMeer telefoonnummers
+  bekijken: https://tel.meet/xqn-jkzw-aft?pin=8186312680333&hs=7\n\nJe afspr
+ aak weergeven op https://calendar.google.com/calendar/event?action=VIEW&eid
+ =NTBkOTI0ZnRkNWs0NmozcHIyODlkMjRoa2wgbG90aC52ZGFAbQ&tok=MzQjbG90aC52YW5kZXJ
+ hdXdlcm1ldWxlbkB1aGFzc2VsdC5iZWI0ZTJlYTNlY2M0ZDkwYzMxNDJhZTAxYmQ1MGM3Y2UyMW
+ U3OGM0Mjc&ctz=Europe%2FBrussels&hl=nl&es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20210729T134944Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Juris-M Hackathon #4
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
