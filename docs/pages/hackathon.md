@@ -11,7 +11,7 @@ We starten om 12u en hebben 2u voorzien. Je kan aansluiten en vertrekken wanneer
 
 Afhankelijk van het aantal mensen werken we in breakout rooms per issue. Iemand die V&A goed kent, kan samenwerken met iemand die thuis is op Github. We zorgen voor de nodige introductie en begeleiding.
 
-Zet het event [in je agenda]()!
+Zet het event [in je agenda](https://github.com/V-A-collaboration/v-en-a/blob/master/docs/hackathon4.ics)!
 
 
 # Hackathon 7 juli 2021
