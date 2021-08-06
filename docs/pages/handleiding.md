@@ -64,7 +64,7 @@ Een *translator* is het stukje code dat ervoor zorgt dat de *connector* de datab
 
 Op  [deze site](https://github.com/Juris-M/translators) vind je een lijst met geïntegreerde *translators*.
 
-Voor Jurisquare, Ejustice en HUDOC (EHRM) zijn aparte, nog niet geïntegreerde *translators* beschikbaar.  Deze vind je [hier](https://justlegal.be/van-va-naar-beter/installatie/). Voeg de bestanden toe aan de desbetreffende [map](https://www.zotero.org/support/zotero_data) door middel van `opslaan als`.
+Voor [Jurisquare](https://raw.githubusercontent.com/V-A-collaboration/translators/master/Jurisquare.js), [Ejustice](https://raw.githubusercontent.com/V-A-collaboration/translators/master/Ejustice%20(be).js) en [HUDOC](https://raw.githubusercontent.com/V-A-collaboration/translators/master/HUDOC.js) (EHRM) zijn aparte, nog niet geïntegreerde *translators* beschikbaar. Voeg de bestanden in de links hierboven toe aan de desbetreffende [map](https://www.zotero.org/support/zotero_data) door middel van `opslaan als`.
 
 | Platform | Locatie |
 |----------| --------|
