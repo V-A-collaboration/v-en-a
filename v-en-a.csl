@@ -13,7 +13,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2019-12-06T13:38:02+02:00</updated>
+    <updated>2022-02-13T10:51:00+02:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="nl">
@@ -126,7 +126,7 @@
       </if>
       <else-if type="chapter paper-conference" match="any">
         <group delimiter=" ">
-          <text variable="title" quotes="true" suffix=""/>
+          <text variable="title" prefix='"' suffix='"'/>
           <text value="in"/>
           <text macro="editor" suffix=","/>
           <text macro="collection-editor" suffix=","/>
@@ -136,7 +136,7 @@
       <else-if type="article-journal">
         <group delimiter=", ">
           <group delimiter=" ">
-                    <text variable="title" quotes="true"/>
+                    <text variable="title" prefix='"' suffix='"'/>
           		<choose>
           			<if variable="title">
           				  <text variable="noot" prefix="(noot onder " suffix=")"/>
@@ -153,19 +153,19 @@
       </else-if>
       <else-if type="article-newspaper article-magazine entry-encyclopedia entry-dictionary broadcast" match="any">
         <group delimiter=", ">
-          <text variable="title" quotes="true"/>
+          <text variable="title" prefix='"' suffix='"'/>
           <text variable="container-title" font-style="italic"/>
         </group>
       </else-if>
       <else-if type="webpage post post-weblog" match="any">
         <group delimiter=", ">
-          <text variable="title" quotes="true"/>
+          <text variable="title" prefix='"' suffix='"'/>
           <text variable="container-title" font-style="italic"/>
         </group>
       </else-if>
       <else-if type="report song" match="any">
         <group delimiter=", ">
-          <text variable="title" quotes="true"/>
+          <text variable="title" prefix='"' suffix='"'/>
           <group delimiter=" ">
             <text variable="collection-title" font-style="italic"/>
             <number variable="number"/>
@@ -174,7 +174,7 @@
       </else-if>
       <else-if type="interview">
         <group delimiter=", ">
-          <text variable="title" quotes="true"/>
+          <text variable="title" prefix='"' suffix='"'/>
           <names variable="interviewer" delimiter=", ">
             <label form="verb"/>
             <name sort-separator=" ">
@@ -187,7 +187,7 @@
         <text variable="title" quotes="false"/>
       </else-if>
       <else>
-        <text variable="title" quotes="true"/>
+        <text variable="title" prefix='"' suffix='"'/>
       </else>
     </choose>
   </macro>
@@ -198,7 +198,7 @@
       </if>
       <else-if type="chapter paper-conference" match="any">
         <group delimiter=" ">
-          <text variable="title" quotes="true"/>
+          <text variable="title" prefix='"' suffix='"'/>
           <text value="in"/>
           <text macro="editor-note" suffix=","/>
           <text macro="collection-editor-note" suffix=","/>
@@ -208,7 +208,7 @@
       <else-if type="article-journal">
         <group delimiter=", ">
 	<group delimiter=" ">
-          <text variable="title" quotes="true"/>
+          <text variable="title" prefix='"' suffix='"'/>
 		<choose>
 			<if variable="title">
 				  <text variable="noot" prefix="(noot onder " suffix=")"/>
@@ -223,19 +223,19 @@
       </else-if>
       <else-if type="article-newspaper article-magazine entry-encyclopedia entry-dictionary broadcast" match="any">
         <group delimiter=", ">
-          <text variable="title" quotes="true"/>
+          <text variable="title" prefix='"' suffix='"'/>
           <text variable="container-title" font-style="italic"/>
         </group>
       </else-if>
       <else-if type="webpage post post-weblog" match="any">
         <group delimiter=", ">
-          <text variable="title" quotes="true"/>
+          <text variable="title" prefix='"' suffix='"'/>
           <text variable="container-title" font-style="italic"/>
         </group>
       </else-if>
       <else-if type="report song" match="any">
         <group delimiter=", ">
-          <text variable="title" quotes="true"/>
+          <text variable="title" prefix='"' suffix='"'/>
           <group delimiter=" ">
             <text variable="collection-title" font-style="italic"/>
             <number variable="number"/>
@@ -244,7 +244,7 @@
       </else-if>
       <else-if type="interview">
         <group delimiter=", ">
-          <text variable="title" quotes="true"/>
+          <text variable="title" prefix='"' suffix='"'/>
           <names variable="interviewer" delimiter=", ">
             <label form="verb"/>
             <name sort-separator=" ">
@@ -257,7 +257,7 @@
         <text variable="title" quotes="false"/>
       </else-if>
       <else>
-        <text variable="title" quotes="true"/>
+        <text variable="title" prefix='"' suffix='"'/>
       </else>
     </choose>
   </macro>
@@ -906,7 +906,7 @@
                             <text variable="title" form="short" font-style="italic"/>
                           </if>
                           <else>
-                            <text variable="title" form="short" quotes="true"/>
+                            <text variable="title" form="short" prefix='"' suffix='"'/>
                           </else>
                         </choose>
                         <group delimiter=" ">
