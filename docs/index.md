@@ -12,7 +12,8 @@ Wij ontwikkelden een basisversie van een stylesheet voor V&A die gebruikt kan wo
 
 Vervolgens is het mogelijk via het ISBN nummer of met gebruik van de [Juris-M Connector](https://juris-m.github.io/downloads) onder meer boeken en tijdschriften snel en eenvoudig toe te voegen aan de bibliotheek van Juris-M. Voor het invullen van wetten, rechtspraak en kamerstukken in Juris-M zelf is een handleiding beschikbaar.
 
-Wil je helpen om de V&A-stijl beter te maken? Kijk hieronder wat jij kan doen!
+Wil je helpen om de V&A-stijl beter te maken? Kijk hieronder wat jij kan doen! 
+
 
 # Hackathon
 
