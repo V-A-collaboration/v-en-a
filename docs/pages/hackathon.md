@@ -1,4 +1,4 @@
-title: Hackatons
+Hackatons
 ---
 # Voorlopig geen hackathons
 
