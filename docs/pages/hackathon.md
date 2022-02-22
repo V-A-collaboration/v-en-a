@@ -1,5 +1,13 @@
----
 title: Hackatons
+---
+# Voorlopig geen hackathons
+
+## We blijven achter de schermen werken
+
+Gebruik je Juris M en heb je vragen of suggesties? Bezorg ons je input! Dit kan via [shana.ludikhuyze@kuleuven.be] (shana.ludikhuyze@kuleuven.be) en/of [loth.vanderauwermeulen@uhasselt.be] (loth.vanderauwermeulen@uhasselt.be).
+
+Jouw input is belangrijk voor de verdere ontwikkeling van de V&A stijl in Juris M! 
+
 ---
 
 # Hackathon 8 september 2021
