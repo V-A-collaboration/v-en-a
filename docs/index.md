@@ -16,9 +16,7 @@ Wil je helpen om de V&A-stijl beter te maken? Kijk hieronder wat jij kan doen!
 
 # Hackathon
 
-We organiseren elke maand een hackathon om de V&A-stijl te verbeteren. Zowel juristen als niet-juristen zijn welkom. Technische kennis is welkom maar niet nodig. Ken jij V&A op je duimpje en/of ken je wat van scripting? Kom jouw steentje bijdragen!
-
-De [tweede hackathon](https://v-a-collaboration.github.io/v-en-a/pages/hackathon.html) zal doorgaan **woensdag 7 juli 2021 om 12u**. Deelnemen kan via [Google Meet](https://meet.google.com/onc-bqhz-fra), inschrijven is niet nodig. 
+Voorlopig worden er geen hackathons georganiseerd. 
 
 # Overzicht van het project
 
@@ -27,6 +25,10 @@ Een [overzicht](https://v-a-collaboration.github.io/v-en-a/pages/overview.html) 
 # Documentatie voor gebruikers
 
 Met [deze handleiding](https://v-a-collaboration.github.io/v-en-a/pages/handleiding.html) ben je snel aan de slag met V&A in Juris-M. Feedback op de documentatie is welkom.
+
+#Vragen of suggesties? 
+
+Laat het ons weten! Dit kan via [shana.ludikhuyze@kuleuven.be](shana.ludikhuyze@kuleuven.be) of [loth.vanderauwermeulen@uhasselt.be](loth.vanderauwermeulen@uhasselt.be). 
 
 # Instructies voor contributors
 
