@@ -26,7 +26,7 @@ Een [overzicht](https://v-a-collaboration.github.io/v-en-a/pages/overview.html) 
 
 Met [deze handleiding](https://v-a-collaboration.github.io/v-en-a/pages/handleiding.html) ben je snel aan de slag met V&A in Juris-M. Feedback op de documentatie is welkom.
 
-#Vragen of suggesties? 
+# Vragen of suggesties? 
 
 Laat het ons weten! Dit kan via [shana.ludikhuyze@kuleuven.be](shana.ludikhuyze@kuleuven.be) of [loth.vanderauwermeulen@uhasselt.be](loth.vanderauwermeulen@uhasselt.be). 
 
