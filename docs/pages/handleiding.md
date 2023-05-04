@@ -31,7 +31,7 @@ Op dit moment (21/09/2020) zijn de V&A stylesheet en de afkortingenlijst opgenom
 ! Dit is **niet meer nodig voor Juris-M** vanaf 16/12/2019. Voor Zotero is het nog wel nodig om deze instructies te volgen !
 
 Dit bestand laat je toe verwijzingen en bibliografieën te creëren in de V&A-stijl.
- 1. Download het bestand hier: https://justlegal.be/v-en-a.csl
+ 1. Download het bestand hier: https://github.com/V-A-collaboration/v-en-a/archive/refs/heads/master.zip
  2. Ga in Juris-M naar Edit > Preferences (Bewerken > Voorkeuren)
  3. Kies Cite > Styles (Citeren > Stijlen)
  4. Onder de lijst met citatiestijlen klik je op ![image](figures/Manual-plus-sign.png)
