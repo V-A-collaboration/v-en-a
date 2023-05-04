@@ -34,13 +34,13 @@ Dit bestand laat je toe verwijzingen en bibliografieën te creëren in de V&A-st
  1. Download het bestand hier: [https://github.com/V-A-collaboration/v-en-a/archive/refs/heads/master.zip](https://github.com/V-A-collaboration/v-en-a/archive/refs/heads/master.zip)
  2. Ga in Juris-M naar Edit > Preferences (Bewerken > Voorkeuren)
  3. Kies Cite > Styles (Citeren > Stijlen)
- 4. Onder de lijst met citatiestijlen klik je op ![image](blob/master/figures/Manual-plus-sign.png)
+ 4. Onder de lijst met citatiestijlen klik je op ![image](https://github.com/V-A-collaboration/v-en-a/blob/master/figures/Manual-plus-sign.png)
  5. Kies het csl-bestand dat je gedownload hebt.
  6. Klik op ok (2x)
 
 **Opgelet** Je hebt de stijl nu lokaal geïnstalleerd. Als er wijzigingen of verbeteringen gebeuren aan het bestand, worden deze niet automatisch doorgevoerd in jouw installatie. Controleer daarom op [https://justlegal.be/van-va-naar-beter/installatie/](https://justlegal.be/van-va-naar-beter/installatie/) of er updates zijn. Voor Juris-M is het daarom beter om de stylesheet niet meer zelf te installeren.
 
-![Toevoegen Stylesheet](blob/master/figures/Manual-fig-1.png)
+![Toevoegen Stylesheet](https://github.com/V-A-collaboration/v-en-a/blob/master/figures/Manual-fig-1.png)
 
 ! In Zotero geeft dit een waarschuwing dat het Stylesheet niet aan de csl 1.0.1 voldoet, dit is omdat de extra opties voor Juris-M zijn toegevoegd
 
