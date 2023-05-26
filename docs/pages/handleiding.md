@@ -38,7 +38,7 @@ Dit bestand laat je toe verwijzingen en bibliografieën te creëren in de V&A-st
  5. Kies het csl-bestand dat je gedownload hebt.
  6. Klik op ok (2x)
 
-**Opgelet** Je hebt de stijl nu lokaal geïnstalleerd. Als er wijzigingen of verbeteringen gebeuren aan het bestand, worden deze niet automatisch doorgevoerd in jouw installatie. Controleer daarom op [https://justlegal.be/van-va-naar-beter/installatie/](https://justlegal.be/van-va-naar-beter/installatie/) of er updates zijn. Voor Juris-M is het daarom beter om de stylesheet niet meer zelf te installeren.
+**Opgelet** Je hebt de stijl nu lokaal geïnstalleerd. Als er wijzigingen of verbeteringen gebeuren aan het bestand, worden deze niet automatisch doorgevoerd in jouw installatie. Controleer daarom op [https://juris-m.github.io](https://juris-m.github.io/) of er updates zijn. Voor Juris-M is het daarom beter om de stylesheet niet meer zelf te installeren.
 
 ![Toevoegen Stylesheet](https://github.com/V-A-collaboration/v-en-a/blob/master/figures/Manual-fig-1.png)
 
